@@ -1,0 +1,27 @@
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc"; @line = 1; ]
+module layoutIDClass {
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc"; @line = 2; @position = 8; ]
+    var layoutId = "EMPEROR";
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc"; @line = 4; ]
+    function setLayoutId(newLayoutId) {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_global_layoutID_mc_4_38_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc" 5 8 ]
+        %tmp.2 = lgetv %newLayoutId;
+        putv self :layoutId %tmp.2;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_global_layoutID_mc_4_38_stop:
+    }
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc"; @line = 8; ]
+    function getLayoutId() {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_global_layoutID_mc_8_27_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc" 9 8 ]
+        %tmp.2 = getv ? :layoutId;
+        ret %tmp.2;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_global_layoutID_mc_8_27_stop:
+    }
+}
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\global_layoutID.mc"; @line = 1; ]
+<init> {
+}

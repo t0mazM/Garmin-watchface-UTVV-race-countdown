@@ -1,0 +1,73 @@
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 7; ]
+import Toybox.Application.Storage;
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 9; ]
+import Toybox.WatchUi;
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 12; ]
+class AnalogSettingsMenu extends WatchUi.Menu2{
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 15; ]
+    public
+    function initialize() as Void {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_AnalogSettingsMenu_mc_15_33_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc" 16 8 ]
+        %tmp.2 = getv ? :Menu2;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :title;
+        %tmp.7 = "Settings";
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.9);
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_AnalogSettingsMenu_mc_15_33_stop:
+    }
+}
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 21; ]
+class AnalogSettingsMenuDelegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 21; ]
+    <init> {
+    }
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 21; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 24; ]
+    public
+    function initialize() as Void {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_AnalogSettingsMenu_mc_24_33_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc" 25 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_AnalogSettingsMenu_mc_24_33_stop:
+    }
+    //! Handle a menu item being selected
+    //! @param menuItem The menu item selected
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 30; ]
+    public
+    function onSelect(menuItem as MenuItem) as Void {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_AnalogSettingsMenu_mc_30_59_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc" 31 8 ]
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        %tmp.2 = getv function %tmp.1 :setValue;
+        %tmp.3 = lgetv %menuItem;
+        %tmp.4 = getv function %tmp.3 :getId;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = as %tmp.5 Number;
+        %tmp.7 = true;
+        invoke %tmp.1 %tmp.2(%tmp.6, %tmp.7);
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_AnalogSettingsMenu_mc_30_59_stop:
+    }
+}
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\AnalogSettingsMenu.mc"; @line = 7; ]
+<init> {
+}
