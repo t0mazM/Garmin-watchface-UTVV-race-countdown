@@ -1,10 +1,13 @@
 import Toybox.Graphics;
+import Toybox.Application.Storage;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 using Toybox.WatchUi as Ui;
 using Toybox.Time.Gregorian as Calendar;
 using Toybox.Time as Time;
+
+
 
 class utvv_watch_face_v2View extends WatchUi.WatchFace {
 
@@ -28,13 +31,20 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
-
         var JUST = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
 
         var screenY = dc.getHeight();
         var screenX = dc.getWidth();
 
+        //choice = Storage.getValue("selectedOption") as Number;
+
+
         dc.drawBitmap(screenX * 0.08, screenY * 0.08, Ui.loadResource(Rez.Drawables.utvvlogo));
+
+
+
+
+        //dc.drawBitmap(screenX * 0.08, screenY * 0.08, Ui.loadResource(Rez.Drawables.utvvlogo));
         dc.drawBitmap(screenX * 0.13, screenY*0.65, Ui.loadResource(Rez.Drawables.batteryIcon));
         dc.drawBitmap(screenX * 0.46, screenY*0.66, Ui.loadResource(Rez.Drawables.heartIcon));
         dc.drawBitmap(screenX * 0.77, screenY*0.68, Ui.loadResource(Rez.Drawables.stepsIcon));
@@ -247,15 +257,3 @@ class AnalogGoalView extends WatchUi.View {
     }
 }
 
-//! Receives watch face events
-class AnalogDelegate extends WatchUi.WatchFaceDelegate {
-    private var _view as utvv_watch_face_v2View;
-
-    //! Constructor
-    //! @param view The analog view
-    public function initialize(view as utvv_watch_face_v2View) {
-        WatchFaceDelegate.initialize();
-        _view = view;
-    }
-
-}

@@ -11,6 +11,12 @@ module Rez {
         (:initialized) var heartIcon as Symbol;
         (:initialized) var stepsIcon as Symbol;
         (:initialized) var blthIcon as Symbol;
+        (:initialized) var emperor_logo as Symbol;
+        (:initialized) var centurion_logo as Symbol;
+        (:initialized) var legion_logo as Symbol;
+        (:initialized) var gladiator_logo as Symbol;
+        (:initialized) var kids_logo as Symbol;
+        (:initialized) var castra_logo as Symbol;
         (:initialized) var LauncherIcon as Symbol;
     } // Drawables
 

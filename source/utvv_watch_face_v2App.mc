@@ -30,25 +30,29 @@ class utvv_watch_face_v2App extends Application.AppBase {
     //! Return the initial view for the app
     //! @return Array Pair [View, Delegate] or Array [View]
     public function getInitialView() as Array<Views or InputDelegates>? {
-        if (WatchUi has :WatchFaceDelegate) {
-            var view = new $.utvv_watch_face_v2View();
-            var delegate = new $.AnalogDelegate(view);
-            return [view, delegate] as Array<Views or InputDelegates>;
-        } else {
-            return [new $.utvv_watch_face_v2View()] as Array<Views>;
-        }
+        // if (WatchUi has :WatchFaceDelegate) {
+        //     var view = new $.utvv_watch_face_v2View();
+        //     var delegate = new $.AnalogDelegate(view);
+        //     return [view, delegate] as Array<Views or InputDelegates>;
+        // } else {
+        //     return [new $.utvv_watch_face_v2View()] as Array<Views>;
+        // }
+
+
+        return [new $.utvv_watch_face_v2View(), new $.AnalogDelegate() ];
+    
+
     }
 
     //! This method runs when a goal is triggered and the goal view is started.
     //! @param goal The goal type that triggered
     //! @return The view to push
-    public function getGoalView(goal as GoalType) as Array<View>? {
-        return [new $.AnalogGoalView(goal)] as Array<View>;
-    }
+    // public function getGoalView(goal as GoalType) as Array<View>? {
+    //     return [new $.AnalogGoalView(goal)] as Array<View>;
+    // }
 
-    //! Return the settings view and delegate
-    //! @return Array Pair [View, Delegate]
-    public function getSettingsView() as Array<Views or InputDelegates>? {
-        return [new $.AnalogSettingsView(), new $.AnalogSettingsDelegate()] as Array<Views or InputDelegates>;
+    function getSettingsView() { // as [Views] or [Views, InputDelegates] {
+        return [new $.AnalogSettingsViewTest(), new $.Menu2TestMenu2Delegate()];  // as Array[InputDelegate];
     }
 }
+
