@@ -1,15 +1,8 @@
-//
-// Copyright 2016-2021 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-//! This app demonstrates a basic analog watch face. It also shows
-//! a new page when a goal is met and has an app settings menu.
+
 class utvv_watch_face_v2App extends Application.AppBase {
 
     //! Constructor
@@ -30,26 +23,8 @@ class utvv_watch_face_v2App extends Application.AppBase {
     //! Return the initial view for the app
     //! @return Array Pair [View, Delegate] or Array [View]
     public function getInitialView() as Array<Views or InputDelegates>? {
-        // if (WatchUi has :WatchFaceDelegate) {
-        //     var view = new $.utvv_watch_face_v2View();
-        //     var delegate = new $.AnalogDelegate(view);
-        //     return [view, delegate] as Array<Views or InputDelegates>;
-        // } else {
-        //     return [new $.utvv_watch_face_v2View()] as Array<Views>;
-        // }
-
-
         return [new $.utvv_watch_face_v2View(), new $.AnalogDelegate() ];
-    
-
     }
-
-    //! This method runs when a goal is triggered and the goal view is started.
-    //! @param goal The goal type that triggered
-    //! @return The view to push
-    // public function getGoalView(goal as GoalType) as Array<View>? {
-    //     return [new $.AnalogGoalView(goal)] as Array<View>;
-    // }
 
     function getSettingsView() { // as [Views] or [Views, InputDelegates] {
         return [new $.AnalogSettingsViewTest(), new $.Menu2TestMenu2Delegate()];  // as Array[InputDelegate];

@@ -5,16 +5,10 @@
     <bitmap id="heartIcon" filename="heart.jpg" scaleX="10%" scaleY="10%" scaleRelativeTo="screen"/>
     <bitmap id="stepsIcon" filename="steps.png" scaleX="10%" scaleY="10%" scaleRelativeTo="screen"/>
     <bitmap id="blthIcon" filename="blth.jpeg" scaleX="10%" scaleY="10%" scaleRelativeTo="screen"/>
-    <bitmap id="emperor_logo" filename="Icon_Emperor.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
-    <bitmap id="centurion_logo" filename="Icon_Centurion.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
-    <bitmap id="legion_logo" filename="Icon_Legion.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
-    <bitmap id="gladiator_logo" filename="Icon_Gladiator.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
-    <bitmap id="kids_logo" filename="Icon_Kids.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>   
-    <bitmap id="castra_logo" filename="Icon_Castra.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
-    <bitmap id="bear" filename="bear.png"/>
-    <bitmap id="dog" filename="dog.png"/>
-    <bitmap id="fox" filename="fox.png"/>
-    <bitmap id="mouse" filename="mouse.png"/>
-    <bitmap id="turtle" filename="turtle.png"/>
-    <drawable-list id="MenuForeground" background="Gfx.COLOR_TRANSPARENT" />
+    <bitmap id="emperor_logo" filename="emperor.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
+    <bitmap id="centurion_logo" filename="centurion.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
+    <bitmap id="legion_logo" filename="legion.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
+    <bitmap id="gladiator_logo" filename="gladiator.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
+    <bitmap id="asterix_logo" filename="asterix.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
+    <bitmap id="castra_logo" filename="Icon_Castra.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
 </drawables>
