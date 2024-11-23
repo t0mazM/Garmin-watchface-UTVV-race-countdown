@@ -40,7 +40,7 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         DIS.draw_race_option(dc, Storage.getValue(40), 0.25, 0.25, screenHeight, screenWidth);
         DIS.draw_race_name(dc, Storage.getValue(40), 0.5, 0.70, screenHeight, screenWidth);
         DIS.draw_hour(dc, 0.5, 0.1, screenHeight, screenWidth);
-        DIS.draw_remaining_time(dc, 0.5, 0.8, screenHeight, screenWidth);
+        DIS.draw_remaining_time(dc, Storage.getValue(40), 0.5, 0.8, screenHeight, screenWidth);
 
         
 

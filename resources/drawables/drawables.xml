@@ -6,9 +6,9 @@
     <bitmap id="stepsIcon" filename="steps.png" scaleX="10%" scaleY="10%" scaleRelativeTo="screen"/>
     <bitmap id="blthIcon" filename="blth.jpeg" scaleX="10%" scaleY="10%" scaleRelativeTo="screen"/>
     <bitmap id="emperor_logo" filename="emperor.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
-    <bitmap id="centurion_logo" filename="centurion.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
-    <bitmap id="legion_logo" filename="legion.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
-    <bitmap id="gladiator_logo" filename="gladiator.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
-    <bitmap id="asterix_logo" filename="asterix.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
-    <bitmap id="castra_logo" filename="Icon_Castra.png" scaleX="60%" scaleY="60%" scaleRelativeTo="screen"/>
+    <bitmap id="centurion_logo" filename="centurion.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
+    <bitmap id="legion_logo" filename="legion.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
+    <bitmap id="gladiator_logo" filename="gladiator.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
+    <bitmap id="asterix_logo" filename="asterix.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
+    <bitmap id="castra_logo" filename="Icon_Castra.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
 </drawables>

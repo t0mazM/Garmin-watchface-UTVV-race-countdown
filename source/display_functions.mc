@@ -4,8 +4,8 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 using Toybox.WatchUi as Ui;
-using Toybox.Time.Gregorian as Calendar;
 using Toybox.Time as Time;
+using Toybox.Time.Gregorian;
 
 class display_functions {
 
@@ -68,54 +68,73 @@ class display_functions {
          );
     }
 
-    function draw_remaining_time(dc, screenX, screenY, screenHeight, screenWidth) {
-        
-        var daysInMonths = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-        var race_month = 4;
-        var race_day = 26;
-        var race_day_num = 0;
-        var now = Time.now();
-        
-        
-        var info = Calendar.info(now, Time.FORMAT_SHORT);
-        //count the days left
-        for(var i=1; i<race_month; i++){
-            race_day_num += daysInMonths[i];
-        }
-        race_day_num += race_day;
+    function draw_remaining_time(dc, race_option, screenX, screenY, screenHeight, screenWidth) {
 
-        var current_day_num = 0;
-        for(var i=1; i<info.month; i++){
-            current_day_num += daysInMonths[i];
-        }
-        current_day_num += info.day;
-        var days_left = race_day_num - current_day_num;
+        var race_day;
+        var race_hour;
 
+        //Each race has a different start time/day
+        switch (race_option) { //TODO get race time from organizer
+            case 1:
+                race_day = 25;
+                race_hour = 19;
+                break;
+            case 2:
+                race_day = 26;
+                race_hour = 12;
+                break;
+            case 3:
+                race_day = 25;
+                race_hour = 14;
+                break;
+            case 4:
+                race_day = 25;
+                race_hour = 16;
+                break;
+            case 5:
+                race_day = 25;
+                race_hour = 11;
+                break;
+            case 6:
+                race_day = 26;
+                race_hour = 11;
+                break;
+            default:
+                race_day = 0;
+                race_hour = 0;
+                break;
+        }
+        //Set the race day and hour
+        var futureOptions = {
+            :year   => 2025,
+            :month  => 4,
+            :day    => race_day,
+            :hour   => race_hour    // UTC offset, in this case for CST
+        };
+        //Calculate the remaining time
+        var futureMoment = Gregorian.moment(futureOptions);
+        var currentDateTime = Time.now();
+        var duration_sec = futureMoment.subtract(currentDateTime).value();
+        var duration_hour = duration_sec / 3600;
+        var duration_days = duration_hour / 24;
+
+        var time_left_string = Lang.format("$1$ DAYS LEFT", [duration_days]);
+
+        if (duration_days <= 0) {
+            time_left_string = Lang.format("$1$ HOURS LEFT", [duration_hour]);
+        }
+        //Draw the remaining time
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        var x=screenHeight * screenX;
-        var y=screenWidth * screenY;
-        if(days_left == 0 || days_left == -1){
-            dc.drawText(x,y, 
-            Graphics.FONT_MEDIUM,
-            "Race day",
-            Graphics.TEXT_JUSTIFY_CENTER
-            );
-        }
-        else if(days_left < -1){
-        dc.drawText(x,y, 
-        Graphics.FONT_MEDIUM,
-        "Recover well",
-        Graphics.TEXT_JUSTIFY_CENTER
+        dc.drawText(screenHeight * screenX, screenWidth * screenY, 
+                    Graphics.FONT_MEDIUM,
+                    time_left_string,
+                    Graphics.TEXT_JUSTIFY_CENTER
          );
-        }
-        else{       
-            var daysLeftStr = Lang.format("$1$ days left", [days_left]);
-            dc.drawText(x,y, 
-            Graphics.FONT_MEDIUM,
-            daysLeftStr,
-            Graphics.TEXT_JUSTIFY_CENTER
-            );
-        }
     }
 
+
+
+
+    
 }
+

@@ -15,34 +15,9 @@ module Rez {
         (:initialized) var centurion_logo as Symbol;
         (:initialized) var legion_logo as Symbol;
         (:initialized) var gladiator_logo as Symbol;
-        (:initialized) var kids_logo as Symbol;
+        (:initialized) var asterix_logo as Symbol;
         (:initialized) var castra_logo as Symbol;
-        (:initialized) var bear as Symbol;
-        (:initialized) var dog as Symbol;
-        (:initialized) var fox as Symbol;
-        (:initialized) var mouse as Symbol;
-        (:initialized) var turtle as Symbol;
         (:initialized) var LauncherIcon as Symbol;
-
-        class MenuForeground extends WatchUi.Drawable {
-
-            function initialize() {
-                Drawable.initialize({});
-            }
-
-            function draw(dc as Graphics.Dc) as Void {
-                if (self has :isVisible) {
-                    if (!self.isVisible) {
-                        return;
-                    }
-                }
-
-                dc.setColor(Gfx.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle((0 + 0), (0 + 0), (454 - 0), (454 - 0));
-                dc.setColor(Graphics.COLOR_TRANSPARENT, Gfx.COLOR_TRANSPARENT);
-
-            }
-        }
     } // Drawables
 
     module Fonts {
