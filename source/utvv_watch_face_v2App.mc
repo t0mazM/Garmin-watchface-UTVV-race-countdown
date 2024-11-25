@@ -23,11 +23,11 @@ class utvv_watch_face_v2App extends Application.AppBase {
     //! Return the initial view for the app
     //! @return Array Pair [View, Delegate] or Array [View]
     public function getInitialView() as Array<Views or InputDelegates>? {
-        return [new $.utvv_watch_face_v2View(), new $.AnalogDelegate() ];
+        return [new $.utvv_watch_face_v2View(), new $.AnalogDelegate() ]; 
     }
 
-    function getSettingsView() { // as [Views] or [Views, InputDelegates] {
-        return [new $.AnalogSettingsViewTest(), new $.Menu2TestMenu2Delegate()];  // as Array[InputDelegate];
+    function getSettingsView() { 
+        return [new $.AnalogSettingsViewTest(), new $.Menu2TestMenu2Delegate()];   
     }
 }
 

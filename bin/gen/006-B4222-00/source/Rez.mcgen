@@ -21,6 +21,7 @@ module Rez {
     } // Drawables
 
     module Fonts {
+        (:initialized) var bigdigi as Symbol;
     } // Fonts
 
     module JsonData {

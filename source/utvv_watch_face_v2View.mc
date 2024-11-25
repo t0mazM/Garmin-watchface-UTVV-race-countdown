@@ -5,16 +5,12 @@ import Toybox.System;
 import Toybox.WatchUi;
 using Toybox.WatchUi as Ui;
 
-
-
-
-
-
-
 class utvv_watch_face_v2View extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
+        //Initialize the storage to default values
+        if (Storage.getValue(40) == null) {Storage.setValue(40, 1); }
     }
 
     // Load your resources here
@@ -30,17 +26,18 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         var screenHeight = dc.getHeight(); //TODO: give this to init 
         var screenWidth = dc.getWidth();
+        var raceOption = Storage.getValue(40);
 
         var DIS = new display_functions();
 
-        DIS.draw_race_option(dc, Storage.getValue(40), 0.25, 0.25, screenHeight, screenWidth);
-        DIS.draw_race_name(dc, Storage.getValue(40), 0.5, 0.70, screenHeight, screenWidth);
-        DIS.draw_hour(dc, 0.5, 0.1, screenHeight, screenWidth);
-        DIS.draw_remaining_time(dc, Storage.getValue(40), 0.5, 0.8, screenHeight, screenWidth);
+        DIS.draw_coloured_edge(dc, raceOption);
+        DIS.draw_race_option(dc, raceOption, 0.25, 0.25, screenHeight, screenWidth);
+        DIS.draw_race_name(dc, raceOption, 0.5, 0.70, screenHeight, screenWidth);
+        DIS.draw_hour(dc, raceOption, 0.3, 0.10, screenHeight, screenWidth);
+        DIS.draw_remaining_time(dc, raceOption, 0.5, 0.8, screenHeight, screenWidth);
 
         
 
@@ -142,4 +139,3 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
     }
 
 }
-

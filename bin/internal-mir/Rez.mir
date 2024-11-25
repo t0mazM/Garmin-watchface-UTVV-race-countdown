@@ -1,70 +1,72 @@
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var utvvlogo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
         var batteryIcon as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
         var heartIcon as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
         var stepsIcon as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
         var blthIcon as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
         var emperor_logo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
         var centurion_logo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
         var legion_logo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
         var gladiator_logo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
         var asterix_logo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
         var castra_logo as Symbol;
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 23; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 23; ]
     module Fonts {
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 23; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 23; ]
         <init> {
         }
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; ]
+        var bigdigi as Symbol;
     }
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 26; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 27; ]
     module JsonData {
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 26; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 27; ]
         <init> {
         }
     }
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 29; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 30; ]
     module Layouts {
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 29; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 30; ]
         <init> {
         }
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 30; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 31; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2050_00_source_Rez_mcgen_30_73_start:
-[ "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen" 31 12 ]
-            [ "d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2050_00_source_Rez_mcgen_30_73_start" "d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2050_00_source_Rez_mcgen_30_73_stop" ]
+d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2187_00_source_Rez_mcgen_31_73_start:
+[ "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen" 32 12 ]
+            [ "d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2187_00_source_Rez_mcgen_31_73_start" "d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2187_00_source_Rez_mcgen_31_73_stop" ]
             %rez_cmp_local_text_TimeLabel.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
@@ -79,13 +81,13 @@ d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2050_00_source
             %tmp.15 = dup %tmp.10;
             %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
             %tmp.18 = const :locX;
-            %tmp.19 = 218;
+            %tmp.19 = 390;
             %tmp.20 = 0.5;
             %tmp.21 = mul %tmp.19 %tmp.20;
             %tmp.22 = dup %tmp.16;
             %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
             %tmp.25 = const :locY;
-            %tmp.26 = 218;
+            %tmp.26 = 390;
             %tmp.27 = lgetv %dc;
             %tmp.28 = getv function %tmp.27 :getFontHeight;
             %tmp.29 = getm $.Toybox.Graphics;
@@ -108,30 +110,30 @@ d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2050_00_source
             %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
             %tmp.1 = newc %tmp.4 (%tmp.48);
             lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
-[ "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen" 33 12 ]
+[ "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen" 34 12 ]
             %tmp.49 = newa Array<WatchUi.Drawable> 1;
             %tmp.51 = lgetv %rez_cmp_local_text_TimeLabel.1;
             %tmp.52 = dup %tmp.49;
             %tmp.53 = aputv %tmp.52 0 %tmp.51;
             ret %tmp.53;
-d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2050_00_source_Rez_mcgen_30_73_stop:
+d_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_bin_gen_006_B2187_00_source_Rez_mcgen_31_73_stop:
         }
     }
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 37; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 38; ]
     module Menus {
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 37; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 38; ]
         <init> {
         }
     }
-    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 40; ]
+    [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 41; ]
     module Strings {
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 40; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 41; ]
         <init> {
         }
-        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        [ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
 }
-[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2050-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "d:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\bin\gen\006-B2187-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }
