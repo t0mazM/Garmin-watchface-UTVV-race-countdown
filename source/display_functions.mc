@@ -15,17 +15,12 @@ class display_functions {
         dc.drawBitmap(screenHeight * screenX, screenWidth * screenY, Ui.loadResource(raceAttributes[raceOption][:bitmap]));
     }   
 
-    function draw_days_left(dc, days_left, screenX, screenY, screenHeight, screenWidth) {
-        var days_left_str = days_left.toString();
-        dc.drawText(screenHeight * screenX, screenWidth * screenY, Graphics.FONT_SYSTEM_NUMBER_MEDIUM, days_left_str, Graphics.TEXT_JUSTIFY_CENTER);
-    }
-
     function draw_race_name(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
-        var raceStr = 
+        var raceStr = raceAttributes[raceOption][:name]; 
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(screenHeight * screenX, screenWidth * screenY, 
-        Graphics.FONT_MEDIUM,
+        Graphics.FONT_SYSTEM_TINY,
         raceStr,
         Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER
          );
@@ -35,23 +30,24 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
     var clockTime = System.getClockTime();
     var hours = clockTime.hour.format("%02d"); // Ensure hours are formatted as two digits
     var minutes = clockTime.min.format("%02d");
+    var minColour = raceAttributes[raceOption][:colour];
 
     // Load the custom font
-    var digitalFont = Ui.loadResource(Rez.Fonts.bigdigi);
+    var digitalFont = Ui.loadResource(Rez.Fonts.midbold);
 
     // Draw the hours
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
     dc.drawText(screenHeight * screenX, screenWidth * screenY, 
                 digitalFont,
                 hours,
-                Graphics.TEXT_JUSTIFY_CENTER
+                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
     );
     // draw minutes below hours
-    dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX, screenWidth * screenY +50, 
+    dc.setColor(minColour, Graphics.COLOR_TRANSPARENT);
+    dc.drawText(screenHeight * screenX, screenWidth * screenY +53, 
                 digitalFont,
                 minutes,
-                Graphics.TEXT_JUSTIFY_CENTER
+                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
     );
 }
 
@@ -64,6 +60,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
             :day => raceAttributes[raceOption][:race_day],
             :hour => raceAttributes[raceOption][:race_hour]
         };
+
         //Calculate the remaining time
         var futureMoment = Gregorian.moment(futureOptions);
         var currentDateTime = Time.now();
@@ -71,17 +68,18 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         var duration_hour = duration_sec / 3600;
         var duration_days = duration_hour / 24;
 
-        var time_left_string = Lang.format("$1$ days left", [duration_days]);
+        //Format the remaining time
+        var time_left_string = Lang.format("$1$ DAYS LEFT", [duration_days]);
 
         if (duration_days <= 0) {
-            time_left_string = Lang.format("$1$ hours left", [duration_hour]);
+            time_left_string = Lang.format("$1$ HOURS LEFT", [duration_hour]);
         }
         //Draw the remaining time
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(screenHeight * screenX, screenWidth * screenY, 
-                    Graphics.FONT_MEDIUM,
+                    Graphics.FONT_SYSTEM_TINY,
                     time_left_string,
-                    Graphics.TEXT_JUSTIFY_CENTER
+                    Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
          );
     }
 
@@ -95,6 +93,11 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dc.drawCircle(centerX, centerY, centerX);
     }
 
+    function draw_utvv_text(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
+    var utvv_text_bitmap = raceAttributes[raceOption][:utvv_bitmap];
+    dc.drawBitmap(screenHeight * screenX, screenWidth * screenY, Ui.loadResource(utvv_text_bitmap) );
+    
+    }
     
 }
 

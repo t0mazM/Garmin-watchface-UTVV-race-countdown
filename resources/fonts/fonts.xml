@@ -1,3 +1,8 @@
 <fonts>
+	<font id="middigi" filename="middigi.fntc" antialias="true" filter="0123456789"/>
 	<font id="bigdigi" filename="bigdigigarmin.fntc" antialias="true" filter="0123456789\\"/>
+	<font id="midbold" filename="midbold.fntc" antialias="true" filter="abcdefghijklmnoprscvuvzy0123456789"/>
+
+
+
 </fonts>  

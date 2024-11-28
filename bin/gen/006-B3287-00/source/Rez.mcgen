@@ -6,7 +6,6 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var utvvlogo as Symbol;
         (:initialized) var batteryIcon as Symbol;
         (:initialized) var heartIcon as Symbol;
         (:initialized) var stepsIcon as Symbol;

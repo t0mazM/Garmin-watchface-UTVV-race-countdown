@@ -22,9 +22,6 @@ class AnalogSettingsViewTest extends WatchUi.Menu2 {
     function initialize() {
         Menu2.initialize(null);
 
-        if (Storage.getValue(40) == null ){ Storage.setValue(40, 0); } // Race logo option
-        
-
         // Generate a new Menu with a drawable Title
         Menu2.setTitle("Settings");
         Menu2.addItem(new WatchUi.MenuItem("Choose your race", null, "race", null));

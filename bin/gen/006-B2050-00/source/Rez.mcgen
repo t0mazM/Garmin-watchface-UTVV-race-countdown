@@ -6,7 +6,6 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var utvvlogo as Symbol;
         (:initialized) var batteryIcon as Symbol;
         (:initialized) var heartIcon as Symbol;
         (:initialized) var stepsIcon as Symbol;
@@ -17,11 +16,19 @@ module Rez {
         (:initialized) var gladiator_logo as Symbol;
         (:initialized) var asterix_logo as Symbol;
         (:initialized) var castra_logo as Symbol;
+        (:initialized) var utvv_emperor as Symbol;
+        (:initialized) var utvv_asterix as Symbol;
+        (:initialized) var utvv_centurion as Symbol;
+        (:initialized) var utvv_gladiator as Symbol;
+        (:initialized) var utvv_legion as Symbol;
+        (:initialized) var utvv_castra as Symbol;
         (:initialized) var LauncherIcon as Symbol;
     } // Drawables
 
     module Fonts {
+        (:initialized) var middigi as Symbol;
         (:initialized) var bigdigi as Symbol;
+        (:initialized) var midbold as Symbol;
     } // Fonts
 
     module JsonData {

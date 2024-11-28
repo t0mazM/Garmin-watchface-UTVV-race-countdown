@@ -112,38 +112,38 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Vi
         %tmp.27 = getv function %tmp.26 :draw_race_option;
         %tmp.29 = lgetv %dc;
         %tmp.31 = lgetv %raceOption.3;
-        %tmp.32 = 0.25;
-        %tmp.33 = 0.25;
+        %tmp.32 = 0.40;
+        %tmp.33 = 0.04;
         %tmp.35 = lgetv %screenHeight.1;
         %tmp.37 = lgetv %screenWidth.2;
         invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31, %tmp.32, %tmp.33, %tmp.35, %tmp.37);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 38 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 39 8 ]
         %tmp.38 = lgetv %DIS.4;
-        %tmp.39 = getv function %tmp.38 :draw_race_name;
+        %tmp.39 = getv function %tmp.38 :draw_hour;
         %tmp.41 = lgetv %dc;
         %tmp.43 = lgetv %raceOption.3;
-        %tmp.44 = 0.5;
-        %tmp.45 = 0.70;
+        %tmp.44 = 0.23;
+        %tmp.45 = 0.38;
         %tmp.47 = lgetv %screenHeight.1;
         %tmp.49 = lgetv %screenWidth.2;
         invoke %tmp.38 %tmp.39(%tmp.41, %tmp.43, %tmp.44, %tmp.45, %tmp.47, %tmp.49);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 39 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 40 8 ]
         %tmp.50 = lgetv %DIS.4;
-        %tmp.51 = getv function %tmp.50 :draw_hour;
+        %tmp.51 = getv function %tmp.50 :draw_remaining_time;
         %tmp.53 = lgetv %dc;
         %tmp.55 = lgetv %raceOption.3;
-        %tmp.56 = 0.3;
-        %tmp.57 = 0.10;
+        %tmp.56 = 0.65;
+        %tmp.57 = 0.73;
         %tmp.59 = lgetv %screenHeight.1;
         %tmp.61 = lgetv %screenWidth.2;
         invoke %tmp.50 %tmp.51(%tmp.53, %tmp.55, %tmp.56, %tmp.57, %tmp.59, %tmp.61);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 40 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 41 8 ]
         %tmp.62 = lgetv %DIS.4;
-        %tmp.63 = getv function %tmp.62 :draw_remaining_time;
+        %tmp.63 = getv function %tmp.62 :draw_utvv_text;
         %tmp.65 = lgetv %dc;
         %tmp.67 = lgetv %raceOption.3;
-        %tmp.68 = 0.5;
-        %tmp.69 = 0.8;
+        %tmp.68 = 0.10;
+        %tmp.69 = 0.15;
         %tmp.71 = lgetv %screenHeight.1;
         %tmp.73 = lgetv %screenWidth.2;
         invoke %tmp.62 %tmp.63(%tmp.65, %tmp.67, %tmp.68, %tmp.69, %tmp.71, %tmp.73);

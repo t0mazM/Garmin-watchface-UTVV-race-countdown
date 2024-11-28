@@ -34,11 +34,11 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var DIS = new display_functions();
 
         DIS.draw_coloured_edge(dc, raceOption);
-        DIS.draw_race_option(dc, raceOption, 0.25, 0.25, screenHeight, screenWidth);
-        DIS.draw_race_name(dc, raceOption, 0.5, 0.70, screenHeight, screenWidth);
-        DIS.draw_hour(dc, raceOption, 0.3, 0.10, screenHeight, screenWidth);
-        DIS.draw_remaining_time(dc, raceOption, 0.5, 0.8, screenHeight, screenWidth);
-
+        DIS.draw_race_option(dc, raceOption, 0.45, 0.01, screenHeight, screenWidth);
+        //DIS.draw_race_name(dc, raceOption, 0.70, 0.45, screenHeight, screenWidth);
+        DIS.draw_hour(dc, raceOption, 0.25, 0.40, screenHeight, screenWidth);
+        DIS.draw_remaining_time(dc, raceOption, 0.65, 0.73, screenHeight, screenWidth);
+        DIS.draw_utvv_text(dc, raceOption, 0.13, 0.11, screenHeight, screenWidth);
         
 
         // dc.drawBitmap(screenX * 0.13, screenY*0.65, Ui.loadResource(Rez.Drawables.batteryIcon));
@@ -137,5 +137,6 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() as Void {
     }
+
 
 }
