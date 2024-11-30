@@ -11,6 +11,7 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         WatchFace.initialize();
         //Initialize the storage to default values
         if (Storage.getValue(40) == null) {Storage.setValue(40, 1); }
+        if (Storage.getValue(30) == null) {Storage.setValue(30, 1); }
     }
 
     // Load your resources here
@@ -34,11 +35,13 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var DIS = new display_functions();
 
         DIS.draw_coloured_edge(dc, raceOption);
-        DIS.draw_race_option(dc, raceOption, 0.45, 0.01, screenHeight, screenWidth);
+        DIS.draw_race_option(dc, raceOption, 0.45, 0.03, screenHeight, screenWidth);
         //DIS.draw_race_name(dc, raceOption, 0.70, 0.45, screenHeight, screenWidth);
         DIS.draw_hour(dc, raceOption, 0.25, 0.40, screenHeight, screenWidth);
         DIS.draw_remaining_time(dc, raceOption, 0.65, 0.73, screenHeight, screenWidth);
         DIS.draw_utvv_text(dc, raceOption, 0.13, 0.11, screenHeight, screenWidth);
+
+        DIS.draw_datapoint(dc, "11", 0.65, 0.65, screenHeight, screenWidth);
         
 
         // dc.drawBitmap(screenX * 0.13, screenY*0.65, Ui.loadResource(Rez.Drawables.batteryIcon));

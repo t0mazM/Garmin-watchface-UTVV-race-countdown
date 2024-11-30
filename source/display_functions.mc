@@ -98,6 +98,20 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
     dc.drawBitmap(screenHeight * screenX, screenWidth * screenY, Ui.loadResource(utvv_text_bitmap) );
     
     }
+
+    function draw_datapoint(dc, dataOption, screenX, screenY, screenHeight, screenWidth) {
+    
+    var iconFont = Ui.loadResource(Rez.Fonts.iconfont);
+    
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.drawText(screenHeight * screenX, screenWidth * screenY, 
+                iconFont,
+                dataOption,
+                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
+    );
+}
     
 }
+
+
 

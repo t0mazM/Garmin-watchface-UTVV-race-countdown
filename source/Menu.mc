@@ -25,6 +25,7 @@ class AnalogSettingsViewTest extends WatchUi.Menu2 {
         // Generate a new Menu with a drawable Title
         Menu2.setTitle("Settings");
         Menu2.addItem(new WatchUi.MenuItem("Choose your race", null, "race", null));
+        Menu2.addItem(new WatchUi.MenuItem("Data Fields", null, "datafields", null));
 	}
 
     function onBack() {
@@ -56,7 +57,7 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
             var raceMenu = new WatchUi.Menu2({:title=>"Choose your race"});
             var RaceDrawable = new RaceSelection();
             RaceDrawable.initialize();
-            raceMenu.addItem(new WatchUi.IconMenuItem("Race chosen:", RaceDrawable.nextState(), "race_choice", RaceDrawable, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            raceMenu.addItem(new WatchUi.IconMenuItem("Race choosen:", RaceDrawable.nextState(), "race_choice", RaceDrawable, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             raceMenu.addItem(new WatchUi.MenuItem("Apply", null, "race_apply", null));
             WatchUi.pushView(raceMenu, new Menu2TestMenu2Delegate(), WatchUi.SLIDE_UP );
         }
@@ -67,7 +68,19 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
             WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
             WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
         }
-        
+
+        else if( item.getId().equals("datafields") ) {
+
+            var dataMenu = new WatchUi.Menu2({:title=>"Data Fields"});
+            var DataFiledDrawable = new DataFieldSelection();
+            DataFiledDrawable.initialize();
+
+            dataMenu.addItem(new WatchUi.IconMenuItem("Top:", DataFiledDrawable.nextState(), "datafield_choice", DataFiledDrawable, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            WatchUi.pushView(dataMenu, new Menu2TestMenu2Delegate(), WatchUi.SLIDE_UP );
+        }
+        else if( item.getId().equals("datafield_choice") ) {
+            item.setSubLabel((item.getIcon() as DataFieldSelection).nextState());
+        }
  else {
             WatchUi.requestUpdate();
         }  
@@ -103,9 +116,37 @@ class RaceSelection extends WatchUi.Drawable {
     }
 
     function draw(dc) {
-		// 	var iconsFont = Application.loadResource(Rez.Fonts.IconsFont);
-		// 	var icon = mIcons[mIndex];
-        //     dc.drawText( dc.getWidth()/2, dc.getHeight()/3, iconsFont, icon , Graphics.TEXT_JUSTIFY_CENTER);
-		// }
+
 }
+}
+
+class DataFieldSelection extends WatchUi.Drawable {
+    var mIndex;
+    var mStates;
+
+    function initialize() {
+        Drawable.initialize({});
+        mStates = iconsDict.keys();
+        mIndex = Storage.getValue(30);
+    }
+
+    function nextState() {
+        mIndex = Storage.getValue(30);
+        mIndex++;
+        
+        if (mIndex >= mStates.size()) {
+            mIndex = 0; // Wrap around to the first state
+        }
+        Storage.setValue(30, mIndex);
+        return iconsDict[mStates[mIndex]][:name];
+    }
+
+    function draw(dc) {
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.clear();
+            dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+			var iconsFont = Application.loadResource(Rez.Fonts.iconfont);
+			var icon = iconsDict[mStates[mIndex]][:iconNumber];
+            dc.drawText( dc.getWidth()/2, dc.getHeight()/3, iconsFont, icon , Graphics.TEXT_JUSTIFY_CENTER);
+        }
 }
