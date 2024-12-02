@@ -9,45 +9,45 @@ var iconsDict = {
         :name => "Floors climbed", 
         :iconNumber => "1", 
     },  
-    3 => { 
+    2 => { 
         :name => "Activity time", 
         :iconNumber => "2", 
     },
-    4 => { 
+    3 => { 
         :name => "Heart rate", 
         :iconNumber => "3", 
     },
-    5 => { 
+    4 => { 
         :name => "Notifications", 
         :iconNumber => ":", 
     },
-    6 => { 
+    5 => { 
         :name => "Calories burned", 
         :iconNumber => "6", 
     },
-    7 => { 
+    6 => { 
         :name => "Battery level", 
-        :iconNumber => "9", 
+        :iconNumber => "4", 
     },
-    8 => { 
+    7 => { 
         :name => "Temperature", 
         :iconNumber => ".", 
     },
-    9 => { 
+    8 => { 
         :name => "Sunrise time", 
-        :iconNumber => "a", 
-    },
-    10 => { 
-        :name => "Sunset time", 
         :iconNumber => ">", 
     },
-    11 => { 
+    9 => { 
+        :name => "Sunset time", 
+        :iconNumber => "?", 
+    },
+    10 => { 
         :name => "Stress level", 
         :iconNumber => "T", 
     },   
-    12 => { 
+    11 => { 
         :name => "VO2 max", 
-        :iconNumber => "V", 
+        :iconNumber => "X", 
     }
 };
 

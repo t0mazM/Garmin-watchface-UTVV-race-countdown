@@ -6,6 +6,10 @@ import Toybox.WatchUi;
 using Toybox.WatchUi as Ui;
 using Toybox.Time as Time;
 using Toybox.Time.Gregorian;
+import Toybox.Weather;
+using Toybox.UserProfile;
+
+
 
 
 
@@ -100,13 +104,105 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
     }
 
     function draw_datapoint(dc, dataOption, screenX, screenY, screenHeight, screenWidth) {
+        var position, today;
+        var dataString = "---";
+        
+        switch(iconsDict[dataOption][:name]) {
+            case "Steps":
+                dataString = Lang.format("$1$", [ActivityMonitor.getInfo().steps]);
+                break;
+            case "Floors climbed":
+                dataString = ActivityMonitor.getInfo().floorsClimbed;
+                break;
+            case "Activity time":
+                dataString = ActivityMonitor.getInfo().activeMinutesDay;
+                break;
+            case "Heart rate":
+                dataString = Activity.getActivityInfo().currentHeartRate;
+                break;
+            case "Notifications":
+                dataString = Toybox.System.getDeviceSettings().notificationCount;
+                break;
+            case "Calories burned":
+                dataString = ActivityMonitor.getInfo().calories;
+                break;
+            case "Battery level":
+                dataString = System.getSystemStats().battery;
+                break;
+            case "Temperature":
+                var temp = Weather.getCurrentConditions().feelsLikeTemperature;
+                var unit = "";
+                var TempMetric = System.getDeviceSettings().temperatureUnits;
+
+                if (TempMetric == System.UNIT_METRIC){
+                    unit = "°C";
+                    
+                } else {
+                    unit = "°F";
+                    temp = temp * 9/5 + 32;
+                }
+                dataString = Lang.format("$1$ $2$", [temp, unit]);
+
+                break;
+            case "Sunrise time":
+				position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
+				today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
+				if (position!=null and today!=null){
+					if (Weather.getSunrise(position, today)!=null) {
+						var sunRise = Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT);
+						dataString = sunRise.hour;
+					} else {
+						dataString = 18; 
+					}
+
+                }
+                break;
+            case "Sunset time":
+				position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
+				today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
+				if (position!=null and today!=null){
+					if (Weather.getSunset(position, today)!=null) {
+						var sunSet = Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT);
+						dataString = sunSet.hour;
+					} else {
+						dataString = 18; 
+					}
+                }
+                break;
+            case "Stress level":
+                dataString = ActivityMonitor.getInfo().timeToRecovery;
+                break;
+            case "VO2 max":
+                dataString = UserProfile.getProfile().vo2maxRunning;
+                break;
+            default:
+                dataString = "0";
+                break;
+        }
     
     var iconFont = Ui.loadResource(Rez.Fonts.iconfont);
-    
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    //Draw icon
     dc.drawText(screenHeight * screenX, screenWidth * screenY, 
                 iconFont,
-                dataOption,
+                iconsDict[dataOption][:iconNumber],
+                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
+    );
+    //Draw data
+    if(dataString == null){
+        dataString = "---";
+    }
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.drawText(screenHeight * screenX + 30, screenWidth * screenY, 
+                Graphics.FONT_SYSTEM_TINY,
+                Lang.format("$1$", [dataString]),
+                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
+    );
+
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.drawText(screenHeight * screenX + 80, screenWidth * screenY, 
+                Graphics.FONT_SYSTEM_TINY,
+                Lang.format("$1$", [dataOption]),
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
     );
 }

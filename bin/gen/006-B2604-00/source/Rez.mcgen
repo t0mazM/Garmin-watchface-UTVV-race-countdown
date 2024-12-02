@@ -29,6 +29,7 @@ module Rez {
         (:initialized) var middigi as Symbol;
         (:initialized) var bigdigi as Symbol;
         (:initialized) var midbold as Symbol;
+        (:initialized) var iconfont as Symbol;
     } // Fonts
 
     module JsonData {

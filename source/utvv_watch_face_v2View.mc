@@ -10,8 +10,13 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
         //Initialize the storage to default values
-        if (Storage.getValue(40) == null) {Storage.setValue(40, 1); }
-        if (Storage.getValue(30) == null) {Storage.setValue(30, 1); }
+        if (Storage.getValue(40) == null) {Storage.setValue(40, 1); } // Race option
+        if (Storage.getValue(30) == null) {Storage.setValue(30, 1); } // Top left data field
+        if (Storage.getValue(31) == null) {Storage.setValue(31, 1); } // Top right data field
+        if (Storage.getValue(32) == null) {Storage.setValue(32, 1); } // Middle left data field
+        if (Storage.getValue(33) == null) {Storage.setValue(33, 1); } // Middle right data field
+        if (Storage.getValue(34) == null) {Storage.setValue(34, 1); } // Bottom left data field
+        if (Storage.getValue(35) == null) {Storage.setValue(35, 1); } // Bottom right data field
     }
 
     // Load your resources here
@@ -32,6 +37,15 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var screenWidth = dc.getWidth();
         var raceOption = Storage.getValue(40);
 
+
+
+        var dataTopLeft = Storage.getValue(30);
+        var dataTopRight = Storage.getValue(31);
+        var dataMiddleLeft = Storage.getValue(32);
+        var dataMiddleRight = Storage.getValue(33);
+        var dataBottomLeft = Storage.getValue(34);
+        var dataBottomRight = Storage.getValue(35);
+
         var DIS = new display_functions();
 
         DIS.draw_coloured_edge(dc, raceOption);
@@ -41,7 +55,16 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         DIS.draw_remaining_time(dc, raceOption, 0.65, 0.73, screenHeight, screenWidth);
         DIS.draw_utvv_text(dc, raceOption, 0.13, 0.11, screenHeight, screenWidth);
 
-        DIS.draw_datapoint(dc, "11", 0.65, 0.65, screenHeight, screenWidth);
+
+
+        DIS.draw_datapoint(dc, dataTopLeft, 0.35, 0.65, screenHeight, screenWidth);
+        // DIS.draw_datapoint(dc, dataTopRight, 0.45, 0.65, screenHeight, screenWidth);
+        // DIS.draw_datapoint(dc, dataMiddleLeft, 0.55, 0.65, screenHeight, screenWidth);
+        // DIS.draw_datapoint(dc, dataMiddleRight, 0.65, 0.65, screenHeight, screenWidth);
+        // DIS.draw_datapoint(dc, dataBottomLeft, 0.65, 0.65, screenHeight, screenWidth);
+        // DIS.draw_datapoint(dc, dataBottomRight, 0.65, 0.65, screenHeight, screenWidth);
+
+    
         
 
         // dc.drawBitmap(screenX * 0.13, screenY*0.65, Ui.loadResource(Rez.Drawables.batteryIcon));
