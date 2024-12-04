@@ -73,23 +73,23 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
 
             var dataMenu = new WatchUi.Menu2({:title=>"Data Fields"});
             var drawableTopLeft = new DataFieldSelection(30);
-            // var drawableTopRight = new DataFieldSelection(31);
-            // var drawableMiddleLeft = new DataFieldSelection(32);
+            var drawableTopRight = new DataFieldSelection(31);
+            var drawableMiddleLeft = new DataFieldSelection(32);
             // var drawableMiddleRight = new DataFieldSelection(33);
             // var drawableBottomLeft = new DataFieldSelection(34);
             // var drawableBottomRight = new DataFieldSelection(35);
         
             drawableTopLeft.initialize(30);
-            // drawableTopRight.initialize(31);
-            // drawableMiddleLeft.initialize(32);
+            drawableTopRight.initialize(31);
+            drawableMiddleLeft.initialize(32);
             // drawableMiddleRight.initialize(33);
             // drawableBottomLeft.initialize(34);
             // drawableBottomRight.initialize(35);
             
 
             dataMenu.addItem(new WatchUi.IconMenuItem("Top left:", drawableTopLeft.nextState(30), "topLeft", drawableTopLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
-            // dataMenu.addItem(new WatchUi.IconMenuItem("Top right:", drawableTopRight.nextState(31), "topRight", drawableTopRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
-            // dataMenu.addItem(new WatchUi.IconMenuItem("Middle left:", drawableMiddleLeft.nextState(32), "middleLeft", drawableMiddleLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            dataMenu.addItem(new WatchUi.IconMenuItem("Top right:", drawableTopRight.nextState(31), "topRight", drawableTopRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            dataMenu.addItem(new WatchUi.IconMenuItem("Middle left:", drawableMiddleLeft.nextState(32), "middleLeft", drawableMiddleLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             // dataMenu.addItem(new WatchUi.IconMenuItem("Middle right:", drawableMiddleRight.nextState(33), "middleRight", drawableMiddleRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             // dataMenu.addItem(new WatchUi.IconMenuItem("Bottom left:", drawableBottomLeft.nextState(34), "bottomLeft", drawableBottomLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             // dataMenu.addItem(new WatchUi.IconMenuItem("Bottom right:", drawableBottomRight.nextState(35), "bottomRight", drawableBottomRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
@@ -99,12 +99,12 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
         else if( item.getId().equals("topLeft") ) {
             item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(30));
         }
-        // else if( item.getId().equals("topRight") ) {
-        //     item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(31));
-        // }
-        // else if( item.getId().equals("middleLeft") ) {
-        //     item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(32));
-        // }
+         else if( item.getId().equals("topRight") ) {
+             item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(31));
+         }
+        else if( item.getId().equals("middleLeft") ) {
+            item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(32));
+        }
         // else if( item.getId().equals("middleRight") ) {
         //     item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(33));
         // }
@@ -160,17 +160,17 @@ class DataFieldSelection extends WatchUi.Drawable {
     function initialize(storageId) {
         Drawable.initialize({});
         mStates = iconsDict.keys();
-        mIndex = Storage.getValue(30);
+        mIndex = Storage.getValue(storageId);
     }
 
     function nextState(storageId) {
-        mIndex = Storage.getValue(30);
+        mIndex = Storage.getValue(storageId);
         mIndex++;
         
         if (mIndex >= mStates.size()) {
             mIndex = 0; // Wrap around to the first state
         }
-        Storage.setValue(30, mIndex);
+        Storage.setValue(storageId, mIndex);
         return iconsDict[mStates[mIndex]][:name];
     }
 

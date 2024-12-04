@@ -57,9 +57,9 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
 
 
 
-        DIS.draw_datapoint(dc, dataTopLeft, 0.35, 0.65, screenHeight, screenWidth);
-        // DIS.draw_datapoint(dc, dataTopRight, 0.45, 0.65, screenHeight, screenWidth);
-        // DIS.draw_datapoint(dc, dataMiddleLeft, 0.55, 0.65, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataTopLeft, 0.45, 0.45, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataTopRight, 0.45, 0.55, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataMiddleLeft, 0.45, 0.65, screenHeight, screenWidth);
         // DIS.draw_datapoint(dc, dataMiddleRight, 0.65, 0.65, screenHeight, screenWidth);
         // DIS.draw_datapoint(dc, dataBottomLeft, 0.65, 0.65, screenHeight, screenWidth);
         // DIS.draw_datapoint(dc, dataBottomRight, 0.65, 0.65, screenHeight, screenWidth);

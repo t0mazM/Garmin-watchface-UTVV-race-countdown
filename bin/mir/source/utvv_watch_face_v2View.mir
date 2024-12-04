@@ -320,11 +320,31 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Vi
         %tmp.99 = getv function %tmp.98 :draw_datapoint;
         %tmp.101 = lgetv %dc;
         %tmp.103 = lgetv %dataTopLeft.4;
-        %tmp.104 = 0.35;
-        %tmp.105 = 0.65;
+        %tmp.104 = 0.45;
+        %tmp.105 = 0.45;
         %tmp.107 = lgetv %screenHeight.1;
         %tmp.109 = lgetv %screenWidth.2;
         invoke %tmp.98 %tmp.99(%tmp.101, %tmp.103, %tmp.104, %tmp.105, %tmp.107, %tmp.109);
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 61 8 ]
+        %tmp.110 = lgetv %DIS.10;
+        %tmp.111 = getv function %tmp.110 :draw_datapoint;
+        %tmp.113 = lgetv %dc;
+        %tmp.115 = lgetv %dataTopRight.5;
+        %tmp.116 = 0.45;
+        %tmp.117 = 0.55;
+        %tmp.119 = lgetv %screenHeight.1;
+        %tmp.121 = lgetv %screenWidth.2;
+        invoke %tmp.110 %tmp.111(%tmp.113, %tmp.115, %tmp.116, %tmp.117, %tmp.119, %tmp.121);
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 62 8 ]
+        %tmp.122 = lgetv %DIS.10;
+        %tmp.123 = getv function %tmp.122 :draw_datapoint;
+        %tmp.125 = lgetv %dc;
+        %tmp.127 = lgetv %dataMiddleLeft.6;
+        %tmp.128 = 0.45;
+        %tmp.129 = 0.65;
+        %tmp.131 = lgetv %screenHeight.1;
+        %tmp.133 = lgetv %screenWidth.2;
+        invoke %tmp.122 %tmp.123(%tmp.125, %tmp.127, %tmp.128, %tmp.129, %tmp.131, %tmp.133);
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2View_mc_34_40_stop:
     }
     [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc"; @line = 156; ]

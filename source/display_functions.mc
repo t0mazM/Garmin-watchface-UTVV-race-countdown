@@ -127,7 +127,8 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
                 dataString = ActivityMonitor.getInfo().calories;
                 break;
             case "Battery level":
-                dataString = System.getSystemStats().battery;
+
+                dataString = System.getSystemStats().battery.format( "%2d" );
                 break;
             case "Temperature":
                 var temp = Weather.getCurrentConditions().feelsLikeTemperature;
@@ -199,12 +200,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
     );
 
-    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX + 80, screenWidth * screenY, 
-                Graphics.FONT_SYSTEM_TINY,
-                Lang.format("$1$", [dataOption]),
-                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
-    );
+
 }
     
 }
