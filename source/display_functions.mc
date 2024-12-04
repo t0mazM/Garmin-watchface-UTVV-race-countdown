@@ -194,10 +194,10 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dataString = "---";
     }
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX + 30, screenWidth * screenY, 
+    dc.drawText(screenHeight * screenX + 10, screenWidth * screenY, 
                 Graphics.FONT_SYSTEM_TINY,
                 Lang.format("$1$", [dataString]),
-                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
+                Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_LEFT
     );
 
 

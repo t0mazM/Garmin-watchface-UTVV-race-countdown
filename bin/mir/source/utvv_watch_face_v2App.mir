@@ -17,12 +17,12 @@ class utvv_watch_face_v2App extends Application.AppBase{
     [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc"; @line = 9; ]
     public
     function initialize() as Void {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_9_33_start:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_9_33_11_4_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc" 10 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_9_33_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_9_33_11_4_stop:
     }
     //! Handle app startup
     //! @param state Startup arguments
@@ -40,8 +40,8 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Ap
     //! @return Array Pair [View, Delegate] or Array [View]
     [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc"; @line = 25; ]
     public
-    function getInitialView() as Array<Views or InputDelegates> or Null {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_25_72_start:
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_25_75_27_4_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc" 26 8 ]
         %tmp.1 = newa 2;
         %tmp.5 = getm $;
@@ -55,11 +55,11 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Ap
         %tmp.14 = dup %tmp.8;
         %tmp.15 = aputv %tmp.14 1 %tmp.9;
         ret %tmp.15;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_25_72_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_25_75_27_4_stop:
     }
     [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc"; @line = 29; ]
     function getSettingsView() {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_29_31_start:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_29_31_31_4_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc" 30 8 ]
         %tmp.1 = newa 2;
         %tmp.5 = getm $;
@@ -73,7 +73,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Ap
         %tmp.14 = dup %tmp.8;
         %tmp.15 = aputv %tmp.14 1 %tmp.9;
         ret %tmp.15;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_29_31_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2App_mc_29_31_31_4_stop:
     }
 }
 [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2App.mc"; @line = 1; ]
