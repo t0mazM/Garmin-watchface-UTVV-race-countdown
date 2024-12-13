@@ -10,10 +10,10 @@
     <bitmap id="gladiator_logo" filename="gladiator.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
     <bitmap id="asterix_logo" filename="asterix.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
     <bitmap id="castra_logo" filename="Icon_Castra.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
-    <bitmap id="utvv_emperor" filename="utvv_emperor.png" scaleX="27%" scaleY="27%" scaleRelativeTo="screen"/>
-    <bitmap id="utvv_asterix" filename="utvv_asterix.png" scaleX="27" scaleY="27%" scaleRelativeTo="screen"/>
-    <bitmap id="utvv_centurion" filename="utvv_centurion.png" scaleX="27%" scaleY="27%" scaleRelativeTo="screen"/>
-    <bitmap id="utvv_gladiator" filename="utvv_gladiator.png" scaleX="27%" scaleY="27%" scaleRelativeTo="screen"/>
-    <bitmap id="utvv_legion" filename="utvv_legion.png" scaleX="27%" scaleY="27%" scaleRelativeTo="screen"/>
-    <bitmap id="utvv_castra" filename="utvv_emperor.png" scaleX="27%" scaleY="27%" scaleRelativeTo="screen"/>
+    <bitmap id="utvv_emperor" filename="utvv_emperor.png" scaleX="18%" scaleY="18%" scaleRelativeTo="screen"/>
+    <bitmap id="utvv_asterix" filename="utvv_asterix.png" scaleX="18" scaleY="18%" scaleRelativeTo="screen"/>
+    <bitmap id="utvv_centurion" filename="utvv_centurion.png" scaleX="18%" scaleY="18%" scaleRelativeTo="screen"/>
+    <bitmap id="utvv_gladiator" filename="utvv_gladiator.png" scaleX="18%" scaleY="18%" scaleRelativeTo="screen"/>
+    <bitmap id="utvv_legion" filename="utvv_legion.png" scaleX="18%" scaleY="18%" scaleRelativeTo="screen"/>
+    <bitmap id="utvv_castra" filename="utvv_emperor.png" scaleX="1%" scaleY="1%" scaleRelativeTo="screen"/>
 </drawables>

@@ -8,8 +8,7 @@ using Toybox.Time as Time;
 using Toybox.Time.Gregorian;
 import Toybox.Weather;
 using Toybox.UserProfile;
-
-
+using Toybox.Time.Gregorian as Calendar;
 
 
 
@@ -21,10 +20,11 @@ class display_functions {
 
     function draw_race_name(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
         var raceStr = raceAttributes[raceOption][:name]; 
+        var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(screenHeight * screenX, screenWidth * screenY, 
-        Graphics.FONT_SYSTEM_TINY,
+        utvvFont,
         raceStr,
         Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER
          );
@@ -38,6 +38,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
 
     // Load the custom font
     var digitalFont = Ui.loadResource(Rez.Fonts.midbold);
+    digitalFont = Ui.loadResource(Rez.Fonts.clockfont);
 
     // Draw the hours
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -48,7 +49,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
     );
     // draw minutes below hours
     dc.setColor(minColour, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX, screenWidth * screenY +53, 
+    dc.drawText(screenHeight * screenX, screenWidth * screenY +48, 
                 digitalFont,
                 minutes,
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
@@ -56,6 +57,8 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
 }
 
     function draw_remaining_time(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
+
+        var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
 
         //Set the race day and hour
         var futureOptions = {
@@ -81,7 +84,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         //Draw the remaining time
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(screenHeight * screenX, screenWidth * screenY, 
-                    Graphics.FONT_SYSTEM_TINY,
+                    utvvFont,
                     time_left_string,
                     Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
          );
@@ -97,40 +100,36 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dc.drawCircle(centerX, centerY, centerX);
     }
 
-    function draw_utvv_text(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
-    var utvv_text_bitmap = raceAttributes[raceOption][:utvv_bitmap];
-    dc.drawBitmap(screenHeight * screenX, screenWidth * screenY, Ui.loadResource(utvv_text_bitmap) );
-    
-    }
+
 
     function draw_datapoint(dc, dataOption, screenX, screenY, screenHeight, screenWidth) {
         var position, today;
         var dataString = "---";
-        
-        switch(iconsDict[dataOption][:name]) {
-            case "Steps":
-                dataString = Lang.format("$1$", [ActivityMonitor.getInfo().steps]);
-                break;
-            case "Floors climbed":
-                dataString = ActivityMonitor.getInfo().floorsClimbed;
-                break;
-            case "Activity time":
-                dataString = ActivityMonitor.getInfo().activeMinutesDay;
-                break;
-            case "Heart rate":
-                dataString = Activity.getActivityInfo().currentHeartRate;
-                break;
-            case "Notifications":
-                dataString = Toybox.System.getDeviceSettings().notificationCount;
-                break;
-            case "Calories burned":
-                dataString = ActivityMonitor.getInfo().calories;
-                break;
-            case "Battery level":
+        var dataNumber = 9999;
 
-                dataString = System.getSystemStats().battery.format( "%2d" );
-                break;
-            case "Temperature":
+        switch(iconsDict[dataOption][:name]) {
+        case "Steps":
+            dataNumber = ActivityMonitor.getInfo().steps;
+            break;
+        case "Floors climbed":
+            dataString = ActivityMonitor.getInfo().floorsClimbed;
+            break;
+        case "Activity time":
+            dataString = ActivityMonitor.getInfo().activeMinutesDay.total;
+            break;
+        case "Heart rate":
+            dataString = Activity.getActivityInfo().currentHeartRate;
+            break;
+        case "Notifications":
+            dataNumber = Toybox.System.getDeviceSettings().notificationCount;
+            break;
+        case "Calories burned":
+            dataNumber = ActivityMonitor.getInfo().calories;
+            break;
+        case "Battery level":
+            dataString = System.getSystemStats().battery.format( "%2d" );
+            break;
+        case "Temperature":
                 var temp = Weather.getCurrentConditions().feelsLikeTemperature;
                 var unit = "";
                 var TempMetric = System.getDeviceSettings().temperatureUnits;
@@ -145,17 +144,16 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
                 dataString = Lang.format("$1$ $2$", [temp, unit]);
 
                 break;
-            case "Sunrise time":
+            case "Sunrise time": 
 				position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
 				today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
 				if (position!=null and today!=null){
 					if (Weather.getSunrise(position, today)!=null) {
-						var sunRise = Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT);
-						dataString = sunRise.hour;
+						var sunRise = Time.Gregorian.info(Weather.getSunrise(position, today), Time.FORMAT_SHORT);
+						dataString = Lang.format("$1$:$2$",[sunRise.hour.format("%02u"), sunRise.min.format("%02u")]);
 					} else {
-						dataString = 18; 
+						dataString = 7; 
 					}
-
                 }
                 break;
             case "Sunset time":
@@ -164,7 +162,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
 				if (position!=null and today!=null){
 					if (Weather.getSunset(position, today)!=null) {
 						var sunSet = Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT);
-						dataString = sunSet.hour;
+						dataString = Lang.format("$1$:$2$",[sunSet.hour.format("%02u"), sunSet.min.format("%02u")]);
 					} else {
 						dataString = 18; 
 					}
@@ -182,6 +180,14 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         }
     
     var iconFont = Ui.loadResource(Rez.Fonts.iconfont);
+    var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
+
+        if (dataNumber >= 1000 and dataNumber != 9999) {
+            dataNumber = dataNumber / 1000;
+            dataString = dataNumber.format("%.1f");
+            dataString = Lang.format("$1$k", [dataString]);
+        }
+
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
     //Draw icon
     dc.drawText(screenHeight * screenX, screenWidth * screenY, 
@@ -194,16 +200,178 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dataString = "---";
     }
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX + 10, screenWidth * screenY, 
-                Graphics.FONT_SYSTEM_TINY,
+    dc.drawText(screenHeight * screenX + 20, screenWidth * screenY, 
+                utvvFont,
                 Lang.format("$1$", [dataString]),
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_LEFT
     );
 
 
 }
-    
+
+    function draw_date(dc, screenX, screenY, screenHeight, screenWidth) {
+
+        var now = Time.now();
+        var info = Calendar.info(now, Time.FORMAT_MEDIUM);
+        var dateStr = Lang.format("$1$ $2$", [info.day_of_week, info.day]);
+        var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
+        
+        // Convert the date string to uppercase
+        dateStr = dateStr.toUpper();
+        
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                    dc.drawText(screenHeight * screenX, screenWidth * screenY,
+                    utvvFont,
+                    dateStr,
+                    Graphics.TEXT_JUSTIFY_CENTER
+         );
+    }
+
+function drawWeatherIcon(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
+    var cond = Toybox.Weather.getCurrentConditions().condition;
+    var sunset, sunrise;
+
+    if (cond != null and cond instanceof Number) {
+        var clockTime = System.getClockTime().hour;
+        var WeatherFont = Application.loadResource(Rez.Fonts.WeatherFont);
+
+        // Get sunset and sunrise times
+        var position = Toybox.Weather.getCurrentConditions().observationLocationPosition;
+        var today = Toybox.Weather.getCurrentConditions().observationTime;
+        if (position != null and today != null) {
+            sunset = (Weather.getSunset(position, today) != null)
+                ? Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT).hour : 18;
+            sunrise = (Weather.getSunrise(position, today) != null)
+                ? Time.Gregorian.info(Weather.getSunrise(position, today), Time.FORMAT_SHORT).hour : 6;
+        } else {
+            sunset = 18;
+            sunrise = 6;
+        }
+
+        // Determine icon
+        var icon;
+        var isNight = clockTime >= sunset or clockTime < sunrise;
+
+        switch (cond) {
+            case 20: // Cloudy
+                icon = "I";
+                break;
+
+            case 0: // Clear or Windy
+            case 5: // Clear or Windy
+                icon = isNight ? "f" : "H";
+                break;
+
+            case 1: // Partly Cloudy or Mostly Clear
+            case 23: // Partly Cloudy or Mostly Clear
+            case 40: // Partly Cloudy or Mostly Clear
+            case 52: // Partly Cloudy or Mostly Clear
+                icon = isNight ? "g" : "G";
+                break;
+
+            case 2: // Mostly Cloudy
+            case 22: // Mostly Cloudy
+                icon = isNight ? "h" : "B";
+                break;
+
+            case 3: // Rain or related
+            case 14: // Rain or related
+            case 15: // Rain or related
+            case 11: // Rain or related
+            case 13: // Rain or related
+            case 24: // Rain or related
+            case 25: // Rain or related
+            case 26: // Rain or related
+            case 27: // Rain or related
+            case 45: // Rain or related
+                icon = isNight ? "c" : "D";
+                break;
+
+            case 4: // Snow or Hail
+            case 10: // Snow or Hail
+            case 16: // Snow or Hail
+            case 17: // Snow or Hail
+            case 34: // Snow or Hail
+            case 43: // Snow or Hail
+            case 46: // Snow or Hail
+            case 48: // Snow or Hail
+            case 51: // Snow or Hail
+                icon = isNight ? "e" : "F";
+                break;
+
+            case 6: // Thunder or similar
+            case 12: // Thunder or similar
+            case 28: // Thunder or similar
+            case 32: // Thunder or similar
+            case 36: // Thunder or similar
+            case 41: // Thunder or similar
+            case 42: // Thunder or similar
+                icon = isNight ? "b" : "C";
+                break;
+
+            case 7: // Wintry Mix
+            case 18: // Wintry Mix
+            case 19: // Wintry Mix
+            case 21: // Wintry Mix
+            case 44: // Wintry Mix
+            case 47: // Wintry Mix
+            case 49: // Wintry Mix
+            case 50: // Wintry Mix
+                icon = isNight ? "d" : "E";
+                break;
+
+            case 8: // Fog or related
+            case 9: // Fog or related
+            case 29: // Fog or related
+            case 30: // Fog or related
+            case 31: // Fog or related
+            case 33: // Fog or related
+            case 35: // Fog or related
+            case 37: // Fog or related
+            case 38: // Fog or related
+            case 39: // Fog or related
+                icon = isNight ? "a" : "A";
+                break;
+
+            default:
+                icon = null; // Unknown condition
+        }
+
+        // Draw the determined icon if valid
+        if (icon != null) {
+            dc.setColor(raceAttributes[raceOption][:colour], Graphics.COLOR_TRANSPARENT);
+            dc.drawText(screenHeight * screenX, screenWidth * screenY, WeatherFont, icon, Graphics.TEXT_JUSTIFY_RIGHT);
+        }
+        return true;
+    }
+    return false;
 }
+
+
+
+    function draw_battery(dc, screenX, screenY, screenHeight, screenWidth) {
+
+        var dataString = System.getSystemStats().battery.format( "%2d" );
+        var iconFont = Ui.loadResource(Rez.Fonts.iconfont);
+        var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        //Draw icon
+        dc.drawText(screenHeight * screenX, screenWidth * screenY, 
+                    iconFont,
+                    "4", //battery icon
+                    Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
+        );
+        //draw the value of the battery
+        dc.drawText(screenHeight * (screenX + 10), screenWidth * screenY, 
+                    utvvFont,
+                    Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
+        );
+    }
+
+
+}
+
 
 
 

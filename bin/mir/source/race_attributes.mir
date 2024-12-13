@@ -111,7 +111,7 @@ var raceAttributes;
     %tmp.132 = dup %tmp.125;
     %tmp.133 = aputv %tmp.132 %tmp.127 %tmp.131;
     %tmp.135 = const :colour;
-    %tmp.136 = 0x005522;
+    %tmp.136 = 0x55AA55;
     %tmp.137 = dup %tmp.133;
     %tmp.138 = aputv %tmp.137 %tmp.135 %tmp.136;
     %tmp.140 = const :race_day;

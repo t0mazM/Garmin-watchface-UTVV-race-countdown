@@ -75,24 +75,24 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
             var drawableTopLeft = new DataFieldSelection(30);
             var drawableTopRight = new DataFieldSelection(31);
             var drawableMiddleLeft = new DataFieldSelection(32);
-            // var drawableMiddleRight = new DataFieldSelection(33);
-            // var drawableBottomLeft = new DataFieldSelection(34);
-            // var drawableBottomRight = new DataFieldSelection(35);
+            var drawableMiddleRight = new DataFieldSelection(33);
+            var drawableBottomLeft = new DataFieldSelection(34);
+            var drawableBottomRight = new DataFieldSelection(35);
         
             drawableTopLeft.initialize(30);
             drawableTopRight.initialize(31);
             drawableMiddleLeft.initialize(32);
-            // drawableMiddleRight.initialize(33);
-            // drawableBottomLeft.initialize(34);
-            // drawableBottomRight.initialize(35);
+            drawableMiddleRight.initialize(33);
+            drawableBottomLeft.initialize(34);
+            drawableBottomRight.initialize(35);
             
 
             dataMenu.addItem(new WatchUi.IconMenuItem("Top left:", drawableTopLeft.nextState(30), "topLeft", drawableTopLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             dataMenu.addItem(new WatchUi.IconMenuItem("Top right:", drawableTopRight.nextState(31), "topRight", drawableTopRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             dataMenu.addItem(new WatchUi.IconMenuItem("Middle left:", drawableMiddleLeft.nextState(32), "middleLeft", drawableMiddleLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
-            // dataMenu.addItem(new WatchUi.IconMenuItem("Middle right:", drawableMiddleRight.nextState(33), "middleRight", drawableMiddleRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
-            // dataMenu.addItem(new WatchUi.IconMenuItem("Bottom left:", drawableBottomLeft.nextState(34), "bottomLeft", drawableBottomLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
-            // dataMenu.addItem(new WatchUi.IconMenuItem("Bottom right:", drawableBottomRight.nextState(35), "bottomRight", drawableBottomRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            dataMenu.addItem(new WatchUi.IconMenuItem("Middle right:", drawableMiddleRight.nextState(33), "middleRight", drawableMiddleRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            dataMenu.addItem(new WatchUi.IconMenuItem("Bottom left:", drawableBottomLeft.nextState(34), "bottomLeft", drawableBottomLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            dataMenu.addItem(new WatchUi.IconMenuItem("Bottom right:", drawableBottomRight.nextState(35), "bottomRight", drawableBottomRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
 
             WatchUi.pushView(dataMenu, new Menu2TestMenu2Delegate(), WatchUi.SLIDE_UP );
         }
@@ -105,15 +105,15 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
         else if( item.getId().equals("middleLeft") ) {
             item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(32));
         }
-        // else if( item.getId().equals("middleRight") ) {
-        //     item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(33));
-        // }
-        // else if( item.getId().equals("bottomLeft") ) {
-        //     item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(34));
-        // }
-        // else if( item.getId().equals("bottomRight") ) {
-        //     item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(35));
-        // }
+        else if( item.getId().equals("middleRight") ) {
+            item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(33));
+        }
+        else if( item.getId().equals("bottomLeft") ) {
+            item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(34));
+        }
+        else if( item.getId().equals("bottomRight") ) {
+            item.setSubLabel((item.getIcon() as DataFieldSelection).nextState(35));
+        }
  else {
             WatchUi.requestUpdate();
         }  

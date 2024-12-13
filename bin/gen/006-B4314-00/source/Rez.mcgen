@@ -30,15 +30,10 @@ module Rez {
         (:initialized) var bigdigi as ResourceId;
         (:initialized) var midbold as ResourceId;
         (:initialized) var iconfont as ResourceId;
+        (:initialized) var utvvfont as ResourceId;
+        (:initialized) var WeatherFont as ResourceId;
+        (:initialized) var clockfont as ResourceId;
     } // Fonts
-
-    module Layouts {
-        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(454 * 0.5), :locY=>((454 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
-
-            return [rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
-        }
-    } // Layouts
 
     module Strings {
         (:initialized) var AppName as ResourceId;

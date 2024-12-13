@@ -2,126 +2,361 @@
 <debugInfo>
 <manifest filename="D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\manifest.xml"/>
 <pcToLineNum>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="1" lineNum="6" parent="globals/utvv_watch_face_v2App" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="2" lineNum="15" parent="globals/utvv_watch_face_v2App" pc="268435479" symbol="onStart"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="3" lineNum="29" parent="globals/utvv_watch_face_v2App" pc="268435482" symbol="getSettingsView"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="3" lineNum="30" parent="globals/utvv_watch_face_v2App" pc="268435484" symbol="getSettingsView"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="4" lineNum="25" parent="globals/utvv_watch_face_v2App" pc="268435559" symbol="getInitialView"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="4" lineNum="26" parent="globals/utvv_watch_face_v2App" pc="268435561" symbol="getInitialView"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="5" lineNum="9" parent="globals/utvv_watch_face_v2App" pc="268435636" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="5" lineNum="10" parent="globals/utvv_watch_face_v2App" pc="268435638" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="6" lineNum="20" parent="globals/utvv_watch_face_v2App" pc="268435657" symbol="onStop"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="7" lineNum="49" parent="globals/Menu2TestMenu2Delegate" pc="268435660" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="8" lineNum="80" parent="globals/Menu2TestMenu2Delegate" pc="268435679" symbol="onBack"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="8" lineNum="81" parent="globals/Menu2TestMenu2Delegate" pc="268435681" symbol="onBack"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="9" lineNum="51" parent="globals/Menu2TestMenu2Delegate" pc="268435703" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="9" lineNum="52" parent="globals/Menu2TestMenu2Delegate" pc="268435705" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="55" parent="globals/Menu2TestMenu2Delegate" pc="268435724" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="57" parent="globals/Menu2TestMenu2Delegate" pc="268435728" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="59" parent="globals/Menu2TestMenu2Delegate" pc="268435756" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="60" parent="globals/Menu2TestMenu2Delegate" pc="268435803" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="61" parent="globals/Menu2TestMenu2Delegate" pc="268435831" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="62" parent="globals/Menu2TestMenu2Delegate" pc="268435843" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="63" parent="globals/Menu2TestMenu2Delegate" pc="268435923" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="64" parent="globals/Menu2TestMenu2Delegate" pc="268435973" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="66" parent="globals/Menu2TestMenu2Delegate" pc="268436021" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="67" parent="globals/Menu2TestMenu2Delegate" pc="268436049" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="69" parent="globals/Menu2TestMenu2Delegate" pc="268436084" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="70" parent="globals/Menu2TestMenu2Delegate" pc="268436112" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="71" parent="globals/Menu2TestMenu2Delegate" pc="268436133" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="75" parent="globals/Menu2TestMenu2Delegate" pc="268436157" symbol="onSelect"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="11" lineNum="86" parent="globals/RaceSelection" pc="268436174" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="11" lineNum="89" parent="globals/RaceSelection" pc="268436192" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="97" parent="globals/RaceSelection" pc="268436298" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="98" parent="globals/RaceSelection" pc="268436300" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="99" parent="globals/RaceSelection" pc="268436328" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="101" parent="globals/RaceSelection" pc="268436347" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="102" parent="globals/RaceSelection" pc="268436376" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="104" parent="globals/RaceSelection" pc="268436392" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="105" parent="globals/RaceSelection" pc="268436421" symbol="nextState"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="13" lineNum="91" parent="globals/RaceSelection" pc="268436439" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="13" lineNum="92" parent="globals/RaceSelection" pc="268436441" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="13" lineNum="93" parent="globals/RaceSelection" pc="268436465" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="13" lineNum="94" parent="globals/RaceSelection" pc="268436481" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="14" lineNum="108" parent="globals/RaceSelection" pc="268436510" symbol="draw"/>
-<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268436513" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="16" lineNum="20" parent="globals/AnalogSettingsViewTest" pc="268436532" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="17" lineNum="33" parent="globals/AnalogSettingsViewTest" pc="268436551" symbol="onBack"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="17" lineNum="34" parent="globals/AnalogSettingsViewTest" pc="268436553" symbol="onBack"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="17" lineNum="35" parent="globals/AnalogSettingsViewTest" pc="268436574" symbol="onBack"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="18" lineNum="42" parent="globals/AnalogSettingsViewTest" pc="268436577" symbol="onWrap"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="18" lineNum="43" parent="globals/AnalogSettingsViewTest" pc="268436579" symbol="onWrap"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="19" lineNum="38" parent="globals/AnalogSettingsViewTest" pc="268436582" symbol="onDone"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="19" lineNum="39" parent="globals/AnalogSettingsViewTest" pc="268436584" symbol="onDone"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="20" lineNum="22" parent="globals/AnalogSettingsViewTest" pc="268436606" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="20" lineNum="23" parent="globals/AnalogSettingsViewTest" pc="268436608" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="20" lineNum="25" parent="globals/AnalogSettingsViewTest" pc="268436627" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="20" lineNum="25" parent="globals/AnalogSettingsViewTest" pc="268436652" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="20" lineNum="29" parent="globals/AnalogSettingsViewTest" pc="268436681" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="20" lineNum="30" parent="globals/AnalogSettingsViewTest" pc="268436704" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="21" lineNum="31" parent="globals/display_functions" pc="268436761" symbol="draw_days_left"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="21" lineNum="32" parent="globals/display_functions" pc="268436765" symbol="draw_days_left"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="21" lineNum="33" parent="globals/display_functions" pc="268436778" symbol="draw_days_left"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="7" parent="globals/display_functions" pc="268436813" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="8" parent="globals/display_functions" pc="268436815" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="9" parent="globals/display_functions" pc="268436826" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="11" parent="globals/display_functions" pc="268436890" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="12" parent="globals/display_functions" pc="268436901" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="14" parent="globals/display_functions" pc="268436965" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="15" parent="globals/display_functions" pc="268436976" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="17" parent="globals/display_functions" pc="268437040" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="18" parent="globals/display_functions" pc="268437051" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="20" parent="globals/display_functions" pc="268437115" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="21" parent="globals/display_functions" pc="268437126" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="23" parent="globals/display_functions" pc="268437190" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="24" parent="globals/display_functions" pc="268437201" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="22" lineNum="27" parent="globals/display_functions" pc="268437265" symbol="draw_race_option"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="23" lineNum="36" parent="globals/display_functions" pc="268437327" symbol="draw_race_name"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="23" lineNum="37" parent="globals/display_functions" pc="268437331" symbol="draw_race_name"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="23" lineNum="38" parent="globals/display_functions" pc="268437338" symbol="draw_race_name"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="23" lineNum="39" parent="globals/display_functions" pc="268437360" symbol="draw_race_name"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="25" lineNum="14" parent="globals/utvv_watch_face_v2View" pc="268437395" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="28" lineNum="21" parent="globals/utvv_watch_face_v2View" pc="268437414" symbol="onLayout"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="28" lineNum="22" parent="globals/utvv_watch_face_v2View" pc="268437416" symbol="onLayout"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="30" lineNum="16" parent="globals/utvv_watch_face_v2View" pc="268437458" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="30" lineNum="17" parent="globals/utvv_watch_face_v2View" pc="268437460" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="32" parent="globals/utvv_watch_face_v2View" pc="268437479" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="34" parent="globals/utvv_watch_face_v2View" pc="268437483" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="35" parent="globals/utvv_watch_face_v2View" pc="268437507" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="36" parent="globals/utvv_watch_face_v2View" pc="268437520" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="38" parent="globals/utvv_watch_face_v2View" pc="268437533" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="40" parent="globals/utvv_watch_face_v2View" pc="268437561" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="32" lineNum="41" parent="globals/utvv_watch_face_v2View" pc="268437609" symbol="onUpdate"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="33" lineNum="10" parent="globals/AnalogDelegate" pc="268437658" symbol="&lt;init&gt;"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="12" parent="globals/AnalogDelegate" pc="268437677" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="13" parent="globals/AnalogDelegate" pc="268437679" symbol="initialize"/>
-<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="35" lineNum="15" parent="globals/AnalogDelegate" pc="268437698" symbol="onPowerBudgetExceeded"/>
-<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="36" lineNum="30" parent="globals/Rez/Layouts" pc="268437701" symbol="WatchFace"/>
-<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="36" lineNum="31" parent="globals/Rez/Layouts" pc="268437713" symbol="WatchFace"/>
-<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="36" lineNum="33" parent="globals/Rez/Layouts" pc="268437848" symbol="WatchFace"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\icons_dict.mc" id="4" lineNum="3" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\race_attributes.mc" id="5" lineNum="3" parent="globals" pc="268435954" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="9" lineNum="6" parent="globals/utvv_watch_face_v2App" pc="268436804" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="10" lineNum="156" parent="globals/DataFieldSelection" pc="268436823" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="11" lineNum="47" parent="globals/Menu2TestMenu2Delegate" pc="268436842" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="129" parent="globals/RaceSelection" pc="268436861" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="12" lineNum="132" parent="globals/RaceSelection" pc="268436879" symbol="&lt;init&gt;"/>
+<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="13" lineNum="7" parent="globals/Rez" pc="268436985" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="14" lineNum="20" parent="globals/AnalogSettingsViewTest" pc="268437004" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="15" lineNum="8" parent="globals/utvv_watch_face_v2View" pc="268437023" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="16" lineNum="10" parent="globals/AnalogDelegate" pc="268437042" symbol="&lt;init&gt;"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="17" lineNum="15" parent="globals/utvv_watch_face_v2App" pc="268437061" symbol="onStart"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="18" lineNum="29" parent="globals/utvv_watch_face_v2App" pc="268437064" symbol="getSettingsView"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="18" lineNum="30" parent="globals/utvv_watch_face_v2App" pc="268437066" symbol="getSettingsView"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="19" lineNum="25" parent="globals/utvv_watch_face_v2App" pc="268437141" symbol="getInitialView"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="19" lineNum="26" parent="globals/utvv_watch_face_v2App" pc="268437143" symbol="getInitialView"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="20" lineNum="9" parent="globals/utvv_watch_face_v2App" pc="268437218" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="20" lineNum="10" parent="globals/utvv_watch_face_v2App" pc="268437220" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2App.mc" id="21" lineNum="20" parent="globals/utvv_watch_face_v2App" pc="268437239" symbol="onStop"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="166" parent="globals/DataFieldSelection" pc="268437242" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="167" parent="globals/DataFieldSelection" pc="268437244" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="168" parent="globals/DataFieldSelection" pc="268437269" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="170" parent="globals/DataFieldSelection" pc="268437288" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="171" parent="globals/DataFieldSelection" pc="268437317" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="173" parent="globals/DataFieldSelection" pc="268437333" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="22" lineNum="174" parent="globals/DataFieldSelection" pc="268437359" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="23" lineNum="160" parent="globals/DataFieldSelection" pc="268437392" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="23" lineNum="161" parent="globals/DataFieldSelection" pc="268437394" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="23" lineNum="162" parent="globals/DataFieldSelection" pc="268437418" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="23" lineNum="163" parent="globals/DataFieldSelection" pc="268437443" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="177" parent="globals/DataFieldSelection" pc="268437469" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="178" parent="globals/DataFieldSelection" pc="268437473" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="179" parent="globals/DataFieldSelection" pc="268437495" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="180" parent="globals/DataFieldSelection" pc="268437507" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="181" parent="globals/DataFieldSelection" pc="268437529" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="182" parent="globals/DataFieldSelection" pc="268437572" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="24" lineNum="183" parent="globals/DataFieldSelection" pc="268437606" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="25" lineNum="123" parent="globals/Menu2TestMenu2Delegate" pc="268437662" symbol="onBack"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="25" lineNum="124" parent="globals/Menu2TestMenu2Delegate" pc="268437664" symbol="onBack"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="26" lineNum="49" parent="globals/Menu2TestMenu2Delegate" pc="268437686" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="26" lineNum="50" parent="globals/Menu2TestMenu2Delegate" pc="268437688" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="53" parent="globals/Menu2TestMenu2Delegate" pc="268437707" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="55" parent="globals/Menu2TestMenu2Delegate" pc="268437711" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="57" parent="globals/Menu2TestMenu2Delegate" pc="268437739" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="58" parent="globals/Menu2TestMenu2Delegate" pc="268437786" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="59" parent="globals/Menu2TestMenu2Delegate" pc="268437814" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="60" parent="globals/Menu2TestMenu2Delegate" pc="268437826" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="61" parent="globals/Menu2TestMenu2Delegate" pc="268437906" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="62" parent="globals/Menu2TestMenu2Delegate" pc="268437956" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="64" parent="globals/Menu2TestMenu2Delegate" pc="268438004" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="65" parent="globals/Menu2TestMenu2Delegate" pc="268438032" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="67" parent="globals/Menu2TestMenu2Delegate" pc="268438067" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="68" parent="globals/Menu2TestMenu2Delegate" pc="268438095" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="69" parent="globals/Menu2TestMenu2Delegate" pc="268438116" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="72" parent="globals/Menu2TestMenu2Delegate" pc="268438140" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="74" parent="globals/Menu2TestMenu2Delegate" pc="268438168" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="75" parent="globals/Menu2TestMenu2Delegate" pc="268438215" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="76" parent="globals/Menu2TestMenu2Delegate" pc="268438248" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="77" parent="globals/Menu2TestMenu2Delegate" pc="268438281" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="78" parent="globals/Menu2TestMenu2Delegate" pc="268438314" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="79" parent="globals/Menu2TestMenu2Delegate" pc="268438347" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="80" parent="globals/Menu2TestMenu2Delegate" pc="268438380" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="82" parent="globals/Menu2TestMenu2Delegate" pc="268438413" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="83" parent="globals/Menu2TestMenu2Delegate" pc="268438430" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="84" parent="globals/Menu2TestMenu2Delegate" pc="268438447" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="85" parent="globals/Menu2TestMenu2Delegate" pc="268438464" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="86" parent="globals/Menu2TestMenu2Delegate" pc="268438481" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="87" parent="globals/Menu2TestMenu2Delegate" pc="268438498" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="90" parent="globals/Menu2TestMenu2Delegate" pc="268438515" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="91" parent="globals/Menu2TestMenu2Delegate" pc="268438600" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="92" parent="globals/Menu2TestMenu2Delegate" pc="268438685" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="93" parent="globals/Menu2TestMenu2Delegate" pc="268438770" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="94" parent="globals/Menu2TestMenu2Delegate" pc="268438855" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="95" parent="globals/Menu2TestMenu2Delegate" pc="268438940" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="97" parent="globals/Menu2TestMenu2Delegate" pc="268439025" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="99" parent="globals/Menu2TestMenu2Delegate" pc="268439073" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="100" parent="globals/Menu2TestMenu2Delegate" pc="268439101" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="102" parent="globals/Menu2TestMenu2Delegate" pc="268439141" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="103" parent="globals/Menu2TestMenu2Delegate" pc="268439169" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="105" parent="globals/Menu2TestMenu2Delegate" pc="268439209" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="106" parent="globals/Menu2TestMenu2Delegate" pc="268439237" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="108" parent="globals/Menu2TestMenu2Delegate" pc="268439277" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="109" parent="globals/Menu2TestMenu2Delegate" pc="268439305" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="111" parent="globals/Menu2TestMenu2Delegate" pc="268439345" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="112" parent="globals/Menu2TestMenu2Delegate" pc="268439373" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="114" parent="globals/Menu2TestMenu2Delegate" pc="268439413" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="115" parent="globals/Menu2TestMenu2Delegate" pc="268439441" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="27" lineNum="118" parent="globals/Menu2TestMenu2Delegate" pc="268439481" symbol="onSelect"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="140" parent="globals/RaceSelection" pc="268439498" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="141" parent="globals/RaceSelection" pc="268439500" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="142" parent="globals/RaceSelection" pc="268439528" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="144" parent="globals/RaceSelection" pc="268439547" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="145" parent="globals/RaceSelection" pc="268439576" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="147" parent="globals/RaceSelection" pc="268439592" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="28" lineNum="148" parent="globals/RaceSelection" pc="268439621" symbol="nextState"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="29" lineNum="134" parent="globals/RaceSelection" pc="268439639" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="29" lineNum="135" parent="globals/RaceSelection" pc="268439641" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="29" lineNum="136" parent="globals/RaceSelection" pc="268439665" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="29" lineNum="137" parent="globals/RaceSelection" pc="268439681" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="30" lineNum="151" parent="globals/RaceSelection" pc="268439710" symbol="draw"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="31" lineNum="31" parent="globals/AnalogSettingsViewTest" pc="268439713" symbol="onBack"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="31" lineNum="32" parent="globals/AnalogSettingsViewTest" pc="268439715" symbol="onBack"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="31" lineNum="33" parent="globals/AnalogSettingsViewTest" pc="268439736" symbol="onBack"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="32" lineNum="40" parent="globals/AnalogSettingsViewTest" pc="268439739" symbol="onWrap"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="32" lineNum="41" parent="globals/AnalogSettingsViewTest" pc="268439741" symbol="onWrap"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="33" lineNum="36" parent="globals/AnalogSettingsViewTest" pc="268439744" symbol="onDone"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="33" lineNum="37" parent="globals/AnalogSettingsViewTest" pc="268439746" symbol="onDone"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="22" parent="globals/AnalogSettingsViewTest" pc="268439768" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="23" parent="globals/AnalogSettingsViewTest" pc="268439770" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="26" parent="globals/AnalogSettingsViewTest" pc="268439789" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="27" parent="globals/AnalogSettingsViewTest" pc="268439812" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="34" lineNum="28" parent="globals/AnalogSettingsViewTest" pc="268439868" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="58" parent="globals/display_functions" pc="268439925" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="61" parent="globals/display_functions" pc="268439929" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="69" parent="globals/display_functions" pc="268440013" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="70" parent="globals/display_functions" pc="268440032" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="71" parent="globals/display_functions" pc="268440049" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="72" parent="globals/display_functions" pc="268440073" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="73" parent="globals/display_functions" pc="268440083" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="76" parent="globals/display_functions" pc="268440093" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="78" parent="globals/display_functions" pc="268440131" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="79" parent="globals/display_functions" pc="268440142" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="82" parent="globals/display_functions" pc="268440183" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="35" lineNum="83" parent="globals/display_functions" pc="268440205" symbol="draw_remaining_time"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="36" lineNum="202" parent="globals/display_functions" pc="268440240" symbol="draw_date"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="36" lineNum="203" parent="globals/display_functions" pc="268440244" symbol="draw_date"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="36" lineNum="204" parent="globals/display_functions" pc="268440261" symbol="draw_date"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="36" lineNum="205" parent="globals/display_functions" pc="268440285" symbol="draw_date"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="36" lineNum="206" parent="globals/display_functions" pc="268440345" symbol="draw_date"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="36" lineNum="207" parent="globals/display_functions" pc="268440367" symbol="draw_date"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="33" parent="globals/display_functions" pc="268440402" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="34" parent="globals/display_functions" pc="268440406" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="35" parent="globals/display_functions" pc="268440423" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="36" parent="globals/display_functions" pc="268440447" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="37" parent="globals/display_functions" pc="268440471" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="40" parent="globals/display_functions" pc="268440490" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="43" parent="globals/display_functions" pc="268440531" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="44" parent="globals/display_functions" pc="268440553" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="50" parent="globals/display_functions" pc="268440584" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="37" lineNum="51" parent="globals/display_functions" pc="268440603" symbol="draw_hour"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="38" lineNum="17" parent="globals/display_functions" pc="268440641" symbol="draw_race_option"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="38" lineNum="18" parent="globals/display_functions" pc="268440643" symbol="draw_race_option"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="39" lineNum="21" parent="globals/display_functions" pc="268440698" symbol="draw_race_name"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="39" lineNum="22" parent="globals/display_functions" pc="268440702" symbol="draw_race_name"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="39" lineNum="23" parent="globals/display_functions" pc="268440721" symbol="draw_race_name"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="39" lineNum="25" parent="globals/display_functions" pc="268440762" symbol="draw_race_name"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="39" lineNum="26" parent="globals/display_functions" pc="268440784" symbol="draw_race_name"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="102" parent="globals/display_functions" pc="268440816" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="104" parent="globals/display_functions" pc="268440820" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="106" parent="globals/display_functions" pc="268440827" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="107" parent="globals/display_functions" pc="268440844" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="110" parent="globals/display_functions" pc="268440864" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="113" parent="globals/display_functions" pc="268440884" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="116" parent="globals/display_functions" pc="268440904" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="119" parent="globals/display_functions" pc="268440924" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="122" parent="globals/display_functions" pc="268440944" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="125" parent="globals/display_functions" pc="268440964" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="129" parent="globals/display_functions" pc="268440984" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="144" parent="globals/display_functions" pc="268441004" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="157" parent="globals/display_functions" pc="268441024" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="169" parent="globals/display_functions" pc="268441044" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="172" parent="globals/display_functions" pc="268441064" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="175" parent="globals/display_functions" pc="268441084" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="108" parent="globals/display_functions" pc="268441087" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="109" parent="globals/display_functions" pc="268441146" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="111" parent="globals/display_functions" pc="268441149" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="112" parent="globals/display_functions" pc="268441174" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="114" parent="globals/display_functions" pc="268441177" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="115" parent="globals/display_functions" pc="268441202" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="117" parent="globals/display_functions" pc="268441205" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="118" parent="globals/display_functions" pc="268441230" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="120" parent="globals/display_functions" pc="268441233" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="121" parent="globals/display_functions" pc="268441256" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="123" parent="globals/display_functions" pc="268441259" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="124" parent="globals/display_functions" pc="268441284" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="127" parent="globals/display_functions" pc="268441287" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="128" parent="globals/display_functions" pc="268441324" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="130" parent="globals/display_functions" pc="268441327" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="131" parent="globals/display_functions" pc="268441350" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="132" parent="globals/display_functions" pc="268441357" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="134" parent="globals/display_functions" pc="268441380" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="135" parent="globals/display_functions" pc="268441391" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="138" parent="globals/display_functions" pc="268441401" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="139" parent="globals/display_functions" pc="268441408" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="141" parent="globals/display_functions" pc="268441430" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="143" parent="globals/display_functions" pc="268441478" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="145" parent="globals/display_functions" pc="268441481" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="146" parent="globals/display_functions" pc="268441504" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="147" parent="globals/display_functions" pc="268441527" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="148" parent="globals/display_functions" pc="268441541" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="149" parent="globals/display_functions" pc="268441565" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="150" parent="globals/display_functions" pc="268441612" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="152" parent="globals/display_functions" pc="268441625" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="156" parent="globals/display_functions" pc="268441635" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="158" parent="globals/display_functions" pc="268441638" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="159" parent="globals/display_functions" pc="268441661" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="160" parent="globals/display_functions" pc="268441684" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="161" parent="globals/display_functions" pc="268441698" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="162" parent="globals/display_functions" pc="268441722" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="163" parent="globals/display_functions" pc="268441769" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="165" parent="globals/display_functions" pc="268441782" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="168" parent="globals/display_functions" pc="268441792" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="170" parent="globals/display_functions" pc="268441795" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="171" parent="globals/display_functions" pc="268441820" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="173" parent="globals/display_functions" pc="268441823" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="174" parent="globals/display_functions" pc="268441846" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="176" parent="globals/display_functions" pc="268441849" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="177" parent="globals/display_functions" pc="268441856" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="180" parent="globals/display_functions" pc="268441860" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="181" parent="globals/display_functions" pc="268441901" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="183" parent="globals/display_functions" pc="268441923" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="189" parent="globals/display_functions" pc="268441969" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="190" parent="globals/display_functions" pc="268441975" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="192" parent="globals/display_functions" pc="268441985" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="40" lineNum="193" parent="globals/display_functions" pc="268442007" symbol="draw_datapoint"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="90" parent="globals/display_functions" pc="268442082" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="91" parent="globals/display_functions" pc="268442086" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="92" parent="globals/display_functions" pc="268442105" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="93" parent="globals/display_functions" pc="268442124" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="95" parent="globals/display_functions" pc="268442143" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="96" parent="globals/display_functions" pc="268442162" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="42" lineNum="97" parent="globals/display_functions" pc="268442179" symbol="draw_coloured_edge"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="214" parent="globals/display_functions" pc="268442198" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="216" parent="globals/display_functions" pc="268442202" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="219" parent="globals/display_functions" pc="268442225" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="221" parent="globals/display_functions" pc="268442250" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="222" parent="globals/display_functions" pc="268442273" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="225" parent="globals/display_functions" pc="268442316" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="226" parent="globals/display_functions" pc="268442339" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="227" parent="globals/display_functions" pc="268442362" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="228" parent="globals/display_functions" pc="268442376" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="229" parent="globals/display_functions" pc="268442400" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="230" parent="globals/display_functions" pc="268442447" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="232" parent="globals/display_functions" pc="268442460" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="234" parent="globals/display_functions" pc="268442467" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="235" parent="globals/display_functions" pc="268442491" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="236" parent="globals/display_functions" pc="268442538" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="238" parent="globals/display_functions" pc="268442551" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="241" parent="globals/display_functions" pc="268442561" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="242" parent="globals/display_functions" pc="268442568" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="247" parent="globals/display_functions" pc="268442575" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="248" parent="globals/display_functions" pc="268442609" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="249" parent="globals/display_functions" pc="268442620" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="250" parent="globals/display_functions" pc="268442657" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="251" parent="globals/display_functions" pc="268442679" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="252" parent="globals/display_functions" pc="268442695" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="254" parent="globals/display_functions" pc="268442732" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="256" parent="globals/display_functions" pc="268442769" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="257" parent="globals/display_functions" pc="268442813" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="258" parent="globals/display_functions" pc="268442829" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="260" parent="globals/display_functions" pc="268442866" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="262" parent="globals/display_functions" pc="268442903" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="263" parent="globals/display_functions" pc="268442925" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="264" parent="globals/display_functions" pc="268442941" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="266" parent="globals/display_functions" pc="268442978" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="268" parent="globals/display_functions" pc="268443015" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="269" parent="globals/display_functions" pc="268443125" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="270" parent="globals/display_functions" pc="268443141" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="272" parent="globals/display_functions" pc="268443178" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="274" parent="globals/display_functions" pc="268443215" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="275" parent="globals/display_functions" pc="268443314" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="276" parent="globals/display_functions" pc="268443330" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="278" parent="globals/display_functions" pc="268443367" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="280" parent="globals/display_functions" pc="268443404" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="281" parent="globals/display_functions" pc="268443481" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="282" parent="globals/display_functions" pc="268443497" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="284" parent="globals/display_functions" pc="268443534" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="286" parent="globals/display_functions" pc="268443571" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="287" parent="globals/display_functions" pc="268443659" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="288" parent="globals/display_functions" pc="268443675" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="290" parent="globals/display_functions" pc="268443712" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="292" parent="globals/display_functions" pc="268443749" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="293" parent="globals/display_functions" pc="268443859" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="294" parent="globals/display_functions" pc="268443875" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="296" parent="globals/display_functions" pc="268443912" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="299" parent="globals/display_functions" pc="268443949" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\display_functions.mc" id="43" lineNum="301" parent="globals/display_functions" pc="268443955" symbol="drawWeatherIcon"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="46" lineNum="23" parent="globals/utvv_watch_face_v2View" pc="268443959" symbol="onLayout"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="46" lineNum="24" parent="globals/utvv_watch_face_v2View" pc="268443961" symbol="onLayout"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="10" parent="globals/utvv_watch_face_v2View" pc="268444003" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="11" parent="globals/utvv_watch_face_v2View" pc="268444005" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="13" parent="globals/utvv_watch_face_v2View" pc="268444023" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="13" parent="globals/utvv_watch_face_v2View" pc="268444047" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="14" parent="globals/utvv_watch_face_v2View" pc="268444076" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="14" parent="globals/utvv_watch_face_v2View" pc="268444100" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="15" parent="globals/utvv_watch_face_v2View" pc="268444129" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="15" parent="globals/utvv_watch_face_v2View" pc="268444153" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="16" parent="globals/utvv_watch_face_v2View" pc="268444182" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="16" parent="globals/utvv_watch_face_v2View" pc="268444206" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="17" parent="globals/utvv_watch_face_v2View" pc="268444235" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="17" parent="globals/utvv_watch_face_v2View" pc="268444259" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="18" parent="globals/utvv_watch_face_v2View" pc="268444288" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="18" parent="globals/utvv_watch_face_v2View" pc="268444312" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="19" parent="globals/utvv_watch_face_v2View" pc="268444341" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="48" lineNum="19" parent="globals/utvv_watch_face_v2View" pc="268444365" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="34" parent="globals/utvv_watch_face_v2View" pc="268444395" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="35" parent="globals/utvv_watch_face_v2View" pc="268444399" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="36" parent="globals/utvv_watch_face_v2View" pc="268444423" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="37" parent="globals/utvv_watch_face_v2View" pc="268444436" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="38" parent="globals/utvv_watch_face_v2View" pc="268444449" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="42" parent="globals/utvv_watch_face_v2View" pc="268444471" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="43" parent="globals/utvv_watch_face_v2View" pc="268444493" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="44" parent="globals/utvv_watch_face_v2View" pc="268444515" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="45" parent="globals/utvv_watch_face_v2View" pc="268444537" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="46" parent="globals/utvv_watch_face_v2View" pc="268444559" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="47" parent="globals/utvv_watch_face_v2View" pc="268444581" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="50" parent="globals/utvv_watch_face_v2View" pc="268444603" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="52" parent="globals/utvv_watch_face_v2View" pc="268444631" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="53" parent="globals/utvv_watch_face_v2View" pc="268444647" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="54" parent="globals/utvv_watch_face_v2View" pc="268444677" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="55" parent="globals/utvv_watch_face_v2View" pc="268444707" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="56" parent="globals/utvv_watch_face_v2View" pc="268444737" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="57" parent="globals/utvv_watch_face_v2View" pc="268444767" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="59" parent="globals/utvv_watch_face_v2View" pc="268444795" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="62" parent="globals/utvv_watch_face_v2View" pc="268444828" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="63" parent="globals/utvv_watch_face_v2View" pc="268444858" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\utvv_watch_face_v2View.mc" id="50" lineNum="64" parent="globals/utvv_watch_face_v2View" pc="268444888" symbol="onUpdate"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="51" lineNum="12" parent="globals/AnalogDelegate" pc="268444919" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="51" lineNum="13" parent="globals/AnalogDelegate" pc="268444921" symbol="initialize"/>
+<entry filename="D:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\source\\Menu.mc" id="52" lineNum="15" parent="globals/AnalogDelegate" pc="268444940" symbol="onPowerBudgetExceeded"/>
+<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="53" lineNum="38" parent="globals/Rez/Layouts" pc="268444943" symbol="WatchFace"/>
+<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="53" lineNum="39" parent="globals/Rez/Layouts" pc="268444955" symbol="WatchFace"/>
+<entry filename="d:\\Dokumenti\\C\\Garming_Watch_Faces\\utvv_watch_face_v2\\bin\\gen\\006-B2819-00\\source\\Rez.mcgen" id="53" lineNum="41" parent="globals/Rez/Layouts" pc="268445090" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="9" object="true" symbol="AnalogDelegate"/>
+<entry id="9" object="true" symbol="DataFieldSelection"/>
+<entry id="7" object="true" symbol="AnalogDelegate"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry id="7" module="true" symbol="globals/Rez/Menus"/>
 <entry id="8390437" symbol="alignment"/>
-<entry field="true" id="33" symbol="legion_logo"/>
-<entry field="true" id="31" symbol="gladiator_logo"/>
+<entry field="true" id="47" symbol="bigdigi"/>
+<entry field="true" id="38" symbol="legion_logo"/>
+<entry field="true" id="36" symbol="gladiator_logo"/>
 <entry id="8390098" method="true" symbol="onPowerBudgetExceeded"/>
-<entry field="true" id="32" symbol="heartIcon"/>
-<entry field="true" id="25" symbol="asterix_logo"/>
+<entry field="true" id="37" symbol="heartIcon"/>
+<entry field="true" id="30" symbol="asterix_logo"/>
+<entry field="true" id="8388938" symbol="month"/>
 <entry id="8390424" module="true" symbol="Storage"/>
-<entry field="true" id="18" symbol="states"/>
+<entry field="true" id="19" symbol="states"/>
+<entry field="true" id="43" symbol="utvv_emperor"/>
+<entry field="true" id="49" symbol="midbold"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry id="8388647" module="true" symbol="UserProfile"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="35" symbol="utvvlogo"/>
-<entry id="10" object="true" symbol="AnalogSettingsViewTest"/>
-<entry field="true" id="36" symbol="AppName"/>
-<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8" object="true" symbol="AnalogSettingsViewTest"/>
+<entry field="true" id="45" symbol="utvv_legion"/>
+<entry field="true" id="52" symbol="AppName"/>
+<entry field="true" id="51" symbol="utvvfont"/>
+<entry id="28" method="true" symbol="draw_remaining_time"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389081" method="true" symbol="onBack"/>
+<entry field="true" id="14" symbol="raceAttributes"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
@@ -131,212 +366,379 @@
 <entry id="8391489" module="true" symbol="Weather"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="27" symbol="blthIcon"/>
-<entry id="20" module="true" symbol="Menus"/>
-<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-<entry id="23" method="true" symbol="draw_race_option"/>
-<entry field="true" id="28" symbol="castra_logo"/>
+<entry field="true" id="32" symbol="blthIcon"/>
+<entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="27" method="true" symbol="draw_race_option"/>
+<entry field="true" id="33" symbol="castra_logo"/>
+<entry id="54" symbol="colour"/>
+<entry field="true" id="50" symbol="middigi"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
+<entry id="56" symbol="race_hour"/>
+<entry field="true" id="48" symbol="iconfont"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="11" object="true" symbol="Menu2TestMenu2Delegate"/>
-<entry id="15" object="true" symbol="utvv_watch_face_v2View"/>
-<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="10" object="true" symbol="Menu2TestMenu2Delegate"/>
+<entry id="23" method="true" symbol="draw_datapoint"/>
+<entry id="53" symbol="iconNumber"/>
+<entry id="16" object="true" symbol="utvv_watch_face_v2View"/>
+<entry id="8391710" symbol="bitmap"/>
+<entry field="true" id="46" symbol="WeatherFont"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="30" symbol="emperor_logo"/>
-<entry id="13" object="true" symbol="display_functions"/>
+<entry id="24" method="true" symbol="draw_date"/>
+<entry id="55" symbol="race_day"/>
+<entry field="true" id="35" symbol="emperor_logo"/>
+<entry field="true" id="44" symbol="utvv_gladiator"/>
+<entry id="12" object="true" symbol="display_functions"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry field="true" id="40" symbol="utvv_asterix"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="8388720" symbol="hour"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="24" symbol="LauncherIcon"/>
+<entry field="true" id="29" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="26" symbol="batteryIcon"/>
+<entry id="22" method="true" symbol="draw_coloured_edge"/>
+<entry field="true" id="31" symbol="batteryIcon"/>
+<entry field="true" id="41" symbol="utvv_castra"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="21" method="true" symbol="drawWeatherIcon"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="29" symbol="centurion_logo"/>
+<entry field="true" id="34" symbol="centurion_logo"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="16" symbol="mStates"/>
+<entry field="true" id="42" symbol="utvv_centurion"/>
+<entry field="true" id="8388892" symbol="name"/>
+<entry field="true" id="17" symbol="mStates"/>
+<entry id="57" symbol="utvv_bitmap"/>
 <entry id="8391703" method="true" symbol="getSettingsView"/>
 <entry id="8390749" method="true" symbol="onWrap"/>
 <entry field="true" id="8388889" symbol="mIndex"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
-<entry id="21" method="true" symbol="draw_days_left"/>
-<entry id="22" method="true" symbol="draw_race_name"/>
-<entry field="true" id="34" symbol="stepsIcon"/>
-<entry id="19" module="true" symbol="Layouts"/>
+<entry field="true" id="8388939" symbol="day"/>
+<entry id="26" method="true" symbol="draw_race_name"/>
+<entry field="true" id="8388940" symbol="year"/>
+<entry field="true" id="39" symbol="stepsIcon"/>
+<entry id="20" module="true" symbol="Layouts"/>
+<entry field="true" id="13" symbol="iconsDict"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="25" method="true" symbol="draw_hour"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8389642" symbol="title"/>
-<entry id="14" object="true" symbol="utvv_watch_face_v2App"/>
-<entry id="17" method="true" symbol="nextState"/>
-<entry id="12" object="true" symbol="RaceSelection"/>
+<entry id="15" object="true" symbol="utvv_watch_face_v2App"/>
+<entry id="18" method="true" symbol="nextState"/>
+<entry id="11" object="true" symbol="RaceSelection"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268436173" name="item" stackId="1" startPc="268435724"/>
-<entry endPc="268436017" name="raceMenu" stackId="2" startPc="268435756"/>
-<entry endPc="268436017" name="RaceDrawable" stackId="3" startPc="268435756"/>
-<entry arg="true" endPc="268436581" name="key" stackId="1" startPc="268436577"/>
-<entry arg="true" endPc="268436812" name="dc" stackId="1" startPc="268436761"/>
-<entry arg="true" endPc="268436812" name="days_left" stackId="2" startPc="268436761"/>
-<entry arg="true" endPc="268436812" name="screenX" stackId="3" startPc="268436761"/>
-<entry arg="true" endPc="268436812" name="screenY" stackId="4" startPc="268436761"/>
-<entry arg="true" endPc="268436812" name="screenHeight" stackId="5" startPc="268436761"/>
-<entry arg="true" endPc="268436812" name="screenWidth" stackId="6" startPc="268436761"/>
-<entry endPc="268436811" name="days_left_str" stackId="7" startPc="268436765"/>
-<entry arg="true" endPc="268437326" name="dc" stackId="1" startPc="268436813"/>
-<entry arg="true" endPc="268437326" name="race_option" stackId="2" startPc="268436813"/>
-<entry arg="true" endPc="268437326" name="screenX" stackId="3" startPc="268436813"/>
-<entry arg="true" endPc="268437326" name="screenY" stackId="4" startPc="268436813"/>
-<entry arg="true" endPc="268437326" name="screenHeight" stackId="5" startPc="268436813"/>
-<entry arg="true" endPc="268437326" name="screenWidth" stackId="6" startPc="268436813"/>
-<entry arg="true" endPc="268437394" name="dc" stackId="1" startPc="268437327"/>
-<entry arg="true" endPc="268437394" name="race_option" stackId="2" startPc="268437327"/>
-<entry arg="true" endPc="268437394" name="screenX" stackId="3" startPc="268437327"/>
-<entry arg="true" endPc="268437394" name="screenY" stackId="4" startPc="268437327"/>
-<entry arg="true" endPc="268437394" name="screenHeight" stackId="5" startPc="268437327"/>
-<entry arg="true" endPc="268437394" name="screenWidth" stackId="6" startPc="268437327"/>
-<entry endPc="268437393" name="dateStr" stackId="7" startPc="268437331"/>
-<entry arg="true" endPc="268437457" name="dc" stackId="1" startPc="268437414"/>
-<entry arg="true" endPc="268437657" name="dc" stackId="1" startPc="268437479"/>
-<entry endPc="268437656" name="screenHeight" stackId="2" startPc="268437483"/>
-<entry endPc="268437656" name="screenWidth" stackId="3" startPc="268437483"/>
-<entry endPc="268437656" name="DIS" stackId="4" startPc="268437483"/>
-<entry arg="true" endPc="268437864" name="dc" stackId="1" startPc="268437701"/>
-<entry endPc="268437864" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437713"/>
+<entry arg="true" endPc="268437391" name="storageId" stackId="1" startPc="268437242"/>
+<entry arg="true" endPc="268437468" name="storageId" stackId="1" startPc="268437392"/>
+<entry arg="true" endPc="268437661" name="dc" stackId="1" startPc="268437469"/>
+<entry endPc="268437660" name="iconsFont" stackId="2" startPc="268437473"/>
+<entry endPc="268437660" name="icon" stackId="3" startPc="268437473"/>
+<entry arg="true" endPc="268439497" name="item" stackId="1" startPc="268437707"/>
+<entry endPc="268438000" name="raceMenu" stackId="2" startPc="268437739"/>
+<entry endPc="268438000" name="RaceDrawable" stackId="3" startPc="268437739"/>
+<entry endPc="268439069" name="dataMenu" stackId="4" startPc="268438168"/>
+<entry endPc="268439069" name="drawableTopLeft" stackId="5" startPc="268438168"/>
+<entry endPc="268439069" name="drawableTopRight" stackId="6" startPc="268438168"/>
+<entry endPc="268439069" name="drawableMiddleLeft" stackId="7" startPc="268438168"/>
+<entry endPc="268439069" name="drawableMiddleRight" stackId="8" startPc="268438168"/>
+<entry endPc="268439069" name="drawableBottomLeft" stackId="9" startPc="268438168"/>
+<entry endPc="268439069" name="drawableBottomRight" stackId="10" startPc="268438168"/>
+<entry arg="true" endPc="268439743" name="key" stackId="1" startPc="268439739"/>
+<entry arg="true" endPc="268440239" name="dc" stackId="1" startPc="268439925"/>
+<entry arg="true" endPc="268440239" name="raceOption" stackId="2" startPc="268439925"/>
+<entry arg="true" endPc="268440239" name="screenX" stackId="3" startPc="268439925"/>
+<entry arg="true" endPc="268440239" name="screenY" stackId="4" startPc="268439925"/>
+<entry arg="true" endPc="268440239" name="screenHeight" stackId="5" startPc="268439925"/>
+<entry arg="true" endPc="268440239" name="screenWidth" stackId="6" startPc="268439925"/>
+<entry endPc="268440238" name="futureOptions" stackId="7" startPc="268439929"/>
+<entry endPc="268440238" name="futureMoment" stackId="8" startPc="268439929"/>
+<entry endPc="268440238" name="currentDateTime" stackId="9" startPc="268439929"/>
+<entry endPc="268440238" name="duration_sec" stackId="10" startPc="268439929"/>
+<entry endPc="268440238" name="duration_hour" stackId="11" startPc="268439929"/>
+<entry endPc="268440238" name="duration_days" stackId="12" startPc="268439929"/>
+<entry endPc="268440238" name="time_left_string" stackId="13" startPc="268439929"/>
+<entry arg="true" endPc="268440401" name="dc" stackId="1" startPc="268440240"/>
+<entry arg="true" endPc="268440401" name="screenX" stackId="2" startPc="268440240"/>
+<entry arg="true" endPc="268440401" name="screenY" stackId="3" startPc="268440240"/>
+<entry arg="true" endPc="268440401" name="screenHeight" stackId="4" startPc="268440240"/>
+<entry arg="true" endPc="268440401" name="screenWidth" stackId="5" startPc="268440240"/>
+<entry endPc="268440400" name="now" stackId="6" startPc="268440244"/>
+<entry endPc="268440400" name="info" stackId="7" startPc="268440244"/>
+<entry endPc="268440400" name="dateStr" stackId="8" startPc="268440244"/>
+<entry arg="true" endPc="268440640" name="dc" stackId="1" startPc="268440402"/>
+<entry arg="true" endPc="268440640" name="raceOption" stackId="2" startPc="268440402"/>
+<entry arg="true" endPc="268440640" name="screenX" stackId="3" startPc="268440402"/>
+<entry arg="true" endPc="268440640" name="screenY" stackId="4" startPc="268440402"/>
+<entry arg="true" endPc="268440640" name="screenHeight" stackId="5" startPc="268440402"/>
+<entry arg="true" endPc="268440640" name="screenWidth" stackId="6" startPc="268440402"/>
+<entry endPc="268440639" name="clockTime" stackId="7" startPc="268440406"/>
+<entry endPc="268440639" name="hours" stackId="8" startPc="268440406"/>
+<entry endPc="268440639" name="minutes" stackId="9" startPc="268440406"/>
+<entry endPc="268440639" name="minColour" stackId="10" startPc="268440406"/>
+<entry endPc="268440639" name="digitalFont" stackId="11" startPc="268440406"/>
+<entry arg="true" endPc="268440697" name="dc" stackId="1" startPc="268440641"/>
+<entry arg="true" endPc="268440697" name="raceOption" stackId="2" startPc="268440641"/>
+<entry arg="true" endPc="268440697" name="screenX" stackId="3" startPc="268440641"/>
+<entry arg="true" endPc="268440697" name="screenY" stackId="4" startPc="268440641"/>
+<entry arg="true" endPc="268440697" name="screenHeight" stackId="5" startPc="268440641"/>
+<entry arg="true" endPc="268440697" name="screenWidth" stackId="6" startPc="268440641"/>
+<entry arg="true" endPc="268440815" name="dc" stackId="1" startPc="268440698"/>
+<entry arg="true" endPc="268440815" name="raceOption" stackId="2" startPc="268440698"/>
+<entry arg="true" endPc="268440815" name="screenX" stackId="3" startPc="268440698"/>
+<entry arg="true" endPc="268440815" name="screenY" stackId="4" startPc="268440698"/>
+<entry arg="true" endPc="268440815" name="screenHeight" stackId="5" startPc="268440698"/>
+<entry arg="true" endPc="268440815" name="screenWidth" stackId="6" startPc="268440698"/>
+<entry endPc="268440814" name="raceStr" stackId="7" startPc="268440702"/>
+<entry endPc="268440814" name="utvvFont" stackId="8" startPc="268440702"/>
+<entry arg="true" endPc="268442081" name="dc" stackId="1" startPc="268440816"/>
+<entry arg="true" endPc="268442081" name="dataOption" stackId="2" startPc="268440816"/>
+<entry arg="true" endPc="268442081" name="screenX" stackId="3" startPc="268440816"/>
+<entry arg="true" endPc="268442081" name="screenY" stackId="4" startPc="268440816"/>
+<entry arg="true" endPc="268442081" name="screenHeight" stackId="5" startPc="268440816"/>
+<entry arg="true" endPc="268442081" name="screenWidth" stackId="6" startPc="268440816"/>
+<entry endPc="268442080" name="position" stackId="7" startPc="268440820"/>
+<entry endPc="268442080" name="today" stackId="8" startPc="268440820"/>
+<entry endPc="268442080" name="dataString" stackId="9" startPc="268440820"/>
+<entry endPc="268441858" name="temp" stackId="10" startPc="268440844"/>
+<entry endPc="268441858" name="unit" stackId="11" startPc="268440844"/>
+<entry endPc="268441858" name="TempMetric" stackId="12" startPc="268440844"/>
+<entry endPc="268441621" name="sunRise" stackId="13" startPc="268441565"/>
+<entry endPc="268441778" name="sunSet" stackId="14" startPc="268441722"/>
+<entry endPc="268442080" name="iconFont" stackId="15" startPc="268440820"/>
+<entry arg="true" endPc="268442197" name="dc" stackId="1" startPc="268442082"/>
+<entry arg="true" endPc="268442197" name="raceOption" stackId="2" startPc="268442082"/>
+<entry endPc="268442196" name="centerX" stackId="3" startPc="268442086"/>
+<entry endPc="268442196" name="centerY" stackId="4" startPc="268442086"/>
+<entry endPc="268442196" name="colour" stackId="5" startPc="268442086"/>
+<entry arg="true" endPc="268443958" name="dc" stackId="1" startPc="268442198"/>
+<entry arg="true" endPc="268443958" name="raceOption" stackId="2" startPc="268442198"/>
+<entry arg="true" endPc="268443958" name="screenX" stackId="3" startPc="268442198"/>
+<entry arg="true" endPc="268443958" name="screenY" stackId="4" startPc="268442198"/>
+<entry arg="true" endPc="268443958" name="screenHeight" stackId="5" startPc="268442198"/>
+<entry arg="true" endPc="268443958" name="screenWidth" stackId="6" startPc="268442198"/>
+<entry endPc="268443957" name="cond" stackId="7" startPc="268442202"/>
+<entry endPc="268443957" name="sunset" stackId="8" startPc="268442202"/>
+<entry endPc="268443957" name="sunrise" stackId="9" startPc="268442202"/>
+<entry endPc="268443951" name="clockTime" stackId="10" startPc="268442250"/>
+<entry endPc="268443951" name="WeatherFont" stackId="11" startPc="268442250"/>
+<entry endPc="268443951" name="position" stackId="12" startPc="268442250"/>
+<entry endPc="268443951" name="today" stackId="13" startPc="268442250"/>
+<entry arg="true" endPc="268444002" name="dc" stackId="1" startPc="268443959"/>
+<entry arg="true" endPc="268444918" name="dc" stackId="1" startPc="268444395"/>
+<entry endPc="268444917" name="screenHeight" stackId="2" startPc="268444399"/>
+<entry endPc="268444917" name="screenWidth" stackId="3" startPc="268444399"/>
+<entry endPc="268444917" name="raceOption" stackId="4" startPc="268444399"/>
+<entry endPc="268444917" name="dataTopLeft" stackId="5" startPc="268444399"/>
+<entry endPc="268444917" name="dataTopRight" stackId="6" startPc="268444399"/>
+<entry endPc="268444917" name="dataMiddleLeft" stackId="7" startPc="268444399"/>
+<entry endPc="268444917" name="dataMiddleRight" stackId="8" startPc="268444399"/>
+<entry endPc="268444917" name="dataBottomLeft" stackId="9" startPc="268444399"/>
+<entry endPc="268444917" name="dataBottomRight" stackId="10" startPc="268444399"/>
+<entry endPc="268444917" name="DIS" stackId="11" startPc="268444399"/>
+<entry arg="true" endPc="268445106" name="dc" stackId="1" startPc="268444943"/>
+<entry endPc="268445106" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268444955"/>
 </localVars>
+<deviceInfo partNumber="006-B2819-00"/>
 <annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvv_legion"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="blthIcon"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="centurion_logo"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="utvvfont"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="legion_logo"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="castra_logo"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvv_castra"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvv_centurion"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="stepsIcon"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartIcon"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvv_gladiator"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvv_asterix"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="emperor_logo"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="gladiator_logo"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="iconfont"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="asterix_logo"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="midbold"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryIcon"/>
-<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvvlogo"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="WeatherFont"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="bigdigi"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="utvv_emperor"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="middigi"/>
 </annotations>
 <dataEntryOffsetMappings>
-<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/utvv_watch_face_v2App" offset="190" parentId="globals" symbolId="utvv_watch_face_v2App" type="class"/>
-<dataEntry label="globals/Menu2TestMenu2Delegate" offset="269" parentId="globals" symbolId="Menu2TestMenu2Delegate" type="class"/>
-<dataEntry label="globals/RaceSelection" offset="332" parentId="globals" symbolId="RaceSelection" type="class"/>
-<dataEntry label="globals/Rez" offset="419" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/AnalogSettingsViewTest" offset="498" parentId="globals" symbolId="AnalogSettingsViewTest" type="class"/>
-<dataEntry label="globals/display_functions" offset="569" parentId="globals" symbolId="display_functions" type="class"/>
-<dataEntry label="globals/utvv_watch_face_v2View" offset="640" parentId="globals" symbolId="utvv_watch_face_v2View" type="class"/>
-<dataEntry label="globals/AnalogDelegate" offset="735" parentId="globals" symbolId="AnalogDelegate" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="790" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="917" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="956" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="987" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1018" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1057" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/utvv_watch_face_v2App" offset="1203" parentId="globals" symbolId="utvv_watch_face_v2App" type="class"/>
+<dataEntry label="globals/DataFieldSelection" offset="1282" parentId="globals" symbolId="DataFieldSelection" type="class"/>
+<dataEntry label="globals/Menu2TestMenu2Delegate" offset="1361" parentId="globals" symbolId="Menu2TestMenu2Delegate" type="class"/>
+<dataEntry label="globals/RaceSelection" offset="1424" parentId="globals" symbolId="RaceSelection" type="class"/>
+<dataEntry label="globals/Rez" offset="1511" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/AnalogSettingsViewTest" offset="1574" parentId="globals" symbolId="AnalogSettingsViewTest" type="class"/>
+<dataEntry label="globals/display_functions" offset="1645" parentId="globals" symbolId="display_functions" type="class"/>
+<dataEntry label="globals/utvv_watch_face_v2View" offset="1756" parentId="globals" symbolId="utvv_watch_face_v2View" type="class"/>
+<dataEntry label="globals/AnalogDelegate" offset="1851" parentId="globals" symbolId="AnalogDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1906" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="2073" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="2112" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="2191" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="utvv_watch_face_v2App" startPc="268435460">
+<functionEntry accessMode="public" endPc="268436822" name="&lt;init&gt;" parent="utvv_watch_face_v2App" startPc="268436804">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435481" name="onStart" parent="utvv_watch_face_v2App" startPc="268435479">
-<param id="state"/>
-<documentation><![CDATA[<div class="description"> Handle app startup<br/> <div class="param"> state Startup arguments</div><br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435558" name="getSettingsView" parent="utvv_watch_face_v2App" startPc="268435482">
+<functionEntry accessMode="public" endPc="268436841" name="&lt;init&gt;" parent="DataFieldSelection" startPc="268436823">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435635" name="getInitialView" parent="utvv_watch_face_v2App" startPc="268435559">
-<documentation><![CDATA[<div class="description"> Return the initial view for the app<br/> <div class="returns">Returns  Array Pair [View, Delegate] or Array [View]</div><br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435656" name="initialize" parent="utvv_watch_face_v2App" startPc="268435636">
-<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435659" name="onStop" parent="utvv_watch_face_v2App" startPc="268435657">
-<param id="state"/>
-<documentation><![CDATA[<div class="description"> Handle app shutdown<br/> <div class="param"> state Shutdown arguments</div><br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435678" name="&lt;init&gt;" parent="Menu2TestMenu2Delegate" startPc="268435660">
+<functionEntry accessMode="public" endPc="268436860" name="&lt;init&gt;" parent="Menu2TestMenu2Delegate" startPc="268436842">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435702" name="onBack" parent="Menu2TestMenu2Delegate" startPc="268435679">
+<functionEntry accessMode="public" endPc="268436984" name="&lt;init&gt;" parent="RaceSelection" startPc="268436861">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435723" name="initialize" parent="Menu2TestMenu2Delegate" startPc="268435703">
+<functionEntry accessMode="public" endPc="268437003" name="&lt;init&gt;" parent="Rez" startPc="268436985">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436173" name="onSelect" parent="Menu2TestMenu2Delegate" startPc="268435724">
-<param id="item"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436297" name="&lt;init&gt;" parent="RaceSelection" startPc="268436174">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436438" name="nextState" parent="RaceSelection" startPc="268436298">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436509" name="initialize" parent="RaceSelection" startPc="268436439">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436512" name="draw" parent="RaceSelection" startPc="268436510">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436531" name="&lt;init&gt;" parent="Rez" startPc="268436513">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436550" name="&lt;init&gt;" parent="AnalogSettingsViewTest" startPc="268436532">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436576" name="onBack" parent="AnalogSettingsViewTest" startPc="268436551">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436581" name="onWrap" parent="AnalogSettingsViewTest" startPc="268436577">
-<param id="key"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436605" name="onDone" parent="AnalogSettingsViewTest" startPc="268436582">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436760" name="initialize" parent="AnalogSettingsViewTest" startPc="268436606">
+<functionEntry accessMode="public" endPc="268437022" name="&lt;init&gt;" parent="AnalogSettingsViewTest" startPc="268437004">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="display_functions">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436812" name="draw_days_left" parent="display_functions" startPc="268436761">
+<functionEntry accessMode="public" endPc="268437041" name="&lt;init&gt;" parent="utvv_watch_face_v2View" startPc="268437023">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437060" name="&lt;init&gt;" parent="AnalogDelegate" startPc="268437042">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437063" name="onStart" parent="utvv_watch_face_v2App" startPc="268437061">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> Handle app startup<br/> <div class="param"> state Startup arguments</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437140" name="getSettingsView" parent="utvv_watch_face_v2App" startPc="268437064">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437217" name="getInitialView" parent="utvv_watch_face_v2App" startPc="268437141">
+<documentation><![CDATA[<div class="description"> Return the initial view for the app<br/> <div class="returns">Returns  Array Pair [View, Delegate] or Array [View]</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437238" name="initialize" parent="utvv_watch_face_v2App" startPc="268437218">
+<documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437241" name="onStop" parent="utvv_watch_face_v2App" startPc="268437239">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> Handle app shutdown<br/> <div class="param"> state Shutdown arguments</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437391" name="nextState" parent="DataFieldSelection" startPc="268437242">
+<param id="storageId"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437468" name="initialize" parent="DataFieldSelection" startPc="268437392">
+<param id="storageId"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437661" name="draw" parent="DataFieldSelection" startPc="268437469">
 <param id="dc"/>
-<param id="days_left"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437685" name="onBack" parent="Menu2TestMenu2Delegate" startPc="268437662">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437706" name="initialize" parent="Menu2TestMenu2Delegate" startPc="268437686">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439497" name="onSelect" parent="Menu2TestMenu2Delegate" startPc="268437707">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439638" name="nextState" parent="RaceSelection" startPc="268439498">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439709" name="initialize" parent="RaceSelection" startPc="268439639">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439712" name="draw" parent="RaceSelection" startPc="268439710">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439738" name="onBack" parent="AnalogSettingsViewTest" startPc="268439713">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439743" name="onWrap" parent="AnalogSettingsViewTest" startPc="268439739">
+<param id="key"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439767" name="onDone" parent="AnalogSettingsViewTest" startPc="268439744">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439924" name="initialize" parent="AnalogSettingsViewTest" startPc="268439768">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440239" name="draw_remaining_time" parent="display_functions" startPc="268439925">
+<param id="dc"/>
+<param id="raceOption"/>
 <param id="screenX"/>
 <param id="screenY"/>
 <param id="screenHeight"/>
 <param id="screenWidth"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437326" name="draw_race_option" parent="display_functions" startPc="268436813">
+<functionEntry accessMode="public" endPc="268440401" name="draw_date" parent="display_functions" startPc="268440240">
 <param id="dc"/>
-<param id="race_option"/>
 <param id="screenX"/>
 <param id="screenY"/>
 <param id="screenHeight"/>
 <param id="screenWidth"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437394" name="draw_race_name" parent="display_functions" startPc="268437327">
+<functionEntry accessMode="public" endPc="268440640" name="draw_hour" parent="display_functions" startPc="268440402">
 <param id="dc"/>
-<param id="race_option"/>
+<param id="raceOption"/>
+<param id="screenX"/>
+<param id="screenY"/>
+<param id="screenHeight"/>
+<param id="screenWidth"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440697" name="draw_race_option" parent="display_functions" startPc="268440641">
+<param id="dc"/>
+<param id="raceOption"/>
+<param id="screenX"/>
+<param id="screenY"/>
+<param id="screenHeight"/>
+<param id="screenWidth"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440815" name="draw_race_name" parent="display_functions" startPc="268440698">
+<param id="dc"/>
+<param id="raceOption"/>
+<param id="screenX"/>
+<param id="screenY"/>
+<param id="screenHeight"/>
+<param id="screenWidth"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442081" name="draw_datapoint" parent="display_functions" startPc="268440816">
+<param id="dc"/>
+<param id="dataOption"/>
 <param id="screenX"/>
 <param id="screenY"/>
 <param id="screenHeight"/>
@@ -346,7 +748,18 @@
 <functionEntry accessMode="public" name="initialize" parent="display_functions">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437413" name="&lt;init&gt;" parent="utvv_watch_face_v2View" startPc="268437395">
+<functionEntry accessMode="public" endPc="268442197" name="draw_coloured_edge" parent="display_functions" startPc="268442082">
+<param id="dc"/>
+<param id="raceOption"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443958" name="drawWeatherIcon" parent="display_functions" startPc="268442198">
+<param id="dc"/>
+<param id="raceOption"/>
+<param id="screenX"/>
+<param id="screenY"/>
+<param id="screenHeight"/>
+<param id="screenWidth"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onExitSleep" parent="utvv_watch_face_v2View">
@@ -355,52 +768,31 @@
 <functionEntry accessMode="public" name="onShow" parent="utvv_watch_face_v2View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437457" name="onLayout" parent="utvv_watch_face_v2View" startPc="268437414">
+<functionEntry accessMode="public" endPc="268444002" name="onLayout" parent="utvv_watch_face_v2View" startPc="268443959">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="utvv_watch_face_v2View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437478" name="initialize" parent="utvv_watch_face_v2View" startPc="268437458">
+<functionEntry accessMode="public" endPc="268444394" name="initialize" parent="utvv_watch_face_v2View" startPc="268444003">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="utvv_watch_face_v2View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437657" name="onUpdate" parent="utvv_watch_face_v2View" startPc="268437479">
+<functionEntry accessMode="public" endPc="268444918" name="onUpdate" parent="utvv_watch_face_v2View" startPc="268444395">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437676" name="&lt;init&gt;" parent="AnalogDelegate" startPc="268437658">
+<functionEntry accessMode="public" endPc="268444939" name="initialize" parent="AnalogDelegate" startPc="268444919">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437697" name="initialize" parent="AnalogDelegate" startPc="268437677">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437700" name="onPowerBudgetExceeded" parent="AnalogDelegate" startPc="268437698">
+<functionEntry accessMode="public" endPc="268444942" name="onPowerBudgetExceeded" parent="AnalogDelegate" startPc="268444940">
 <param id="powerInfo"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437864" name="WatchFace" parent="Layouts" startPc="268437701">
+<functionEntry accessMode="public" endPc="268445106" name="WatchFace" parent="Layouts" startPc="268444943">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

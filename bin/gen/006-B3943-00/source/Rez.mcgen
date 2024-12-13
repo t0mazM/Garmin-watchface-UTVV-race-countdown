@@ -30,6 +30,7 @@ module Rez {
         (:initialized) var bigdigi as ResourceId;
         (:initialized) var midbold as ResourceId;
         (:initialized) var iconfont as ResourceId;
+        (:initialized) var utvvfont as ResourceId;
     } // Fonts
 
     module Layouts {

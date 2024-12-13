@@ -11,22 +11,14 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         WatchFace.initialize();
         //Initialize the storage to default values
         if (Storage.getValue(40) == null) {Storage.setValue(40, 1); } // Race option
-        if (Storage.getValue(30) == null) {Storage.setValue(30, 1); } // Top left data field
-        if (Storage.getValue(31) == null) {Storage.setValue(31, 1); } // Top right data field
-        if (Storage.getValue(32) == null) {Storage.setValue(32, 1); } // Middle left data field
-        if (Storage.getValue(33) == null) {Storage.setValue(33, 1); } // Middle right data field
-        if (Storage.getValue(34) == null) {Storage.setValue(34, 1); } // Bottom left data field
-        if (Storage.getValue(35) == null) {Storage.setValue(35, 1); } // Bottom right data field
+        if (Storage.getValue(30) == null) {Storage.setValue(30, 2); } // Top left data field
+        if (Storage.getValue(31) == null) {Storage.setValue(31, 3); } // Top right data field
+        if (Storage.getValue(32) == null) {Storage.setValue(32, 4); } // Middle left data field
+        if (Storage.getValue(33) == null) {Storage.setValue(33, 5); } // Middle right data field
+        if (Storage.getValue(34) == null) {Storage.setValue(34, 6); } // Bottom left data field
+        if (Storage.getValue(35) == null) {Storage.setValue(35, 7); } // Bottom right data field
     }
 
-    // Load your resources here
-    function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.WatchFace(dc));
-    }
-
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
     function onShow() as Void {
     }
 
@@ -46,34 +38,27 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var dataBottomLeft = Storage.getValue(34);
         var dataBottomRight = Storage.getValue(35);
 
+
         var DIS = new display_functions();
 
         DIS.draw_coloured_edge(dc, raceOption);
-        DIS.draw_race_option(dc, raceOption, 0.45, 0.03, screenHeight, screenWidth);
-        //DIS.draw_race_name(dc, raceOption, 0.70, 0.45, screenHeight, screenWidth);
-        DIS.draw_hour(dc, raceOption, 0.25, 0.40, screenHeight, screenWidth);
-        DIS.draw_remaining_time(dc, raceOption, 0.65, 0.73, screenHeight, screenWidth);
-        DIS.draw_utvv_text(dc, raceOption, 0.13, 0.11, screenHeight, screenWidth);
+        DIS.draw_race_option(dc, raceOption, 0.30, -0.04, screenHeight, screenWidth);
+        DIS.draw_race_name(dc, raceOption, 0.50, 0.34, screenHeight, screenWidth);
+        DIS.draw_hour(dc, raceOption, 0.24, 0.47, screenHeight, screenWidth);
+        DIS.draw_remaining_time(dc, raceOption, 0.50, 0.86, screenHeight, screenWidth);
+        DIS.draw_date(dc, 0.52, 0.70, screenHeight, screenWidth);
+
+        DIS.drawWeatherIcon(dc, raceOption, 0.72, 0.68, screenHeight, screenWidth);
 
 
+        DIS.draw_datapoint(dc, dataTopLeft, 0.46, 0.48, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataTopRight, 0.71, 0.48, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataMiddleLeft, 0.46, 0.58, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataMiddleRight, 0.71, 0.58, screenHeight, screenWidth);
+        //DIS.draw_datapoint(dc, dataBottomLeft, 0.46, 0.65, screenHeight, screenWidth);
+        //DIS.draw_datapoint(dc, dataBottomRight, 0.71, 0.65, screenHeight, screenWidth);
 
-        DIS.draw_datapoint(dc, dataTopLeft, 0.45, 0.45, screenHeight, screenWidth);
-        DIS.draw_datapoint(dc, dataTopRight, 0.45, 0.55, screenHeight, screenWidth);
-        DIS.draw_datapoint(dc, dataMiddleLeft, 0.45, 0.65, screenHeight, screenWidth);
-        // DIS.draw_datapoint(dc, dataMiddleRight, 0.65, 0.65, screenHeight, screenWidth);
-        // DIS.draw_datapoint(dc, dataBottomLeft, 0.65, 0.65, screenHeight, screenWidth);
-        // DIS.draw_datapoint(dc, dataBottomRight, 0.65, 0.65, screenHeight, screenWidth);
-
-    
-        
-
-        // dc.drawBitmap(screenX * 0.13, screenY*0.65, Ui.loadResource(Rez.Drawables.batteryIcon));
-        // dc.drawBitmap(screenX * 0.46, screenY*0.66, Ui.loadResource(Rez.Drawables.heartIcon));
-        // dc.drawBitmap(screenX * 0.77, screenY*0.68, Ui.loadResource(Rez.Drawables.stepsIcon));
-        // if (Toybox.System.getDeviceSettings().phoneConnected){
-        //     dc.drawBitmap(screenX * 0.45, screenY*0.05, Ui.loadResource(Rez.Drawables.blthIcon));
-        // }
-            
+ 
         // // Draw a green around hour
         // dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
         // var thickness = 3;
@@ -81,78 +66,9 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         // var y = screenY*0.30;
         // var x2 = screenX*0.95;
 
-        // for (var i = 0; i < thickness; i++) {
-        //     dc.drawLine(x1, y+i, x2, y+i);
-        // }
-
-        // // Draw a green under UTVV
-        // dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        // thickness = 3;
-        // x1 = screenX*0.08;
-        // y = screenY*0.50;
-        // x2 = screenX*0.95;
-
-        // for (var i = 0; i < thickness; i++) {
-        //     dc.drawLine(x1, y+i, x2, y+i);
-        // }
-
-        // //hour
-        // var clockTime = System.getClockTime();
-        // var hours = clockTime.hour;
-        // var minutes = clockTime.min.format("%02d");
-
-        // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        // dc.drawText(screenX*0.72,screenY*0.40, 
-        // Graphics.FONT_SYSTEM_NUMBER_MEDIUM,
-        // Lang.format("$1$:$2$", [hours, minutes]),
-        // JUST
-        //  );
-
-        // //date
-        // var now = Time.now();
-        // var info = Calendar.info(now, Time.FORMAT_MEDIUM);
-
-        // var dateStr = Lang.format("$1$ $2$", [info.day_of_week, info.day]);
-        // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        // dc.drawText(screenX*0.68,screenY*0.20, 
-        // Graphics.FONT_MEDIUM,
-        // dateStr,
-        // JUST
-        //  );
-
-
-
-
-    // //hear rate
-    // x = screenX*0.50;
-    // y = screenY*0.51;
-    // var heartRate = Activity.getActivityInfo().currentHeartRate;
-    // if (heartRate != null) {
-    //     var heartRateString = Lang.format("$1$", [heartRate]);
-    //     dc.drawText(x, y, Graphics.FONT_MEDIUM, heartRateString, Graphics.TEXT_JUSTIFY_CENTER);
-    // }
-    // else{
-    //     var heartRateString = "---";
-    //     dc.drawText(x, y, Graphics.FONT_MEDIUM, heartRateString, Graphics.TEXT_JUSTIFY_CENTER);
-    // }
-
-
-    // //battery
-    // var stats = System.getSystemStats().battery;
-    // var batStr = Lang.format( "$1$%", [ stats.format( "%2d" ) ] );
-    // dc.drawText(screenX*0.19, screenY*0.52, Graphics.FONT_MEDIUM, batStr, Graphics.TEXT_JUSTIFY_CENTER);
-
-
-    // //steps
-    // var stepsString = Lang.format("$1$", [ActivityMonitor.getInfo().steps]);
-    // dc.drawText(screenX*0.83, screenY*0.52, Graphics.FONT_MEDIUM, stepsString, Graphics.TEXT_JUSTIFY_CENTER);
-    
-
     }
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
+
     function onHide() as Void {
     }
 
