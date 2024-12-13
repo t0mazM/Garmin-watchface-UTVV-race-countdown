@@ -200,7 +200,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dataString = "---";
     }
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX + 20, screenWidth * screenY, 
+    dc.drawText(screenHeight * screenX + 15, screenWidth * screenY, 
                 utvvFont,
                 Lang.format("$1$", [dataString]),
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_LEFT
@@ -339,35 +339,13 @@ function drawWeatherIcon(dc, raceOption, screenX, screenY, screenHeight, screenW
 
         // Draw the determined icon if valid
         if (icon != null) {
-            dc.setColor(raceAttributes[raceOption][:colour], Graphics.COLOR_TRANSPARENT);
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(screenHeight * screenX, screenWidth * screenY, WeatherFont, icon, Graphics.TEXT_JUSTIFY_RIGHT);
         }
         return true;
     }
     return false;
 }
-
-
-
-    function draw_battery(dc, screenX, screenY, screenHeight, screenWidth) {
-
-        var dataString = System.getSystemStats().battery.format( "%2d" );
-        var iconFont = Ui.loadResource(Rez.Fonts.iconfont);
-        var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
-
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        //Draw icon
-        dc.drawText(screenHeight * screenX, screenWidth * screenY, 
-                    iconFont,
-                    "4", //battery icon
-                    Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
-        );
-        //draw the value of the battery
-        dc.drawText(screenHeight * (screenX + 10), screenWidth * screenY, 
-                    utvvFont,
-                    Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER
-        );
-    }
 
 
 }

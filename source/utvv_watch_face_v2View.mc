@@ -46,25 +46,16 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         DIS.draw_race_name(dc, raceOption, 0.50, 0.34, screenHeight, screenWidth);
         DIS.draw_hour(dc, raceOption, 0.24, 0.47, screenHeight, screenWidth);
         DIS.draw_remaining_time(dc, raceOption, 0.50, 0.86, screenHeight, screenWidth);
-        DIS.draw_date(dc, 0.52, 0.70, screenHeight, screenWidth);
+        DIS.draw_date(dc, 0.52, 0.68, screenHeight, screenWidth);
 
         DIS.drawWeatherIcon(dc, raceOption, 0.72, 0.68, screenHeight, screenWidth);
 
 
-        DIS.draw_datapoint(dc, dataTopLeft, 0.46, 0.48, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataTopLeft, 0.45, 0.48, screenHeight, screenWidth);
         DIS.draw_datapoint(dc, dataTopRight, 0.71, 0.48, screenHeight, screenWidth);
-        DIS.draw_datapoint(dc, dataMiddleLeft, 0.46, 0.58, screenHeight, screenWidth);
-        DIS.draw_datapoint(dc, dataMiddleRight, 0.71, 0.58, screenHeight, screenWidth);
-        //DIS.draw_datapoint(dc, dataBottomLeft, 0.46, 0.65, screenHeight, screenWidth);
-        //DIS.draw_datapoint(dc, dataBottomRight, 0.71, 0.65, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataMiddleLeft, 0.45, 0.60, screenHeight, screenWidth);
+        DIS.draw_datapoint(dc, dataMiddleRight, 0.71, 0.60, screenHeight, screenWidth);
 
- 
-        // // Draw a green around hour
-        // dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        // var thickness = 3;
-        // var x1 = screenX*0.50;
-        // var y = screenY*0.30;
-        // var x2 = screenX*0.95;
 
     }
 

@@ -6,48 +6,37 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var batteryIcon as Symbol;
-        (:initialized) var heartIcon as Symbol;
-        (:initialized) var stepsIcon as Symbol;
-        (:initialized) var blthIcon as Symbol;
-        (:initialized) var emperor_logo as Symbol;
-        (:initialized) var centurion_logo as Symbol;
-        (:initialized) var legion_logo as Symbol;
-        (:initialized) var gladiator_logo as Symbol;
-        (:initialized) var asterix_logo as Symbol;
-        (:initialized) var castra_logo as Symbol;
-        (:initialized) var utvv_emperor as Symbol;
-        (:initialized) var utvv_asterix as Symbol;
-        (:initialized) var utvv_centurion as Symbol;
-        (:initialized) var utvv_gladiator as Symbol;
-        (:initialized) var utvv_legion as Symbol;
-        (:initialized) var utvv_castra as Symbol;
-        (:initialized) var LauncherIcon as Symbol;
+        (:initialized) var batteryIcon as ResourceId;
+        (:initialized) var heartIcon as ResourceId;
+        (:initialized) var stepsIcon as ResourceId;
+        (:initialized) var blthIcon as ResourceId;
+        (:initialized) var emperor_logo as ResourceId;
+        (:initialized) var centurion_logo as ResourceId;
+        (:initialized) var legion_logo as ResourceId;
+        (:initialized) var gladiator_logo as ResourceId;
+        (:initialized) var asterix_logo as ResourceId;
+        (:initialized) var castra_logo as ResourceId;
+        (:initialized) var utvv_emperor as ResourceId;
+        (:initialized) var utvv_asterix as ResourceId;
+        (:initialized) var utvv_centurion as ResourceId;
+        (:initialized) var utvv_gladiator as ResourceId;
+        (:initialized) var utvv_legion as ResourceId;
+        (:initialized) var utvv_castra as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
     module Fonts {
-        (:initialized) var middigi as Symbol;
-        (:initialized) var bigdigi as Symbol;
-        (:initialized) var midbold as Symbol;
-        (:initialized) var iconfont as Symbol;
+        (:initialized) var middigi as ResourceId;
+        (:initialized) var bigdigi as ResourceId;
+        (:initialized) var midbold as ResourceId;
+        (:initialized) var iconfont as ResourceId;
+        (:initialized) var utvvfont as ResourceId;
+        (:initialized) var WeatherFont as ResourceId;
+        (:initialized) var clockfont as ResourceId;
     } // Fonts
 
-    module JsonData {
-    } // JsonData
-
-    module Layouts {
-        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(280 * 0.5), :locY=>((280 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
-
-            return [rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
-        }
-    } // Layouts
-
-    module Menus {
-    } // Menus
-
     module Strings {
-        (:initialized) var AppName as Symbol;
+        (:initialized) var AppName as ResourceId;
     } // Strings
 
     module Styles {
