@@ -35,9 +35,6 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var dataTopRight = Storage.getValue(31);
         var dataMiddleLeft = Storage.getValue(32);
         var dataMiddleRight = Storage.getValue(33);
-        var dataBottomLeft = Storage.getValue(34);
-        var dataBottomRight = Storage.getValue(35);
-
 
         var DIS = new display_functions();
 
@@ -48,7 +45,6 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         DIS.draw_remaining_time(dc, raceOption, 0.50, 0.86, screenHeight, screenWidth);
         DIS.draw_date(dc, 0.52, 0.68, screenHeight, screenWidth);
 
-        DIS.drawWeatherIcon(dc, raceOption, 0.74, 0.69, screenHeight, screenWidth);
 
 
         DIS.draw_datapoint(dc, dataTopLeft, 0.45, 0.48, screenHeight, screenWidth);

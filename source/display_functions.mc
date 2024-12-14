@@ -78,9 +78,19 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         //Format the remaining time
         var time_left_string = Lang.format("$1$ DAYS LEFT", [duration_days]);
 
+        if(duration_days == 1){
+            time_left_string = Lang.format("$1$ DAY LEFT", [duration_days]);
+        }
         if (duration_days <= 0) {
             time_left_string = Lang.format("$1$ HOURS LEFT", [duration_hour]);
         }
+        if (duration_days <= 0 and duration_hour <= 1) {
+            time_left_string = Lang.format("$1$ HOUR LEFT", [duration_hour]);
+        }
+        if (currentDateTime.greaterThan(futureMoment) ) { 
+            time_left_string = "RECOVER WELL";
+        }
+
         //Draw the remaining time
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(screenHeight * screenX, screenWidth * screenY, 
@@ -200,7 +210,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dataString = "---";
     }
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * screenX + 15, screenWidth * screenY, 
+    dc.drawText(screenHeight * (screenX + 0.10), screenWidth * screenY, 
                 utvvFont,
                 Lang.format("$1$", [dataString]),
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_LEFT
@@ -226,127 +236,6 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
                     Graphics.TEXT_JUSTIFY_CENTER
          );
     }
-
-function drawWeatherIcon(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
-    var cond = Toybox.Weather.getCurrentConditions().condition;
-    var sunset, sunrise;
-
-    if (cond != null and cond instanceof Number) {
-        var clockTime = System.getClockTime().hour;
-        var WeatherFont = Application.loadResource(Rez.Fonts.WeatherFont);
-
-        // Get sunset and sunrise times
-        var position = Toybox.Weather.getCurrentConditions().observationLocationPosition;
-        var today = Toybox.Weather.getCurrentConditions().observationTime;
-        if (position != null and today != null) {
-            sunset = (Weather.getSunset(position, today) != null)
-                ? Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT).hour : 18;
-            sunrise = (Weather.getSunrise(position, today) != null)
-                ? Time.Gregorian.info(Weather.getSunrise(position, today), Time.FORMAT_SHORT).hour : 6;
-        } else {
-            sunset = 18;
-            sunrise = 6;
-        }
-
-        // Determine icon
-        var icon;
-        var isNight = clockTime >= sunset or clockTime < sunrise;
-
-        switch (cond) {
-            case 20: // Cloudy
-                icon = "I";
-                break;
-
-            case 0: // Clear or Windy
-            case 5: // Clear or Windy
-                icon = isNight ? "f" : "H";
-                break;
-
-            case 1: // Partly Cloudy or Mostly Clear
-            case 23: // Partly Cloudy or Mostly Clear
-            case 40: // Partly Cloudy or Mostly Clear
-            case 52: // Partly Cloudy or Mostly Clear
-                icon = isNight ? "g" : "G";
-                break;
-
-            case 2: // Mostly Cloudy
-            case 22: // Mostly Cloudy
-                icon = isNight ? "h" : "B";
-                break;
-
-            case 3: // Rain or related
-            case 14: // Rain or related
-            case 15: // Rain or related
-            case 11: // Rain or related
-            case 13: // Rain or related
-            case 24: // Rain or related
-            case 25: // Rain or related
-            case 26: // Rain or related
-            case 27: // Rain or related
-            case 45: // Rain or related
-                icon = isNight ? "c" : "D";
-                break;
-
-            case 4: // Snow or Hail
-            case 10: // Snow or Hail
-            case 16: // Snow or Hail
-            case 17: // Snow or Hail
-            case 34: // Snow or Hail
-            case 43: // Snow or Hail
-            case 46: // Snow or Hail
-            case 48: // Snow or Hail
-            case 51: // Snow or Hail
-                icon = isNight ? "e" : "F";
-                break;
-
-            case 6: // Thunder or similar
-            case 12: // Thunder or similar
-            case 28: // Thunder or similar
-            case 32: // Thunder or similar
-            case 36: // Thunder or similar
-            case 41: // Thunder or similar
-            case 42: // Thunder or similar
-                icon = isNight ? "b" : "C";
-                break;
-
-            case 7: // Wintry Mix
-            case 18: // Wintry Mix
-            case 19: // Wintry Mix
-            case 21: // Wintry Mix
-            case 44: // Wintry Mix
-            case 47: // Wintry Mix
-            case 49: // Wintry Mix
-            case 50: // Wintry Mix
-                icon = isNight ? "d" : "E";
-                break;
-
-            case 8: // Fog or related
-            case 9: // Fog or related
-            case 29: // Fog or related
-            case 30: // Fog or related
-            case 31: // Fog or related
-            case 33: // Fog or related
-            case 35: // Fog or related
-            case 37: // Fog or related
-            case 38: // Fog or related
-            case 39: // Fog or related
-                icon = isNight ? "a" : "A";
-                break;
-
-            default:
-                icon = null; // Unknown condition
-        }
-
-        // Draw the determined icon if valid
-        if (icon != null) {
-            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(screenHeight * screenX, screenWidth * screenY, WeatherFont, icon, Graphics.TEXT_JUSTIFY_RIGHT);
-        }
-        return true;
-    }
-    return false;
-}
-
 
 }
 

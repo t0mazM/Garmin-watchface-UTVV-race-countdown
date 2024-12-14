@@ -179,7 +179,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_42_63_8_s
         %tmp.31 = getv ? :iconsDict;
         %tmp.32 = getm $.Toybox.Application.Storage;
         %tmp.33 = getv function %tmp.32 :getValue;
-        %tmp.34 = 30;
+        %tmp.34 = 40;
         %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
         %tmp.36 = agetv %tmp.31 %tmp.35;
         %tmp.38 = const :name;
