@@ -7,7 +7,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Time as Time;
 using Toybox.Time.Gregorian;
 import Toybox.Weather;
-using Toybox.UserProfile;
+import Toybox.UserProfile;
 using Toybox.Time.Gregorian as Calendar;
 
 class display_functions {
@@ -173,9 +173,6 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
 					}
                 }
                 break;
-            case "Stress level":
-                dataString = ActivityMonitor.getInfo().timeToRecovery;
-                break;
             case "VO2 max":
                 dataString = UserProfile.getProfile().vo2maxRunning;
                 break;
@@ -236,7 +233,3 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
     }
 
 }
-
-
-
-

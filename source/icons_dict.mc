@@ -40,16 +40,12 @@ var iconsDict = {
     9 => { 
         :name => "Sunset time", 
         :iconNumber => "?", 
-    },
-    10 => { 
-        :name => "Stress level", 
-        :iconNumber => "T", 
     },   
-    11 => { 
+    10 => { 
         :name => "VO2 max", 
         :iconNumber => "X", 
     },
-    12 => { 
+    11 => { 
         :name => "PulseOx ", 
         :iconNumber => "Q", 
     }
