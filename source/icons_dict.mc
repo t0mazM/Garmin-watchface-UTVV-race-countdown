@@ -48,6 +48,10 @@ var iconsDict = {
     11 => { 
         :name => "VO2 max", 
         :iconNumber => "X", 
+    },
+    12 => { 
+        :name => "PulseOx ", 
+        :iconNumber => "Q", 
     }
 };
 

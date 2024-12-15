@@ -3,7 +3,7 @@ var iconsDict;
 [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\icons_dict.mc"; @line = 3; ]
 <init> {
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\icons_dict.mc" 3 4 ]
-    %tmp.1 = newd 12;
+    %tmp.1 = newd 13;
     %tmp.2 = 0;
     %tmp.3 = newd 2;
     %tmp.5 = const :name;
@@ -148,5 +148,17 @@ var iconsDict;
     %tmp.167 = aputv %tmp.166 %tmp.164 %tmp.165;
     %tmp.168 = dup %tmp.155;
     %tmp.169 = aputv %tmp.168 %tmp.156 %tmp.167;
-    putv self :iconsDict %tmp.169;
+    %tmp.170 = 12;
+    %tmp.171 = newd 2;
+    %tmp.173 = const :name;
+    %tmp.174 = "PulseOx ";
+    %tmp.175 = dup %tmp.171;
+    %tmp.176 = aputv %tmp.175 %tmp.173 %tmp.174;
+    %tmp.178 = const :iconNumber;
+    %tmp.179 = "Q";
+    %tmp.180 = dup %tmp.176;
+    %tmp.181 = aputv %tmp.180 %tmp.178 %tmp.179;
+    %tmp.182 = dup %tmp.169;
+    %tmp.183 = aputv %tmp.182 %tmp.170 %tmp.181;
+    putv self :iconsDict %tmp.183;
 }

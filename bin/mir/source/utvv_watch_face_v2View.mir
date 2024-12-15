@@ -53,7 +53,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Vi
         %tmp.18 = getv function %tmp.17 :getValue;
         %tmp.19 = 40;
         %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
-        %tmp.21 = 5;
+        %tmp.21 = 4;
         %tmp.22 = gt %tmp.20 %tmp.21;
         push %tmp.22;
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2View_mc_13_72_13_95_end:

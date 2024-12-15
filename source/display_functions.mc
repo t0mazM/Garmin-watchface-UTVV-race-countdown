@@ -179,6 +179,11 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
             case "VO2 max":
                 dataString = UserProfile.getProfile().vo2maxRunning;
                 break;
+            case "PulseOx":
+                if (Activity has :getActivityInfo and Activity.getActivityInfo() has :currentOxygenSaturation) {
+                    dataNumber = Activity.getActivityInfo().currentOxygenSaturation;
+                }
+                break;
             default:
                 dataString = "0";
                 break;
