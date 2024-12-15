@@ -39,6 +39,21 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var dataMiddleLeft = Storage.getValue(32);
         var dataMiddleRight = Storage.getValue(33);
 
+        //Check if the datafield choices valid
+        try {
+            var raceName = raceAttributes[Storage.getValue(40)][:name]
+            var iconName = iconsDict[Storage.getValue(30)][:name];
+            iconName = iconsDict[Storage.getValue(31)][:name];
+            iconName = iconsDict[Storage.getValue(32)][:name];
+            iconName = iconsDict[Storage.getValue(33)][:name];
+        } catch (ex) {
+            Storage.setValue(40, 0);
+            Storage.setValue(30, 0);
+            Storage.setValue(31, 0);
+            Storage.setValue(32, 0);
+            Storage.setValue(33, 0);
+        }
+
         // Class for DISplaying data on the watchface
         var DIS = new display_functions();
 
