@@ -49,12 +49,4 @@ var raceAttributes = {
         :race_hour => 15, 
         :utvv_bitmap => Rez.Drawables.utvv_asterix
     },
-    6 => { 
-        :name => "CASTRA", 
-        :bitmap => Rez.Drawables.castra_logo, 
-        :colour => 0x132e27, 
-        :race_day => 26, 
-        :race_hour => 15,
-        :utvv_bitmap => Rez.Drawables.utvv_emperor
-    }
 };

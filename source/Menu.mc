@@ -82,13 +82,10 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
             drawableMiddleLeft.initialize(32);
             drawableMiddleRight.initialize(33);
 
-            
-
             dataMenu.addItem(new WatchUi.IconMenuItem("Top left:", iconsDict[Storage.getValue(30)][:name], "topLeft", drawableTopLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             dataMenu.addItem(new WatchUi.IconMenuItem("Top right:", iconsDict[Storage.getValue(31)][:name], "topRight", drawableTopRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             dataMenu.addItem(new WatchUi.IconMenuItem("Middle left:", iconsDict[Storage.getValue(32)][:name], "middleLeft", drawableMiddleLeft, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             dataMenu.addItem(new WatchUi.IconMenuItem("Middle right:", iconsDict[Storage.getValue(33)][:name], "middleRight", drawableMiddleRight, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
-
 
             WatchUi.pushView(dataMenu, new Menu2TestMenu2Delegate(), WatchUi.SLIDE_UP );
         }
@@ -107,13 +104,11 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
  else {
             WatchUi.requestUpdate();
         }  
-
 	}
 
     function onBack() {
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
     }  
-
 }
 
 class RaceSelection extends WatchUi.Drawable {
@@ -134,23 +129,17 @@ class RaceSelection extends WatchUi.Drawable {
         Storage.setValue(40, mIndex);
         return raceAttributes[mStates[mIndex]][:name];
     }
-
-    function draw(dc) {
-
-}
 }
 
 class DataFieldSelection extends WatchUi.Drawable {
     var mIndex;
     var mStates;
 
-
     function initialize(storageId) {
         Drawable.initialize({});
         mStates = iconsDict.keys();
         mIndex = Storage.getValue(storageId);
     }
-
     
     function nextState(storageId) {
         mIndex = Storage.getValue(storageId);

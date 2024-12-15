@@ -10,8 +10,6 @@ import Toybox.Weather;
 using Toybox.UserProfile;
 using Toybox.Time.Gregorian as Calendar;
 
-
-
 class display_functions {
 
     function draw_race_option(dc, raceOption, screenX, screenY, screenHeight, screenWidth) {
@@ -109,8 +107,6 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dc.setPenWidth(5);
         dc.drawCircle(centerX, centerY, centerX);
     }
-
-
 
     function draw_datapoint(dc, dataOption, screenX, screenY, screenHeight, screenWidth) {
         var position, today;
@@ -210,20 +206,18 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         dataString = "---";
     }
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(screenHeight * (screenX + 0.10), screenWidth * screenY, 
+    dc.drawText(screenHeight * (screenX + 0.08), screenWidth * screenY, 
                 utvvFont,
                 Lang.format("$1$", [dataString]),
                 Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_LEFT
     );
-
-
 }
 
     function draw_date(dc, screenX, screenY, screenHeight, screenWidth) {
 
         var now = Time.now();
         var info = Calendar.info(now, Time.FORMAT_MEDIUM);
-        var dateStr = Lang.format("$1$ $2$", [info.day_of_week, info.day]);
+        var dateStr = Lang.format("$1$ $2$.$3$", [info.day_of_week, info.day, info.month]);
         var utvvFont = Ui.loadResource(Rez.Fonts.utvvfont);
         
         // Convert the date string to uppercase
@@ -233,7 +227,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
                     dc.drawText(screenHeight * screenX, screenWidth * screenY,
                     utvvFont,
                     dateStr,
-                    Graphics.TEXT_JUSTIFY_CENTER
+                    Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER
          );
     }
 
