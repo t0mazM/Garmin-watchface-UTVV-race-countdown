@@ -15,12 +15,10 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
         var iconNum = iconsDict.keys().size();
 
         if (Storage.getValue(40) == null or Storage.getValue(40) < 0 or Storage.getValue(40) > raceNum ) {Storage.setValue(40, 1); } // Race option
-        if (Storage.getValue(30) == null or Storage.getValue(30) < 0 or Storage.getValue(30) > iconNum ) {Storage.setValue(30, 2); } // Top left data field
-        if (Storage.getValue(31) == null or Storage.getValue(31) < 0 or Storage.getValue(31) > iconNum ) {Storage.setValue(31, 3); } // Top right data field
-        if (Storage.getValue(32) == null or Storage.getValue(32) < 0 or Storage.getValue(32) > iconNum ) {Storage.setValue(32, 4); } // Middle left data field
-        if (Storage.getValue(33) == null or Storage.getValue(33) < 0 or Storage.getValue(33) > iconNum ) {Storage.setValue(33, 5); } // Middle right data field
-        if (Storage.getValue(34) == null or Storage.getValue(34) < 0 or Storage.getValue(34) > iconNum ) {Storage.setValue(34, 6); } // Bottom left data field
-        if (Storage.getValue(35) == null or Storage.getValue(35) < 0 or Storage.getValue(35) > iconNum ) {Storage.setValue(35, 7); } // Bottom right data field
+        if (Storage.getValue(30) == null or Storage.getValue(30) < 0 or Storage.getValue(30) > iconNum ) {Storage.setValue(30, 3); } // Top left data field
+        if (Storage.getValue(31) == null or Storage.getValue(31) < 0 or Storage.getValue(31) > iconNum ) {Storage.setValue(31, 1); } // Top right data field
+        if (Storage.getValue(32) == null or Storage.getValue(32) < 0 or Storage.getValue(32) > iconNum ) {Storage.setValue(32, 10); } // Middle left data field
+        if (Storage.getValue(33) == null or Storage.getValue(33) < 0 or Storage.getValue(33) > iconNum ) {Storage.setValue(33, 6); } // Middle right data field
     }
 
     function onShow() as Void {

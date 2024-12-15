@@ -132,7 +132,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
             dataNumber = ActivityMonitor.getInfo().calories;
             break;
         case "Battery level":
-            dataString = System.getSystemStats().battery.format( "%2d" );
+            dataString =  Lang.format("$1$%", [System.getSystemStats().battery.format( "%2d" )]);
             break;
         case "Temperature":
                 var temp = Weather.getCurrentConditions().feelsLikeTemperature;
