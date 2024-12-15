@@ -10,7 +10,7 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
         //Initialize the storage to default values
-        if (Storage.getValue(40) == null or Storage.getValue(40) < 0 or Storage.getValue(40) > 5 ) {Storage.setValue(40, 1); } // Race option
+        if (Storage.getValue(40) == null or Storage.getValue(40) < 0 or Storage.getValue(40) > 4 ) {Storage.setValue(40, 1); } // Race option
         if (Storage.getValue(30) == null or Storage.getValue(30) < 0 or Storage.getValue(30) > 7 ) {Storage.setValue(30, 2); } // Top left data field
         if (Storage.getValue(31) == null or Storage.getValue(31) < 0 or Storage.getValue(31) > 7 ) {Storage.setValue(31, 3); } // Top right data field
         if (Storage.getValue(32) == null or Storage.getValue(32) < 0 or Storage.getValue(32) > 7 ) {Storage.setValue(32, 4); } // Middle left data field

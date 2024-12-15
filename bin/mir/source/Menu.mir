@@ -136,17 +136,17 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_49_30_51_4_s
     [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 53; ]
     public
     function onSelect(item) as Void {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_53_40_111_1_start:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_53_40_107_1_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 55 8 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_106_8_if_stmt:
         %tmp.1 = lgetv %item;
         %tmp.2 = getv function %tmp.1 :getId;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv function %tmp.3 :equals;
         %tmp.5 = "race";
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        bf %tmp.6 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_109_8_if_true:
+        bf %tmp.6 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_106_8_if_true:
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_42_63_8_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 57 12 ]
         [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_42_63_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_42_63_8_stop" ]
@@ -216,18 +216,18 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_42_63_8_s
         %tmp.70 = getv %tmp.69 :SLIDE_UP;
         invoke %tmp.61 %tmp.62(%tmp.64, %tmp.65, %tmp.70);
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_42_63_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_109_8_if_false:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_106_8_if_false:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 64 13 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_106_8_if_stmt:
         %tmp.71 = lgetv %item;
         %tmp.72 = getv function %tmp.71 :getId;
         %tmp.73 = invoke %tmp.71 %tmp.72();
         %tmp.74 = getv function %tmp.73 :equals;
         %tmp.75 = "race_choice";
         %tmp.76 = invoke %tmp.73 %tmp.74(%tmp.75);
-        bf %tmp.76 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_109_8_if_true:
+        bf %tmp.76 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_106_8_if_true:
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_54_66_8_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 65 12 ]
         %tmp.77 = lgetv %item;
@@ -240,18 +240,18 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_54_66_8_s
         %tmp.84 = invoke %tmp.82 %tmp.83();
         invoke %tmp.77 %tmp.78(%tmp.84);
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_54_66_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_109_8_if_false:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_106_8_if_false:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 67 13 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_106_8_if_stmt:
         %tmp.85 = lgetv %item;
         %tmp.86 = getv function %tmp.85 :getId;
         %tmp.87 = invoke %tmp.85 %tmp.86();
         %tmp.88 = getv function %tmp.87 :equals;
         %tmp.89 = "race_apply";
         %tmp.90 = invoke %tmp.87 %tmp.88(%tmp.89);
-        bf %tmp.90 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_109_8_if_true:
+        bf %tmp.90 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_106_8_if_true:
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_53_70_8_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 68 12 ]
         %tmp.91 = getm $.Toybox.WatchUi;
@@ -266,21 +266,21 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_53_70_8_s
         %tmp.98 = getv %tmp.97 :SLIDE_IMMEDIATE;
         invoke %tmp.95 %tmp.96(%tmp.98);
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_53_70_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_109_8_if_false:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_106_8_if_false:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 72 13 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_106_8_if_stmt:
         %tmp.99 = lgetv %item;
         %tmp.100 = getv function %tmp.99 :getId;
         %tmp.101 = invoke %tmp.99 %tmp.100();
         %tmp.102 = getv function %tmp.101 :equals;
         %tmp.103 = "datafields";
         %tmp.104 = invoke %tmp.101 %tmp.102(%tmp.103);
-        bf %tmp.104 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_109_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_start:
+        bf %tmp.104 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_106_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_start:
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 74 12 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_stop" ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_stop" ]
         %dataMenu.3 = local;
         %tmp.107 = getm $.Toybox.WatchUi;
         %tmp.108 = getv function ? %tmp.107 :Menu2;
@@ -292,28 +292,28 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.105 = newc %tmp.108 (%tmp.114);
         lputv %dataMenu.3 %tmp.105;
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 75 12 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_stop" ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_stop" ]
         %drawableTopLeft.4 = local;
         %tmp.118 = getv ? :DataFieldSelection;
         %tmp.119 = 30;
         %tmp.115 = newc %tmp.118 (%tmp.119);
         lputv %drawableTopLeft.4 %tmp.115;
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 76 12 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_stop" ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_stop" ]
         %drawableTopRight.5 = local;
         %tmp.123 = getv ? :DataFieldSelection;
         %tmp.124 = 31;
         %tmp.120 = newc %tmp.123 (%tmp.124);
         lputv %drawableTopRight.5 %tmp.120;
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 77 12 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_stop" ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_stop" ]
         %drawableMiddleLeft.6 = local;
         %tmp.128 = getv ? :DataFieldSelection;
         %tmp.129 = 32;
         %tmp.125 = newc %tmp.128 (%tmp.129);
         lputv %drawableMiddleLeft.6 %tmp.125;
 [ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 78 12 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_stop" ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_stop" ]
         %drawableMiddleRight.7 = local;
         %tmp.133 = getv ? :DataFieldSelection;
         %tmp.134 = 33;
@@ -339,7 +339,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.145 = getv function %tmp.144 :initialize;
         %tmp.146 = 33;
         invoke %tmp.144 %tmp.145(%tmp.146);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 87 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 85 12 ]
         %tmp.147 = lgetv %dataMenu.3;
         %tmp.148 = getv function %tmp.147 :addItem;
         %tmp.151 = getm $.Toybox.WatchUi;
@@ -364,7 +364,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.174 = aputv %tmp.173 %tmp.169 %tmp.172;
         %tmp.149 = newc %tmp.152 (%tmp.153, %tmp.163, %tmp.164, %tmp.166, %tmp.174);
         invoke %tmp.147 %tmp.148(%tmp.149);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 88 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 86 12 ]
         %tmp.175 = lgetv %dataMenu.3;
         %tmp.176 = getv function %tmp.175 :addItem;
         %tmp.179 = getm $.Toybox.WatchUi;
@@ -389,7 +389,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.202 = aputv %tmp.201 %tmp.197 %tmp.200;
         %tmp.177 = newc %tmp.180 (%tmp.181, %tmp.191, %tmp.192, %tmp.194, %tmp.202);
         invoke %tmp.175 %tmp.176(%tmp.177);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 89 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 87 12 ]
         %tmp.203 = lgetv %dataMenu.3;
         %tmp.204 = getv function %tmp.203 :addItem;
         %tmp.207 = getm $.Toybox.WatchUi;
@@ -414,7 +414,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.230 = aputv %tmp.229 %tmp.225 %tmp.228;
         %tmp.205 = newc %tmp.208 (%tmp.209, %tmp.219, %tmp.220, %tmp.222, %tmp.230);
         invoke %tmp.203 %tmp.204(%tmp.205);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 90 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 88 12 ]
         %tmp.231 = lgetv %dataMenu.3;
         %tmp.232 = getv function %tmp.231 :addItem;
         %tmp.235 = getm $.Toybox.WatchUi;
@@ -439,7 +439,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.258 = aputv %tmp.257 %tmp.253 %tmp.256;
         %tmp.233 = newc %tmp.236 (%tmp.237, %tmp.247, %tmp.248, %tmp.250, %tmp.258);
         invoke %tmp.231 %tmp.232(%tmp.233);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 93 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 90 12 ]
         %tmp.259 = getm $.Toybox.WatchUi;
         %tmp.260 = getv function %tmp.259 :pushView;
         %tmp.262 = lgetv %dataMenu.3;
@@ -448,21 +448,21 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_s
         %tmp.267 = getm $.Toybox.WatchUi;
         %tmp.268 = getv %tmp.267 :SLIDE_UP;
         invoke %tmp.259 %tmp.260(%tmp.262, %tmp.263, %tmp.268);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_94_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_109_8_if_false:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 95 13 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_13_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_53_91_8_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_106_8_if_false:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 92 13 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_13_106_8_if_stmt:
         %tmp.269 = lgetv %item;
         %tmp.270 = getv function %tmp.269 :getId;
         %tmp.271 = invoke %tmp.269 %tmp.270();
         %tmp.272 = getv function %tmp.271 :equals;
         %tmp.273 = "topLeft";
         %tmp.274 = invoke %tmp.271 %tmp.272(%tmp.273);
-        bf %tmp.274 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_13_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_13_109_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_50_97_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 96 12 ]
+        bf %tmp.274 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_13_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_13_106_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_50_94_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 93 12 ]
         %tmp.275 = lgetv %item;
         %tmp.276 = getv function %tmp.275 :setSubLabel;
         %tmp.277 = lgetv %item;
@@ -473,21 +473,21 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_50_97_8_s
         %tmp.282 = 30;
         %tmp.283 = invoke %tmp.280 %tmp.281(%tmp.282);
         invoke %tmp.275 %tmp.276(%tmp.283);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_50_97_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_13_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_13_109_8_if_false:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 98 14 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_14_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_50_94_8_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_13_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_13_106_8_if_false:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 95 14 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_14_106_8_if_stmt:
         %tmp.284 = lgetv %item;
         %tmp.285 = getv function %tmp.284 :getId;
         %tmp.286 = invoke %tmp.284 %tmp.285();
         %tmp.287 = getv function %tmp.286 :equals;
         %tmp.288 = "topRight";
         %tmp.289 = invoke %tmp.286 %tmp.287(%tmp.288);
-        bf %tmp.289 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_14_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_14_109_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_52_100_9_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 99 13 ]
+        bf %tmp.289 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_14_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_14_106_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_52_97_9_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 96 13 ]
         %tmp.290 = lgetv %item;
         %tmp.291 = getv function %tmp.290 :setSubLabel;
         %tmp.292 = lgetv %item;
@@ -498,21 +498,21 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_52_100_9_
         %tmp.297 = 31;
         %tmp.298 = invoke %tmp.295 %tmp.296(%tmp.297);
         invoke %tmp.290 %tmp.291(%tmp.298);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_52_100_9_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_14_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_14_109_8_if_false:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 101 13 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_52_97_9_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_14_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_14_106_8_if_false:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 98 13 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_13_106_8_if_stmt:
         %tmp.299 = lgetv %item;
         %tmp.300 = getv function %tmp.299 :getId;
         %tmp.301 = invoke %tmp.299 %tmp.300();
         %tmp.302 = getv function %tmp.301 :equals;
         %tmp.303 = "middleLeft";
         %tmp.304 = invoke %tmp.301 %tmp.302(%tmp.303);
-        bf %tmp.304 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_109_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_53_103_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 102 12 ]
+        bf %tmp.304 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_13_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_13_106_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_53_100_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 99 12 ]
         %tmp.305 = lgetv %item;
         %tmp.306 = getv function %tmp.305 :setSubLabel;
         %tmp.307 = lgetv %item;
@@ -523,21 +523,21 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_53_103_8
         %tmp.312 = 32;
         %tmp.313 = invoke %tmp.310 %tmp.311(%tmp.312);
         invoke %tmp.305 %tmp.306(%tmp.313);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_53_103_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_109_8_if_false:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 104 13 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_13_109_8_if_stmt:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_53_100_8_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_13_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_13_106_8_if_false:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 101 13 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_106_8_if_stmt:
         %tmp.314 = lgetv %item;
         %tmp.315 = getv function %tmp.314 :getId;
         %tmp.316 = invoke %tmp.314 %tmp.315();
         %tmp.317 = getv function %tmp.316 :equals;
         %tmp.318 = "middleRight";
         %tmp.319 = invoke %tmp.316 %tmp.317(%tmp.318);
-        bf %tmp.319 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_13_109_8_if_false;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_13_109_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_54_106_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 105 12 ]
+        bf %tmp.319 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_106_8_if_false;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_106_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_54_103_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 102 12 ]
         %tmp.320 = lgetv %item;
         %tmp.321 = getv function %tmp.320 :setSubLabel;
         %tmp.322 = lgetv %item;
@@ -548,101 +548,101 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_54_106_8
         %tmp.327 = 33;
         %tmp.328 = invoke %tmp.325 %tmp.326(%tmp.327);
         invoke %tmp.320 %tmp.321(%tmp.328);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_54_106_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_13_109_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_13_109_8_if_false:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_107_6_109_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 108 12 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_54_103_8_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_106_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_106_8_if_false:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_6_106_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 105 12 ]
         %tmp.329 = getm $.Toybox.WatchUi;
         %tmp.330 = getv function %tmp.329 :requestUpdate;
         invoke %tmp.329 %tmp.330();
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_107_6_109_8_stop:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_13_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_14_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_13_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_109_8_if_end:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_53_40_111_1_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_104_6_106_8_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_101_13_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_98_13_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_95_14_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_92_13_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_72_13_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_67_13_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_64_13_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_55_8_106_8_if_end:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_53_40_107_1_stop:
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 113; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 109; ]
     function onBack() {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_113_22_115_4_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 114 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_109_22_111_4_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 110 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :popView;
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
         invoke %tmp.1 %tmp.2(%tmp.4);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_113_22_115_4_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_109_22_111_4_stop:
     }
 }
-[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 119; ]
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 114; ]
 class RaceSelection extends WatchUi.Drawable{
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 119; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 114; ]
     <init> {
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 121 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 116 8 ]
         %tmp.6 = getv ? :raceAttributes;
         %tmp.7 = getv function %tmp.6 :keys;
         %tmp.8 = invoke %tmp.6 %tmp.7();
         putv self :mStates %tmp.8;
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 119; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 114; ]
     static
     <init> {
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 120; @position = 8; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 115; @position = 8; ]
     var mIndex;
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 121; @position = 8; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 116; @position = 8; ]
     var mStates;
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 123; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 118; ]
     function initialize() as Void {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_123_26_125_4_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 124 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_118_26_120_4_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 119 8 ]
         %tmp.2 = getv ? :Drawable;
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.4 = newd 0;
         invoke %tmp.2 %tmp.3(%tmp.4);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_123_26_125_4_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_118_26_120_4_stop:
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 127; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 122; ]
     function nextState() {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_127_25_136_4_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 128 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_122_25_131_4_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 123 8 ]
         %tmp.1 = getm $.Toybox.Application.Storage;
         %tmp.2 = getv function %tmp.1 :getValue;
         %tmp.3 = 40;
         %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
         putv self :mIndex %tmp.4;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 129 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 124 8 ]
         %tmp.7 = getv ? :mIndex;
         %tmp.8 = add %tmp.7 1;
         putv self :mIndex dup %tmp.8;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 131 8 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_8_133_8_if_stmt:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 126 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_8_128_8_if_stmt:
         %tmp.10 = getv ? :mIndex;
         %tmp.12 = getv ? :mStates;
         %tmp.13 = getv function %tmp.12 :size;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         %tmp.15 = gte %tmp.10 %tmp.14;
-        bf %tmp.15 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_8_133_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_8_133_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_38_133_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 132 12 ]
+        bf %tmp.15 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_8_128_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_8_128_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_38_128_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 127 12 ]
         %tmp.16 = 0;
         putv self :mIndex %tmp.16;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_38_133_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_8_133_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_8_133_8_if_end:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 134 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_38_128_8_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_8_128_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_126_8_128_8_if_end:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 129 8 ]
         %tmp.17 = getm $.Toybox.Application.Storage;
         %tmp.18 = getv function %tmp.17 :setValue;
         %tmp.19 = 40;
         %tmp.21 = getv ? :mIndex;
         invoke %tmp.17 %tmp.18(%tmp.19, %tmp.21);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 135 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 130 8 ]
         %tmp.23 = getv ? :raceAttributes;
         %tmp.25 = getv ? :mStates;
         %tmp.27 = getv ? :mIndex;
@@ -651,82 +651,79 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_131_8_133_8_
         %tmp.31 = const :name;
         %tmp.32 = agetv %tmp.29 %tmp.31;
         ret %tmp.32;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_127_25_136_4_stop:
-    }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 138; ]
-    function draw(dc) {
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_122_25_131_4_stop:
     }
 }
-[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 143; ]
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 134; ]
 class DataFieldSelection extends WatchUi.Drawable{
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 143; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 134; ]
     <init> {
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 143; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 134; ]
     static
     <init> {
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 144; @position = 8; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 135; @position = 8; ]
     var mIndex;
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 145; @position = 8; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 136; @position = 8; ]
     var mStates;
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 148; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 138; ]
     function initialize(storageId) as Void {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_35_152_4_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 149 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_138_35_142_4_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 139 8 ]
         %tmp.2 = getv ? :Drawable;
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.4 = newd 0;
         invoke %tmp.2 %tmp.3(%tmp.4);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 150 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 140 8 ]
         %tmp.6 = getv ? :iconsDict;
         %tmp.7 = getv function %tmp.6 :keys;
         %tmp.8 = invoke %tmp.6 %tmp.7();
         putv self :mStates %tmp.8;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 151 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 141 8 ]
         %tmp.9 = getm $.Toybox.Application.Storage;
         %tmp.10 = getv function %tmp.9 :getValue;
         %tmp.12 = lgetv %storageId;
         %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
         putv self :mIndex %tmp.13;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_35_152_4_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_138_35_142_4_stop:
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 155; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 144; ]
     function nextState(storageId) {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_34_164_4_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 156 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_144_34_153_4_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 145 8 ]
         %tmp.1 = getm $.Toybox.Application.Storage;
         %tmp.2 = getv function %tmp.1 :getValue;
         %tmp.4 = lgetv %storageId;
         %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
         putv self :mIndex %tmp.5;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 157 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 146 8 ]
         %tmp.8 = getv ? :mIndex;
         %tmp.9 = add %tmp.8 1;
         putv self :mIndex dup %tmp.9;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 159 8 ]
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_8_161_8_if_stmt:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 148 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_8_150_8_if_stmt:
         %tmp.11 = getv ? :mIndex;
         %tmp.13 = getv ? :mStates;
         %tmp.14 = getv function %tmp.13 :size;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         %tmp.16 = gte %tmp.11 %tmp.15;
-        bf %tmp.16 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_8_161_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_8_161_8_if_true:
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_38_161_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 160 12 ]
+        bf %tmp.16 @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_8_150_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_8_150_8_if_true:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_38_150_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 149 12 ]
         %tmp.17 = 0;
         putv self :mIndex %tmp.17;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_38_161_8_stop:
-        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_8_161_8_if_end;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_8_161_8_if_end:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 162 8 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_38_150_8_stop:
+        goto @D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_8_150_8_if_end;
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_148_8_150_8_if_end:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 151 8 ]
         %tmp.18 = getm $.Toybox.Application.Storage;
         %tmp.19 = getv function %tmp.18 :setValue;
         %tmp.21 = lgetv %storageId;
         %tmp.23 = getv ? :mIndex;
         invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 163 8 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 152 8 ]
         %tmp.25 = getv ? :iconsDict;
         %tmp.27 = getv ? :mStates;
         %tmp.29 = getv ? :mIndex;
@@ -735,12 +732,12 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_159_8_161_8_
         %tmp.33 = const :name;
         %tmp.34 = agetv %tmp.31 %tmp.33;
         ret %tmp.34;
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_34_164_4_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_144_34_153_4_stop:
     }
-    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 166; ]
+    [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 155; ]
     function draw(dc) {
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8_start:
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 167 12 ]
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_22_162_8_start:
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 156 12 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -748,11 +745,11 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 168 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 157 12 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 169 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 158 12 ]
         %tmp.9 = lgetv %dc;
         %tmp.10 = getv function %tmp.9 :setColor;
         %tmp.11 = getm $.Toybox.Graphics;
@@ -760,8 +757,8 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8
         %tmp.13 = getm $.Toybox.Graphics;
         %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
         invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 170 3 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8_stop" ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 159 3 ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_22_162_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_22_162_8_stop" ]
         %iconsFont.1 = local;
         %tmp.16 = getv ? :Application;
         %tmp.17 = getv function %tmp.16 :loadResource;
@@ -770,8 +767,8 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8
         %tmp.21 = getv %tmp.20 :iconfont;
         %tmp.22 = invoke %tmp.16 %tmp.17(%tmp.21);
         lputv %iconsFont.1 %tmp.22;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 171 3 ]
-        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8_stop" ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 160 3 ]
+        [ "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_22_162_8_start" "D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_22_162_8_stop" ]
         %icon.2 = local;
         %tmp.24 = getv ? :iconsDict;
         %tmp.26 = getv ? :mStates;
@@ -781,7 +778,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8
         %tmp.32 = const :iconNumber;
         %tmp.33 = agetv %tmp.30 %tmp.32;
         lputv %icon.2 %tmp.33;
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 172 12 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc" 161 12 ]
         %tmp.34 = lgetv %dc;
         %tmp.35 = getv function %tmp.34 :drawText;
         %tmp.36 = lgetv %dc;
@@ -799,7 +796,7 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8
         %tmp.50 = getm $.Toybox.Graphics;
         %tmp.51 = getv %tmp.50 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.34 %tmp.35(%tmp.40, %tmp.45, %tmp.47, %tmp.49, %tmp.51);
-D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_166_22_173_8_stop:
+D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_Menu_mc_155_22_162_8_stop:
     }
 }
 [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\Menu.mc"; @line = 1; ]

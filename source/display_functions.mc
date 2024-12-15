@@ -35,8 +35,7 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
     var minColour = raceAttributes[raceOption][:colour];
 
     // Load the custom font
-    var digitalFont = Ui.loadResource(Rez.Fonts.midbold);
-    digitalFont = Ui.loadResource(Rez.Fonts.clockfont);
+    var digitalFont = Ui.loadResource(Rez.Fonts.clockfont);
 
     // Draw the hours
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
