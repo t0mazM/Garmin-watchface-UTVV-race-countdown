@@ -57,7 +57,7 @@ class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate { // Sub-menu De
             var raceMenu = new WatchUi.Menu2({:title=>"Choose your race"});
             var RaceDrawable = new RaceSelection();
             RaceDrawable.initialize();
-            raceMenu.addItem(new WatchUi.IconMenuItem("Race choosen:", iconsDict[Storage.getValue(40)][:name], "race_choice", RaceDrawable, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
+            raceMenu.addItem(new WatchUi.IconMenuItem("Race choosen:", raceAttributes[Storage.getValue(40)][:name], "race_choice", RaceDrawable, {:alignment => WatchUi.MenuItem.MENU_ITEM_LABEL_ALIGN_LEFT}));
             raceMenu.addItem(new WatchUi.MenuItem("Apply", null, "race_apply", null));
             WatchUi.pushView(raceMenu, new Menu2TestMenu2Delegate(), WatchUi.SLIDE_UP );
         }
