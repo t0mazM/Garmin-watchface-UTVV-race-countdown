@@ -15,7 +15,7 @@ var raceAttributes = {
         //:bitmap => Rez.Drawables.centurion_logo, 
         :colour => 0x1c455e, 
         :race_day => 25, 
-        :race_hour => 23, 
+        :race_hour => 22, 
     },
     2 => { 
         :name => "GLADIATOR", 
@@ -23,7 +23,7 @@ var raceAttributes = {
         //:bitmap => Rez.Drawables.gladiator_logo, 
         :colour => 0x55AA55, //0x3a7b58, 
         :race_day => 26, 
-        :race_hour => 15,
+        :race_hour => 7,
     },
     3 => { 
         :name => "LEGIONAR", 
@@ -31,7 +31,7 @@ var raceAttributes = {
         //:bitmap => Rez.Drawables.legion_logo, 
         :colour => 0xaaff00, //0xaacc57, 
         :race_day => 26, 
-        :race_hour => 15, 
+        :race_hour => 9, 
     },
     4 => { 
         :name => "ASTERIX", 
@@ -39,6 +39,15 @@ var raceAttributes = {
         //:bitmap => Rez.Drawables.asterix_logo, 
         :colour => 0xaaff00, //0xd0e498, 
         :race_day => 26, 
-        :race_hour => 15, 
+        :race_hour => 16, 
     },
+    5 => { 
+        :name => "CASTRA CITY RUN", 
+        :bitmap => Rez.Drawables.emperor_logo, 
+        :colour => 0xaaff00, //0xd0e498, 
+        :race_day => 26, 
+        :race_hour => 16, 
+    },
+
+    
 };
