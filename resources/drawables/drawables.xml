@@ -1,8 +1,8 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" scaleX="20%" scaleY="20%" scaleRelativeTo="screen" />
-    <bitmap id="emperor_logo" filename="emperor.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
-    <bitmap id="centurion_logo" filename="centurion.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
-    <bitmap id="legion_logo" filename="legion.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
-    <bitmap id="gladiator_logo" filename="gladiator.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
-    <bitmap id="asterix_logo" filename="asterix.png" scaleX="50%" scaleY="50%" scaleRelativeTo="screen"/>
+    <bitmap id="emperor_logo" filename="emperor.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
+    <bitmap id="centurion_logo" filename="centurion.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
+    <bitmap id="legion_logo" filename="legion.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
+    <bitmap id="gladiator_logo" filename="gladiator.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
+    <bitmap id="asterix_logo" filename="asterix.png" scaleX="40%" scaleY="40%" scaleRelativeTo="screen"/>
 </drawables>
