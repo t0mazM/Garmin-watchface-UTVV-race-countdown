@@ -1,8 +1,8 @@
-[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\race_attributes.mc"; @line = 3; @position = 4; ]
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\race_attributes.mc"; @line = 4; @position = 4; ]
 var raceAttributes;
-[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\race_attributes.mc"; @line = 3; ]
+[ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\race_attributes.mc"; @line = 4; ]
 <init> {
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\race_attributes.mc" 3 4 ]
+[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\race_attributes.mc" 4 4 ]
     %tmp.1 = newd 5;
     %tmp.2 = 0;
     %tmp.3 = newd 5;
@@ -39,7 +39,7 @@ var raceAttributes;
     %tmp.42 = const :bitmap;
     %tmp.44 = getv ? :Rez;
     %tmp.45 = getv %tmp.44 :Drawables;
-    %tmp.46 = getv %tmp.45 :centurion_logo;
+    %tmp.46 = getv %tmp.45 :emperor_logo;
     %tmp.47 = dup %tmp.40;
     %tmp.48 = aputv %tmp.47 %tmp.42 %tmp.46;
     %tmp.50 = const :colour;
@@ -65,7 +65,7 @@ var raceAttributes;
     %tmp.74 = const :bitmap;
     %tmp.76 = getv ? :Rez;
     %tmp.77 = getv %tmp.76 :Drawables;
-    %tmp.78 = getv %tmp.77 :gladiator_logo;
+    %tmp.78 = getv %tmp.77 :emperor_logo;
     %tmp.79 = dup %tmp.72;
     %tmp.80 = aputv %tmp.79 %tmp.74 %tmp.78;
     %tmp.82 = const :colour;
@@ -91,7 +91,7 @@ var raceAttributes;
     %tmp.106 = const :bitmap;
     %tmp.108 = getv ? :Rez;
     %tmp.109 = getv %tmp.108 :Drawables;
-    %tmp.110 = getv %tmp.109 :legion_logo;
+    %tmp.110 = getv %tmp.109 :emperor_logo;
     %tmp.111 = dup %tmp.104;
     %tmp.112 = aputv %tmp.111 %tmp.106 %tmp.110;
     %tmp.114 = const :colour;
@@ -117,7 +117,7 @@ var raceAttributes;
     %tmp.138 = const :bitmap;
     %tmp.140 = getv ? :Rez;
     %tmp.141 = getv %tmp.140 :Drawables;
-    %tmp.142 = getv %tmp.141 :asterix_logo;
+    %tmp.142 = getv %tmp.141 :emperor_logo;
     %tmp.143 = dup %tmp.136;
     %tmp.144 = aputv %tmp.143 %tmp.138 %tmp.142;
     %tmp.146 = const :colour;

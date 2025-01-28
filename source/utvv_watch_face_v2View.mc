@@ -41,7 +41,7 @@ class utvv_watch_face_v2View extends WatchUi.WatchFace {
 
         //Check if the datafield choices valid
         try {
-            var raceName = raceAttributes[Storage.getValue(40)][:name]
+            var raceName = raceAttributes[Storage.getValue(40)][:name];
             var iconName = iconsDict[Storage.getValue(30)][:name];
             iconName = iconsDict[Storage.getValue(31)][:name];
             iconName = iconsDict[Storage.getValue(32)][:name];
