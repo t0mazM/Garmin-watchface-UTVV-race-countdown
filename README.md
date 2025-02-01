@@ -3,6 +3,10 @@
 
 This repository contains the source code for a custom watch face designed for Garmin smartwatches. The watch face is built using the Garmin SDK and Monkey C programming language. It features customizable data fields, race countdowns, and various display options.
 
+1. **GARMIN IQ STORE LINK**:
+   ```bash
+   https://apps.garmin.com/apps/c0685750-4a08-412f-8c1b-a5fc2db68cd6
+
 ## Features
 
 - **Customizable Data Fields**: Users can choose from a variety of data fields to display on the watch face, such as steps, heart rate, battery level, and more.
@@ -11,25 +15,9 @@ This repository contains the source code for a custom watch face designed for Ga
 - **Custom Fonts and Icons**: Utilizes custom fonts and icons for a unique look and feel.
 - **Settings Menu**: Allows users to customize race options and data fields directly from the watch.
 
-## Installation
+## Usage
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/utvv-watch-face-v2.git
-Open the Project:
-
-Open the project in the Garmin Connect IQ SDK.
-
-Ensure you have the necessary dependencies and resources (fonts, icons, etc.) in the resources folder.
-
-Build and Run:
-
-Build the project using the Garmin Connect IQ SDK.
-
-Deploy the watch face to your Garmin device for testing.
-
-Usage
-Select a Race:
+1. **SELECT A RACE**:
 
 Navigate to the settings menu on your Garmin device.
 
