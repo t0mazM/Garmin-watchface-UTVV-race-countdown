@@ -15,31 +15,25 @@ This repository contains the source code for a custom watch face designed for Ga
 - **Custom Fonts and Icons**: Utilizes custom fonts and icons for a unique look and feel.
 - **Settings Menu**: Allows users to customize race options and data fields directly from the watch.
 
-## Usage
+## Usage: Select a race:
 
-1. **SELECT A RACE**:
+1. Navigate to the settings menu on your Garmin device.
 
-Navigate to the settings menu on your Garmin device.
+2. Choose your race from the available options. The watch face will display the race name, countdown, and custom color.
+## Usage: Customize Data Fields:
 
-Choose your race from the available options. The watch face will display the race name, countdown, and custom color.
+1. In the settings menu, select "Data Fields" to choose which data points (e.g., steps, heart rate) to display on the watch face.
 
-Customize Data Fields:
 
-In the settings menu, select "Data Fields" to choose which data points (e.g., steps, heart rate) to display on the watch face.
-
-View Watch Face:
-
-The watch face will display the current time, date, selected race countdown, and chosen data fields.
-
-Code Structure
+## Code Structure
 display_functions.mc: Contains functions for drawing various elements on the watch face, such as the race name, countdown, and data fields.
 
-icons_dict.mc: Defines the icons and their corresponding data fields.
+- icons_dict.mc: Defines the icons and their corresponding data fields.
 
-race_attributes.mc: Contains the attributes for each race, including name, bitmap, color, and race date.
+- race_attributes.mc: Contains the attributes for each race, including name, bitmap, color, and race date.
 
-menu.mc: Handles the settings menu for selecting races and data fields.
+- menu.mc: Handles the settings menu for selecting races and data fields.
 
-utvv_watch_face_v2App.mc: The main application file that initializes the watch face and handles app lifecycle events.
+- utvv_watch_face_v2App.mc: The main application file that initializes the watch face and handles app lifecycle events.
 
-utvv_watch_face_v2view.mc: The view file that manages the display and updates of the watch face.
+- utvv_watch_face_v2view.mc: The view file that manages the display and updates of the watch face.
