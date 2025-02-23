@@ -504,46 +504,6 @@ D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2Vi
         %tmp.169 = lgetv %screenHeight.1;
         %tmp.171 = lgetv %screenWidth.2;
         invoke %tmp.162 %tmp.163(%tmp.165, %tmp.166, %tmp.167, %tmp.169, %tmp.171);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 69 8 ]
-        %tmp.172 = lgetv %DIS.11;
-        %tmp.173 = getv function %tmp.172 :draw_datapoint;
-        %tmp.175 = lgetv %dc;
-        %tmp.177 = lgetv %dataTopLeft.4;
-        %tmp.178 = 0.45;
-        %tmp.179 = 0.48;
-        %tmp.181 = lgetv %screenHeight.1;
-        %tmp.183 = lgetv %screenWidth.2;
-        invoke %tmp.172 %tmp.173(%tmp.175, %tmp.177, %tmp.178, %tmp.179, %tmp.181, %tmp.183);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 70 8 ]
-        %tmp.184 = lgetv %DIS.11;
-        %tmp.185 = getv function %tmp.184 :draw_datapoint;
-        %tmp.187 = lgetv %dc;
-        %tmp.189 = lgetv %dataTopRight.5;
-        %tmp.190 = 0.71;
-        %tmp.191 = 0.48;
-        %tmp.193 = lgetv %screenHeight.1;
-        %tmp.195 = lgetv %screenWidth.2;
-        invoke %tmp.184 %tmp.185(%tmp.187, %tmp.189, %tmp.190, %tmp.191, %tmp.193, %tmp.195);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 71 8 ]
-        %tmp.196 = lgetv %DIS.11;
-        %tmp.197 = getv function %tmp.196 :draw_datapoint;
-        %tmp.199 = lgetv %dc;
-        %tmp.201 = lgetv %dataMiddleLeft.6;
-        %tmp.202 = 0.45;
-        %tmp.203 = 0.60;
-        %tmp.205 = lgetv %screenHeight.1;
-        %tmp.207 = lgetv %screenWidth.2;
-        invoke %tmp.196 %tmp.197(%tmp.199, %tmp.201, %tmp.202, %tmp.203, %tmp.205, %tmp.207);
-[ "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc" 72 8 ]
-        %tmp.208 = lgetv %DIS.11;
-        %tmp.209 = getv function %tmp.208 :draw_datapoint;
-        %tmp.211 = lgetv %dc;
-        %tmp.213 = lgetv %dataMiddleRight.7;
-        %tmp.214 = 0.71;
-        %tmp.215 = 0.60;
-        %tmp.217 = lgetv %screenHeight.1;
-        %tmp.219 = lgetv %screenWidth.2;
-        invoke %tmp.208 %tmp.209(%tmp.211, %tmp.213, %tmp.214, %tmp.215, %tmp.217, %tmp.219);
 D_Dokumenti_C_Garming_Watch_Faces_utvv_watch_face_v2_source_utvv_watch_face_v2View_mc_28_40_73_4_stop:
     }
     [ @file = "D:\Dokumenti\C\Garming_Watch_Faces\utvv_watch_face_v2\source\utvv_watch_face_v2View.mc"; @line = 74; ]

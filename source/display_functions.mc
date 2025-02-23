@@ -112,78 +112,83 @@ function draw_hour(dc, raceOption, screenX, screenY, screenHeight, screenWidth) 
         var dataString = "---";
         var dataNumber = 9999;
 
-        switch(iconsDict[dataOption][:name]) {
-        case "Steps":
-            dataNumber = ActivityMonitor.getInfo().steps;
-            break;
-        case "Floors climbed":
-            dataString = ActivityMonitor.getInfo().floorsClimbed;
-            break;
-        case "Activity time":
-            dataString = ActivityMonitor.getInfo().activeMinutesDay.total;
-            break;
-        case "Heart rate":
-            dataString = Activity.getActivityInfo().currentHeartRate;
-            break;
-        case "Notifications":
-            dataNumber = Toybox.System.getDeviceSettings().notificationCount;
-            break;
-        case "Calories burned":
-            dataNumber = ActivityMonitor.getInfo().calories;
-            break;
-        case "Battery level":
-            dataString =  Lang.format("$1$%", [System.getSystemStats().battery.format( "%2d" )]);
-            break;
-        case "Temperature":
-                var temp = Weather.getCurrentConditions().feelsLikeTemperature;
-                var unit = "";
-                var TempMetric = System.getDeviceSettings().temperatureUnits;
+        //Collect the data. If error catched, set dataString to "Error"
+        try {
+            switch(iconsDict[dataOption][:name]) {
+            case "Steps":
+                dataNumber = ActivityMonitor.getInfo().steps;
+                break;
+            case "Floors climbed":
+                dataString = ActivityMonitor.getInfo().floorsClimbed;
+                break;
+            case "Activity time":
+                dataString = ActivityMonitor.getInfo().activeMinutesDay.total;
+                break;
+            case "Heart rate":
+                dataString = Activity.getActivityInfo().currentHeartRate;
+                break;
+            case "Notifications":
+                dataNumber = Toybox.System.getDeviceSettings().notificationCount;
+                break;
+            case "Calories burned":
+                dataNumber = ActivityMonitor.getInfo().calories;
+                break;
+            case "Battery level":
+                dataString =  Lang.format("$1$%", [System.getSystemStats().battery.format( "%2d" )]);
+                break;
+            case "Temperature":
+                    var temp = Weather.getCurrentConditions().feelsLikeTemperature;
+                    var unit = "";
+                    var TempMetric = System.getDeviceSettings().temperatureUnits;
 
-                if (TempMetric == System.UNIT_METRIC){
-                    unit = "°C";
-                    
-                } else {
-                    unit = "°F";
-                    temp = temp * 9/5 + 32;
-                }
-                dataString = Lang.format("$1$ $2$", [temp, unit]);
+                    if (TempMetric == System.UNIT_METRIC){
+                        unit = "°C";
+                        
+                    } else {
+                        unit = "°F";
+                        temp = temp * 9/5 + 32;
+                    }
+                    dataString = Lang.format("$1$ $2$", [temp, unit]);
 
-                break;
-            case "Sunrise time": 
-				position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
-				today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
-				if (position!=null and today!=null){
-					if (Weather.getSunrise(position, today)!=null) {
-						var sunRise = Time.Gregorian.info(Weather.getSunrise(position, today), Time.FORMAT_SHORT);
-						dataString = Lang.format("$1$:$2$",[sunRise.hour.format("%02u"), sunRise.min.format("%02u")]);
-					} else {
-						dataString = 7; 
-					}
-                }
-                break;
-            case "Sunset time":
-				position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
-				today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
-				if (position!=null and today!=null){
-					if (Weather.getSunset(position, today)!=null) {
-						var sunSet = Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT);
-						dataString = Lang.format("$1$:$2$",[sunSet.hour.format("%02u"), sunSet.min.format("%02u")]);
-					} else {
-						dataString = 18; 
-					}
-                }
-                break;
-            case "VO2 max":
-                dataString = UserProfile.getProfile().vo2maxRunning;
-                break;
-            case "PulseOx":
-                if (Activity has :getActivityInfo and Activity.getActivityInfo() has :currentOxygenSaturation) {
-                    dataNumber = Activity.getActivityInfo().currentOxygenSaturation;
-                }
-                break;
-            default:
-                dataString = "0";
-                break;
+                    break;
+                case "Sunrise time": 
+                    position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
+                    today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
+                    if (position!=null and today!=null){
+                        if (Weather.getSunrise(position, today)!=null) {
+                            var sunRise = Time.Gregorian.info(Weather.getSunrise(position, today), Time.FORMAT_SHORT);
+                            dataString = Lang.format("$1$:$2$",[sunRise.hour.format("%02u"), sunRise.min.format("%02u")]);
+                        } else {
+                            dataString = 7; 
+                        }
+                    }
+                    break;
+                case "Sunset time":
+                    position = Toybox.Weather.getCurrentConditions().observationLocationPosition; // or Activity.Info.currentLocation if observation is null?
+                    today = Toybox.Weather.getCurrentConditions().observationTime; // or new Time.Moment(Time.now().value()); ?
+                    if (position!=null and today!=null){
+                        if (Weather.getSunset(position, today)!=null) {
+                            var sunSet = Time.Gregorian.info(Weather.getSunset(position, today), Time.FORMAT_SHORT);
+                            dataString = Lang.format("$1$:$2$",[sunSet.hour.format("%02u"), sunSet.min.format("%02u")]);
+                        } else {
+                            dataString = 18; 
+                        }
+                    }
+                    break;
+                case "VO2 max":
+                    dataString = UserProfile.getProfile().vo2maxRunning;
+                    break;
+                case "PulseOx":
+                    if (Activity has :getActivityInfo and Activity.getActivityInfo() has :currentOxygenSaturation) {
+                        dataNumber = Activity.getActivityInfo().currentOxygenSaturation;
+                    }
+                    break;
+                default:
+                    dataString = "0";
+                    break;
+            }
+        } catch (ex) {
+            dataString = "Error";
         }
     
     var iconFont = Ui.loadResource(Rez.Fonts.iconfont);
