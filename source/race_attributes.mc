@@ -15,7 +15,7 @@ var raceAttributes = {
         //:bitmap => Rez.Drawables.centurion_logo, 
         :colour => 0x1c455e, 
         :race_day => 25, 
-        :race_hour => 22, 
+        :race_hour => 23, 
     },
     2 => { 
         :name => "GLADIATOR", 
@@ -23,7 +23,7 @@ var raceAttributes = {
         //:bitmap => Rez.Drawables.gladiator_logo, 
         :colour => 0x55AA55, //0x3a7b58, 
         :race_day => 26, 
-        :race_hour => 7,
+        :race_hour => 8,
     },
     3 => { 
         :name => "LEGIONAR", 
